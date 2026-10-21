@@ -1,0 +1,207 @@
+{
+  "version": "2",
+  "flowTitle": "Stock Status Monitor",
+  "trigger": {
+    "valid": false,
+    "displayName": "When Quantity Changes",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "BLANK",
+      "triggerName": "task.custom_attribute_updated",
+      "input": {
+        "fieldId": "@inv02",
+        "projectId": {
+          "type": "flow-template-variable-input-type",
+          "id": "5ZVc4Wadk2xBUB33"
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "a1b2c3d4-1111-4abc-9def-111111111111",
+      "valid": true,
+      "displayName": "Analyze Stock Level",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Item: {{ trigger[\"nodeText\"] }}",
+          "prompt": "You are an inventory analyst. Given the item name and the fact that its quantity was just updated, determine the stock status. Return ONLY one of: 'OUT_OF_STOCK' if quantity is 0, 'LOW_STOCK' if quantity is low (typically under 15-25 units), 'IN_STOCK' if quantity is healthy."
+        }
+      }
+    },
+    {
+      "name": "b1b2c3d4-2222-4abc-9def-222222222222",
+      "valid": true,
+      "displayName": "Route by Stock Level",
+      "type": "BRANCH",
+      "settings": {},
+      "paths": [
+        {
+          "name": "c1b2c3d4-3333-4abc-9def-333333333333",
+          "valid": true,
+          "displayName": "Out of Stock",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_contains",
+                        "id": "11497d72-f2e8-4645-abc4-4cc3756374ac",
+                        "data": "{{ a1b2c3d4-1111-4abc-9def-111111111111[\"result\"] }}",
+                        "comparator": "OUT_OF_STOCK"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "d1b2c3d4-4444-4abc-9def-444444444444",
+              "valid": false,
+              "displayName": "Set Status: Out of Stock",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "updateCustomFields",
+                "input": {
+                  "fields": {
+                    "@inv04": {
+                      "data": {
+                        "value": "stock-out"
+                      },
+                      "rank": "0",
+                      "fieldId": "@inv04"
+                    }
+                  },
+                  "nodeId": "{{ trigger[\"nodeId\"] }}",
+                  "projectId": {
+                    "type": "flow-template-variable-input-type",
+                    "id": "5ZVc4Wadk2xBUB33"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "e1b2c3d4-5555-4abc-9def-555555555555",
+          "valid": true,
+          "displayName": "Low Stock",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_contains",
+                        "id": "0b12abbb-7f99-4a02-850d-38e0426ce261",
+                        "data": "{{ a1b2c3d4-1111-4abc-9def-111111111111[\"result\"] }}",
+                        "comparator": "LOW_STOCK"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "f1b2c3d4-6666-4abc-9def-666666666666",
+              "valid": false,
+              "displayName": "Set Status: Low Stock",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "updateCustomFields",
+                "input": {
+                  "fields": {
+                    "@inv04": {
+                      "data": {
+                        "value": "stock-low"
+                      },
+                      "rank": "0",
+                      "fieldId": "@inv04"
+                    }
+                  },
+                  "nodeId": "{{ trigger[\"nodeId\"] }}",
+                  "projectId": {
+                    "type": "flow-template-variable-input-type",
+                    "id": "5ZVc4Wadk2xBUB33"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "g1b2c3d4-7777-4abc-9def-777777777777",
+          "valid": true,
+          "displayName": "In Stock (Default)",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "FALLBACK"
+            }
+          },
+          "actions": [
+            {
+              "name": "h1b2c3d4-8888-4abc-9def-888888888888",
+              "valid": false,
+              "displayName": "Set Status: In Stock",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "updateCustomFields",
+                "input": {
+                  "fields": {
+                    "@inv04": {
+                      "data": {
+                        "value": "stock-good"
+                      },
+                      "rank": "0",
+                      "fieldId": "@inv04"
+                    }
+                  },
+                  "nodeId": "{{ trigger[\"nodeId\"] }}",
+                  "projectId": {
+                    "type": "flow-template-variable-input-type",
+                    "id": "5ZVc4Wadk2xBUB33"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "5ZVc4Wadk2xBUB33": {
+      "id": "5ZVc4Wadk2xBUB33",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

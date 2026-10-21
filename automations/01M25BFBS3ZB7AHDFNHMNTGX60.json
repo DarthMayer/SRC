@@ -1,0 +1,142 @@
+{
+  "version": "2",
+  "flowTitle": "Importa DDT SCARICO CLIENTE - CASSE",
+  "trigger": {
+    "type": "FORM",
+    "displayName": "Form Trigger",
+    "settings": {
+      "description": "Carica il DDT cliente per registrare lo scarico della cassa.",
+      "inputs": [
+        {
+          "id": "file",
+          "title": "DDT scarico cliente",
+          "description": "",
+          "type": "file"
+        }
+      ]
+    }
+  },
+  "actions": [
+    {
+      "name": "b3812707-1538-42a9-acb4-959e4f0c6de4",
+      "valid": true,
+      "displayName": "Convert File to Text",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "BLANK",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "{{file}}"
+        }
+      }
+    },
+    {
+      "name": "c7d605ea-c4be-4d3f-8286-c60168560dc8",
+      "valid": false,
+      "displayName": "Ask AI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "{{action[0].content}}",
+          "output": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "required": [
+                "code",
+                "name",
+                "lot",
+                "date",
+                "ddt",
+                "quantity",
+                "plate",
+                "count",
+                "destination"
+              ],
+              "properties": {
+                "ddt": {
+                  "type": "string"
+                },
+                "lot": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "count": {
+                  "type": "string"
+                },
+                "plate": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "number"
+                },
+                "destination": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "prompt": "Leggi il testo del DDT di scarico cliente e restituisci esclusivamente i dati presenti, senza inventare. Estrai codice mangime, denominazione, lotto, data, numero DDT, quantità in q.li, targa, numero o codice cassa e cliente/destinazione.",
+          "outputType": "structuredoutput"
+        }
+      }
+    },
+    {
+      "name": "95d4673b-8e13-4876-a8f1-c39cf0f83b47",
+      "valid": false,
+      "displayName": "Add Task",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "type": "custom_fields",
+            "customFieldIdToValue": {
+              "@cas01": "{{action[1].code}}",
+              "@cas02": "{{action[1].name}}",
+              "@cas03": "{{action[1].lot}}",
+              "@cas04": "{{action[1].date}}",
+              "@cas05": "{{action[1].ddt}}",
+              "@cas06": "{{action[1].quantity}}",
+              "@cas07": "{{action[1].plate}}",
+              "@cas08": "{{action[1].count}}",
+              "@cas09": "{{action[1].destination}}",
+              "@cas10": "Importato da DDT scarico cliente",
+              "@cas11": "scarico",
+              "@cas12": "no"
+            }
+          },
+          "content": "Scarico cassa {{action[1].name}} - DDT {{action[1].ddt}}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "9kdJVdgKjhA4vMej"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "9kdJVdgKjhA4vMej": {
+      "id": "9kdJVdgKjhA4vMej",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

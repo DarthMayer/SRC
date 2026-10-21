@@ -1,0 +1,47 @@
+{
+  "version": "2",
+  "flowTitle": "Monitor Stati Targhe Casse",
+  "trigger": {
+    "valid": false,
+    "displayName": "Quando cambia stato targa Casse",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "1.0.0",
+      "triggerName": "task.custom_attribute_updated",
+      "input": {
+        "fieldId": "@cst03",
+        "projectId": {
+          "type": "flow-template-variable-input-type",
+          "id": "r51wY768EqDu1pCC"
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "2c69e3b9-0054-44cc-857d-3c27a3ead8e1",
+      "valid": true,
+      "displayName": "Notifica stato Casse",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "notify.email",
+        "input": {
+          "body": "La targa {{ trigger[\"nodeText\"] }} ha ricevuto un aggiornamento di stato nel progetto Stati Casse.",
+          "subject": "Aggiornamento stato targa Casse",
+          "recipientEmail": "wtp.igame@gmail.com"
+        }
+      }
+    }
+  ],
+  "variables": {
+    "r51wY768EqDu1pCC": {
+      "id": "r51wY768EqDu1pCC",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

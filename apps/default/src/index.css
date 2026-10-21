@@ -1,0 +1,385 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Retro-neon warehouse HUD: deep indigo glass, electric cyan structure, violet and magenta energy */
+@layer base {
+  :root {
+    --background: 244 46% 97%;
+    --foreground: 244 30% 12%;
+    --muted: 244 28% 91%;
+    --muted-foreground: 244 18% 42%;
+    --card: 244 40% 99%;
+    --card-foreground: 244 30% 12%;
+    --popover: 244 40% 99%;
+    --popover-foreground: 244 30% 12%;
+    --border: 247 42% 78%;
+    --input: 247 42% 78%;
+    --primary: 188 100% 43%;
+    --primary-foreground: 244 45% 8%;
+    --secondary: 313 72% 92%;
+    --secondary-foreground: 244 30% 12%;
+    --accent: 272 75% 93%;
+    --accent-foreground: 244 30% 12%;
+    --destructive: 342 84% 52%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 188 100% 43%;
+    --radius: 0.95rem;
+    --font-sans: Geist, Inter, ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .dark {
+    --background: 244 54% 5%;
+    --foreground: 226 80% 96%;
+    --muted: 246 42% 12%;
+    --muted-foreground: 239 28% 72%;
+    --card: 245 48% 9%;
+    --card-foreground: 226 80% 96%;
+    --popover: 245 48% 9%;
+    --popover-foreground: 226 80% 96%;
+    --border: 253 58% 28%;
+    --input: 248 45% 25%;
+    --primary: 188 100% 58%;
+    --primary-foreground: 244 54% 5%;
+    --secondary: 316 74% 20%;
+    --secondary-foreground: 320 100% 92%;
+    --accent: 267 64% 20%;
+    --accent-foreground: 274 100% 92%;
+    --destructive: 342 90% 64%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 188 100% 58%;
+  }
+
+  * { @apply border-border; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    margin: 0;
+    background-color: hsl(var(--background));
+    background-image:
+      linear-gradient(hsl(255 90% 70% / 0.055) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(255 90% 70% / 0.055) 1px, transparent 1px),
+      radial-gradient(circle at 12% 4%, hsl(188 100% 58% / 0.18), transparent 28rem),
+      radial-gradient(circle at 88% 12%, hsl(310 100% 62% / 0.16), transparent 30rem),
+      radial-gradient(circle at 55% 88%, hsl(263 100% 66% / 0.12), transparent 34rem);
+    background-size: 44px 44px, 44px 44px, auto, auto, auto;
+    background-attachment: fixed;
+  }
+  #root { min-height: 100vh; }
+  button, input, textarea, select { font: inherit; }
+  button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 2px; }
+}
+
+.neon-header {
+  background: linear-gradient(90deg, hsl(244 58% 7% / 0.96), hsl(258 56% 11% / 0.92), hsl(244 58% 7% / 0.96));
+  box-shadow: 0 1px 0 hsl(188 100% 58% / 0.4), 0 12px 34px hsl(244 80% 2% / 0.48), 0 0 32px hsl(310 100% 62% / 0.12);
+  backdrop-filter: blur(18px);
+}
+.neon-main { position: relative; isolation: isolate; }
+.neon-main::before {
+  content: '';
+  position: absolute;
+  inset: 0.75rem 0.5rem auto;
+  height: 18rem;
+  border: 1px solid hsl(188 100% 58% / 0.12);
+  border-radius: 1.5rem;
+  box-shadow: 0 0 70px hsl(188 100% 58% / 0.08), inset 0 0 45px hsl(310 100% 62% / 0.04);
+  pointer-events: none;
+  z-index: -1;
+}
+.neon-panel {
+  background: linear-gradient(145deg, hsl(var(--card) / 0.98), hsl(var(--muted) / 0.88));
+  box-shadow: 0 0 0 1px hsl(188 100% 58% / 0.18), 0 0 26px hsl(188 100% 58% / 0.08), 0 18px 54px hsl(244 80% 2% / 0.28), inset 0 1px 0 hsl(0 0% 100% / 0.08);
+  position: relative;
+  overflow: hidden;
+}
+.neon-panel::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 1px solid transparent;
+  background: linear-gradient(115deg, hsl(188 100% 58% / 0.38), transparent 32%, hsl(310 100% 62% / 0.4)) border-box;
+  mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+}
+.neon-logo { background: transparent; mix-blend-mode: screen; filter: saturate(1.35) contrast(1.12) brightness(1.08) drop-shadow(0 0 22px hsl(310 100% 62% / 0.5)); }
+.neon-action { box-shadow: 0 0 18px hsl(var(--primary) / 0.28), inset 0 1px 0 hsl(0 0% 100% / 0.22); }
+.matrix-table { font-family: Arial, Helvetica, sans-serif; letter-spacing: normal; }
+.matrix-load { background: hsl(var(--card) / 0.72); color: hsl(var(--foreground)); font-weight: 600; }
+.matrix-product-violet, .matrix-product-cyan, .matrix-product-lime, .matrix-product-pink, .matrix-product-amber, .matrix-product-blue, .matrix-product-coral, .matrix-product-mint { font-weight: 800; }
+.matrix-product-violet { background: hsl(268 100% 86% / 0.96); color: hsl(270 72% 20%); box-shadow: inset 5px 0 0 hsl(268 82% 62%); }
+.matrix-product-cyan { background: hsl(185 100% 84% / 0.96); color: hsl(190 78% 18%); box-shadow: inset 5px 0 0 hsl(187 86% 48%); }
+.matrix-product-lime { background: hsl(94 82% 82% / 0.96); color: hsl(105 62% 18%); box-shadow: inset 5px 0 0 hsl(96 72% 44%); }
+.matrix-product-pink { background: hsl(326 100% 86% / 0.96); color: hsl(326 65% 22%); box-shadow: inset 5px 0 0 hsl(326 86% 60%); }
+.matrix-product-amber { background: hsl(42 100% 82% / 0.96); color: hsl(32 78% 20%); box-shadow: inset 5px 0 0 hsl(42 92% 52%); }
+.matrix-product-blue { background: hsl(216 100% 86% / 0.96); color: hsl(218 68% 20%); box-shadow: inset 5px 0 0 hsl(215 88% 58%); }
+.matrix-product-coral { background: hsl(12 100% 86% / 0.96); color: hsl(8 68% 22%); box-shadow: inset 5px 0 0 hsl(12 86% 60%); }
+.matrix-product-mint { background: hsl(164 76% 82% / 0.96); color: hsl(166 64% 18%); box-shadow: inset 5px 0 0 hsl(164 72% 45%); }
+.matrix-product-violet td, .matrix-product-cyan td, .matrix-product-lime td, .matrix-product-pink td, .matrix-product-amber td, .matrix-product-blue td, .matrix-product-coral td, .matrix-product-mint td { border-color: hsl(0 0% 100% / 0.55); }
+.matrix-discharge { background: hsl(28 100% 88% / 0.98); color: hsl(24 92% 32%); font-weight: 800; box-shadow: inset 5px 0 0 hsl(25 95% 50% / 0.98); }
+.matrix-depleted-load { background: hsl(220 14% 82% / 0.98); color: hsl(220 22% 28%); font-weight: 800; box-shadow: inset 5px 0 0 hsl(220 16% 52% / 0.98); }
+.matrix-depleted-discharge { background: hsl(220 14% 82% / 0.98); color: hsl(220 22% 28%); font-weight: 800; box-shadow: inset 5px 0 0 hsl(220 16% 52% / 0.98); }
+.matrix-zero-discharge { background: hsl(220 14% 82% / 0.98); color: hsl(220 22% 28%); font-weight: 900; box-shadow: inset 5px 0 0 hsl(220 16% 52% / 0.98); }
+.matrix-load td, .matrix-discharge td { border-color: hsl(25 95% 58% / 0.65); }
+.matrix-depleted-load td, .matrix-depleted-discharge td, .matrix-zero-discharge td { border-color: hsl(220 16% 52% / 0.62); }
+.matrix-load input { color: hsl(var(--foreground)); }
+.matrix-discharge input { color: hsl(24 92% 32%); }
+.matrix-depleted-load input, .matrix-depleted-discharge input, .matrix-zero-discharge input { color: inherit; }
+.matrix-discharge .text-foreground, .matrix-discharge .text-muted-foreground { color: hsl(24 92% 32%); }
+.matrix-incoming { background: hsl(270 100% 88% / 0.98); color: hsl(270 48% 24%); font-weight: 800; box-shadow: inset 5px 0 0 hsl(270 76% 62% / 0.98), 0 0 18px hsl(270 100% 72% / 0.22); }
+.matrix-incoming td { border-color: hsl(270 76% 62% / 0.65); }
+.matrix-incoming input, .matrix-incoming textarea { color: hsl(270 48% 24%); }
+.matrix-incoming .text-foreground, .matrix-incoming .text-muted-foreground { color: hsl(270 48% 24%); }
+.matrix-available { background: hsl(105 78% 82% / 0.98); color: hsl(116 48% 20%); font-weight: 800; box-shadow: inset 5px 0 0 hsl(112 64% 42% / 0.98), 0 0 18px hsl(110 82% 62% / 0.24); }
+.matrix-available td { border-color: hsl(112 64% 42% / 0.65); }
+.matrix-available input, .matrix-available textarea { color: hsl(116 48% 20%); }
+.matrix-available .text-foreground, .matrix-available .text-muted-foreground { color: hsl(116 48% 20%); }
+.matrix-note-row { background: hsl(var(--card) / 0.94); color: hsl(0 0% 100%); }
+.matrix-note-row td { border-color: hsl(var(--border) / 0.7); }
+.matrix-note-row .text-foreground, .matrix-note-row .text-muted-foreground { color: hsl(0 0% 100%); }
+.matrix-note-row textarea { color: hsl(0 0% 100%); }
+.matrix-depleted { background: hsl(var(--muted) / 0.68); color: hsl(var(--muted-foreground)); }
+.matrix-depleted td { border-color: hsl(var(--border) / 0.72); }
+.matrix-depleted input { accent-color: hsl(var(--muted-foreground)); }
+
+.neon-orbit { animation: orbit-pulse 7s ease-in-out infinite; }
+.neon-sweep { animation: neon-sweep 4s ease-in-out infinite; }
+.radial-bar { transform-box: fill-box; transform-origin: center; animation: radial-bar-pulse 2.8s ease-in-out infinite; transition: stroke-width 180ms ease, filter 180ms ease; }
+.group:hover .radial-bar, .group:focus-visible .radial-bar { stroke-width: 14; filter: url(#radial-glow) drop-shadow(0 0 8px currentColor); }
+.linear-bar { min-width: 0.35rem; opacity: 0.9; transition: filter 180ms ease, opacity 180ms ease; }
+.group:hover .linear-bar { opacity: 1; filter: brightness(1.18) saturate(1.2); }
+@keyframes orbit-pulse { 0%, 100% { transform: rotate(0deg) scale(1); filter: saturate(1); } 50% { transform: rotate(3deg) scale(1.025); filter: saturate(1.4); } }
+@keyframes radial-bar-pulse { 0%, 100% { opacity: 0.82; } 50% { opacity: 1; } }
+@keyframes neon-sweep { 0%, 100% { opacity: 0.72; transform: translateX(-3%); } 50% { opacity: 1; transform: translateX(3%); } }
+@media (prefers-reduced-motion: reduce) { .neon-orbit, .neon-sweep, .radial-bar { animation: none; } }
+.status-empty { background: hsl(342 88% 28%); color: hsl(342 100% 86%); }
+.status-yellow { background: hsl(42 85% 28%); color: hsl(48 100% 86%); }
+.status-blue { background: hsl(195 78% 25%); color: hsl(190 100% 86%); }
+.status-orange { background: hsl(28 78% 28%); color: hsl(30 100% 88%); }
+.status-green { background: hsl(155 72% 22%); color: hsl(145 100% 86%); }
+.dark .status-empty { background: hsl(342 88% 28%); color: hsl(342 100% 86%); }
+.dark .status-yellow { background: hsl(42 85% 28%); color: hsl(48 100% 86%); }
+.dark .status-blue { background: hsl(195 78% 25%); color: hsl(190 100% 86%); }
+.dark .status-green { background: hsl(155 72% 22%); color: hsl(145 100% 86%); }
+.matrix-table tr.matrix-product-violet { background: hsl(268 100% 86% / 0.96); color: hsl(270 72% 20%); }
+.matrix-table tr.matrix-product-cyan { background: hsl(185 100% 84% / 0.96); color: hsl(190 78% 18%); }
+.matrix-table tr.matrix-product-lime { background: hsl(94 82% 82% / 0.96); color: hsl(105 62% 18%); }
+.matrix-table tr.matrix-product-pink { background: hsl(326 100% 86% / 0.96); color: hsl(326 65% 22%); }
+.matrix-table tr.matrix-product-amber { background: hsl(42 100% 82% / 0.96); color: hsl(32 78% 20%); }
+.matrix-table tr.matrix-product-blue { background: hsl(216 100% 86% / 0.96); color: hsl(218 68% 20%); }
+.matrix-table tr.matrix-product-coral { background: hsl(12 100% 86% / 0.96); color: hsl(8 68% 22%); }
+.matrix-table tr.matrix-product-mint { background: hsl(164 76% 82% / 0.96); color: hsl(166 64% 18%); }
+
+@media (max-width: 1023px) {
+  .magazzino-header-toggle { display: flex; }
+  .magazzino-header-nav[data-collapsed="true"] { display: none; }
+  .mobile-stack-table {
+    display: block;
+    width: 100% !important;
+    table-layout: auto !important;
+  }
+  .mobile-stack-table thead { display: none; }
+  .mobile-stack-table tbody { display: block; }
+  .mobile-stack-table tbody > tr {
+    display: block;
+    margin: 0.75rem;
+    overflow: hidden;
+    border: 1px solid hsl(var(--border) / 0.72);
+    border-radius: 0.9rem;
+  }
+  .mobile-stack-table tbody > tr:first-child { margin-top: 0.75rem; }
+  .mobile-stack-table tbody > tr:last-child { margin-bottom: 0.75rem; }
+  .mobile-stack-table tbody > tr > td {
+    display: grid;
+    grid-template-columns: minmax(7.5rem, 38%) minmax(0, 1fr);
+    gap: 0.75rem;
+    align-items: start;
+    min-width: 0;
+    padding: 0.75rem !important;
+    border-bottom: 1px solid hsl(var(--border) / 0.45);
+  }
+  .mobile-stack-table tbody > tr > td:last-child { border-bottom: 0; }
+  .mobile-stack-table tbody > tr > td[data-label]::before {
+    content: attr(data-label);
+    color: inherit;
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    line-height: 1.35;
+    opacity: 0.72;
+  }
+  .mobile-stack-table tbody > tr > td[colspan] {
+    display: block;
+    border-bottom: 0;
+  }
+  .mobile-stack-table tbody > tr > td[colspan]::before { display: none; }
+  .mobile-stack-table tbody > tr > td[data-label="AZIONI"] > div { min-width: 0; }
+}
+
+@media (min-width: 1024px) {
+  .mobile-stack-table { display: table; }
+  .magazzino-header-toggle { display: none; }
+  .magazzino-header-nav[data-collapsed="true"] { display: block; }
+}
+
+
+@media (max-width: 639px) {
+  .magazzino-header-inner {
+    min-height: 0 !important;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.5rem;
+    padding: 0.5rem 0.625rem 0.625rem;
+  }
+  .magazzino-header-account {
+    position: static;
+    grid-column: 1;
+    grid-row: 1;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.35rem;
+    max-width: 100%;
+  }
+  .magazzino-header-account > div:first-child {
+    max-width: 100%;
+    padding: 0.4rem 0.5rem;
+  }
+  .magazzino-header-account p { max-width: min(9rem, 40vw); }
+  .magazzino-header-account label,
+  .magazzino-header-account select { width: 100%; max-width: 100%; }
+  .magazzino-header-brand {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
+  }
+  .magazzino-header-brand .neon-logo { height: 3.5rem; max-width: 11rem; }
+  .magazzino-header-brand h1 {
+    max-width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.82rem;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+  }
+  .magazzino-header-controls {
+    position: static;
+    grid-column: 2;
+    grid-row: 1;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 0.35rem;
+    max-width: 100%;
+  }
+  .magazzino-header-controls > button:last-child {
+    min-height: 2.75rem;
+    max-width: 8.5rem;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.62rem;
+    line-height: 1.15;
+    text-align: right;
+  }
+  .magazzino-header-toggle {
+    grid-column: 1 / -1;
+    grid-row: 3;
+  }
+  .magazzino-header-nav {
+    grid-column: 1 / -1;
+    grid-row: 4;
+    padding: 0;
+  }
+  .magazzino-header-nav > div { gap: 0.35rem; }
+  .magazzino-header-nav button {
+    min-height: 2.75rem;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0.3rem 0.2rem;
+    line-height: 1.1;
+  }
+  .magazzino-header-nav button svg { width: 1rem; height: 1rem; }
+  .magazzino-header-nav button span { overflow-wrap: anywhere; }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .magazzino-header-inner {
+    display: grid !important;
+    grid-template-areas:
+      "account controls"
+      "brand brand"
+      "toggle toggle"
+      "nav nav";
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+    gap: 0.75rem 1rem;
+    min-height: 0 !important;
+    padding: 0.75rem 1rem;
+  }
+  .magazzino-header-account {
+    grid-area: account !important;
+    position: static !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .magazzino-header-account p { max-width: min(14rem, 35vw); }
+  .magazzino-header-controls {
+    grid-area: controls !important;
+    position: static !important;
+    align-items: flex-end;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .magazzino-header-controls > button:last-child {
+    max-width: 12rem;
+    text-align: right;
+  }
+  .magazzino-header-brand {
+    display: flex !important;
+    grid-area: brand !important;
+    position: relative !important;
+    z-index: 1;
+    width: 100%;
+    min-height: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    overflow: visible;
+  }
+  .magazzino-header-brand .neon-logo {
+    display: block !important;
+    position: static !important;
+    flex: none;
+    width: min(100%, 19rem);
+    height: 5rem;
+    max-width: 19rem;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+  .magazzino-header-brand h1 {
+    position: static;
+    max-width: 100%;
+    margin: 0;
+    overflow-wrap: anywhere;
+    transform: none;
+    line-height: 1.2;
+  }
+  .magazzino-header-inner[data-active-section="overview"] .magazzino-header-brand h1 {
+    font-size: 1.25rem;
+  }
+  .magazzino-header-inner:not([data-active-section="overview"]) .magazzino-header-brand .neon-logo {
+    width: min(100%, 11rem);
+    height: 2.25rem;
+    max-width: 11rem;
+  }
+  .magazzino-header-inner:not([data-active-section="overview"]) .magazzino-header-brand h1 {
+    font-size: 0.8rem;
+  }
+  .magazzino-header-toggle {
+    grid-area: toggle !important;
+  }
+  .magazzino-header-nav {
+    grid-area: nav !important;
+  }
+  .magazzino-header-nav > div { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}

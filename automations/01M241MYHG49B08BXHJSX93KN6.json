@@ -1,0 +1,317 @@
+{
+  "version": "2",
+  "flowTitle": "Importa DDT PDF - CASSE",
+  "trigger": {
+    "type": "FORM",
+    "displayName": "Carica DDT CASSE",
+    "settings": {
+      "description": "",
+      "inputs": [
+        {
+          "id": "file",
+          "title": "DDT PDF",
+          "description": "Trascina qui il DDT in PDF o seleziona un file.",
+          "type": "file"
+        }
+      ],
+      "isEndPageEnabled": false
+    }
+  },
+  "actions": [
+    {
+      "name": "caec9576-adfc-4ce6-b1aa-9ed0e72ba7d9",
+      "valid": true,
+      "displayName": "Estrai testo dal DDT",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "{{ trigger[\"file\"] }}"
+        }
+      }
+    },
+    {
+      "name": "057cade5-37dd-4945-8881-ce675d797737",
+      "valid": true,
+      "displayName": "Leggi i dati del DDT",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "{{ caec9576-adfc-4ce6-b1aa-9ed0e72ba7d9[\"content\"] }}",
+          "output": {
+            "type": "object",
+            "required": [
+              "code",
+              "name",
+              "lot",
+              "ddt",
+              "date",
+              "quantity",
+              "plate",
+              "count",
+              "note"
+            ],
+            "properties": {
+              "ddt": {
+                "type": "string"
+              },
+              "lot": {
+                "type": "string"
+              },
+              "code": {
+                "type": "string"
+              },
+              "date": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              },
+              "count": {
+                "type": "number"
+              },
+              "plate": {
+                "type": "string"
+              },
+              "quantity": {
+                "type": "number"
+              }
+            }
+          },
+          "prompt": "Leggi il testo del DDT CASSE. Restituisci un oggetto strutturato con questi campi obbligatori: code, name, lot, ddt, quantity, date, plate e count. code è il CODICE MANGIME; name deve essere uguale al codice se non è presente una denominazione; lot è il LOTTO; ddt è il NUMERO DDT; date è la DATA CARICO in formato ISO; plate è la TARGA; count è il NUMERO CASSA. quantity deve essere un numero in quintali, convertendo la quantità in TM moltiplicandola per 10 quando il documento usa TM, perché la tabella memorizza i quintali e visualizza i TM. Usa esclusivamente valori presenti nel documento, senza inventare. Per i campi testuali assenti restituisci una stringa vuota.",
+          "outputType": "structuredoutput"
+        }
+      }
+    },
+    {
+      "name": "09142a7e-ebfa-4349-9660-efa106711d8f",
+      "valid": false,
+      "displayName": "Crea riga CASSE",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@cas01": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"code\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@cas01"
+            },
+            "@cas02": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"name\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@cas02"
+            },
+            "@cas03": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"lot\"] }}"
+              },
+              "rank": "2",
+              "fieldId": "@cas03"
+            },
+            "@cas04": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"date\"] }}"
+              },
+              "rank": "3",
+              "fieldId": "@cas04"
+            },
+            "@cas05": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"ddt\"] }}"
+              },
+              "rank": "4",
+              "fieldId": "@cas05"
+            },
+            "@cas06": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"quantity\"] }}"
+              },
+              "rank": "5",
+              "fieldId": "@cas06"
+            },
+            "@cas07": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"plate\"] }}"
+              },
+              "rank": "6",
+              "fieldId": "@cas07"
+            },
+            "@cas08": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"count\"] }}"
+              },
+              "rank": "7",
+              "fieldId": "@cas08"
+            },
+            "@cas09": {
+              "data": {
+                "value": "DEPOSITO"
+              },
+              "rank": "8",
+              "fieldId": "@cas09"
+            },
+            "@cas10": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"note\"] }}"
+              },
+              "rank": "9",
+              "fieldId": "@cas10"
+            },
+            "@cas11": {
+              "data": {
+                "value": "carico"
+              },
+              "rank": "10",
+              "fieldId": "@cas11"
+            },
+            "@cas12": {
+              "data": {
+                "value": "no"
+              },
+              "rank": "11",
+              "fieldId": "@cas12"
+            }
+          },
+          "content": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"code\"] }}",
+          "position": "beforeend",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "9kdJVdgKjhA4vMej"
+          }
+        }
+      }
+    },
+    {
+      "name": "923cbee9-6c72-43f4-909e-4108e3a73f7",
+      "valid": false,
+      "displayName": "Archivia PDF in BOLLE di CARICO",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@pdf01": {
+              "data": {
+                "value": "{{ trigger[\"file\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@pdf01"
+            },
+            "@pdf02": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"ddt\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@pdf02"
+            },
+            "@pdf03": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"date\"] }}"
+              },
+              "rank": "2",
+              "fieldId": "@pdf03"
+            },
+            "@pdf04": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"code\"] }}"
+              },
+              "rank": "3",
+              "fieldId": "@pdf04"
+            },
+            "@pdf05": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"name\"] }}"
+              },
+              "rank": "4",
+              "fieldId": "@pdf05"
+            },
+            "@pdf06": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"lot\"] }}"
+              },
+              "rank": "5",
+              "fieldId": "@pdf06"
+            },
+            "@pdf07": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"quantity\"] }}"
+              },
+              "rank": "6",
+              "fieldId": "@pdf07"
+            },
+            "@pdf08": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"plate\"] }}"
+              },
+              "rank": "7",
+              "fieldId": "@pdf08"
+            },
+            "@pdf09": {
+              "data": {
+                "value": "{{ 057cade5-37dd-4945-8881-ce675d797737[\"count\"] }}"
+              },
+              "rank": "8",
+              "fieldId": "@pdf09"
+            },
+            "@pdf10": {
+              "data": {
+                "value": "{{ trigger[\"triggeredAt\"] }}"
+              },
+              "rank": "9",
+              "fieldId": "@pdf10"
+            }
+          },
+          "content": "{{ trigger[\"file\"] }}",
+          "position": "beforeend",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "M1pFaMmokDnnRw2e"
+          }
+        }
+      }
+    },
+    {
+      "name": "12273dc2-5450-4212-a815-b22016e58b49",
+      "valid": true,
+      "displayName": "Registra data inserimento archivio",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "pieceVersion": "1.0.0",
+        "actionName": "utils.getRunInfo",
+        "input": {}
+      }
+    }
+  ],
+  "variables": {
+    "9kdJVdgKjhA4vMej": {
+      "id": "9kdJVdgKjhA4vMej",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    },
+    "M1pFaMmokDnnRw2e": {
+      "id": "M1pFaMmokDnnRw2e",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

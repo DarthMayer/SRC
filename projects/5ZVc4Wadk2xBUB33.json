@@ -1,0 +1,3357 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "text": {
+          "ops": [
+            {
+              "insert": "Inventory Items"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "b2c3d4e5-f678-90ab-cdef-1234567890ab",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Wireless Mouse",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronics",
+              "@inv02": 150,
+              "@inv03": 25,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "SKU-WM-001"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c3d4e5f6-7890-abcd-ef12-34567890abcd",
+            "text": {
+              "ops": [
+                {
+                  "insert": "USB-C Cable",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Accessories",
+              "@inv02": 8,
+              "@inv03": 25,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "SKU-UC-002"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d4e5f678-90ab-cdef-1234-567890abcdef",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Mechanical Keyboard",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronics",
+              "@inv02": 0,
+              "@inv03": 15,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-out"
+              },
+              "@inv05": "SKU-MK-003"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e5f67890-abcd-ef12-3456-7890abcdef12",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Monitor Stand",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Furniture",
+              "@inv02": 45,
+              "@inv03": 20,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "SKU-MS-004"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f6789012-bcde-f123-4567-890abcdef123",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Laptop Stand",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Furniture",
+              "@inv02": 12,
+              "@inv03": 20,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "SKU-LS-005"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a1234567-0001-4abc-9def-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Ergonomic Chair",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Furniture",
+              "@inv02": 67,
+              "@inv03": 15,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "SKU-EC-006"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a1234567-0002-4abc-9def-000000000002",
+            "text": {
+              "ops": [
+                {
+                  "insert": "HDMI Cable 2m",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Accessories",
+              "@inv02": 4,
+              "@inv03": 20,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "SKU-HC-007"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a1234567-0003-4abc-9def-000000000003",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Webcam HD 1080p",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronics",
+              "@inv02": 0,
+              "@inv03": 10,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-out"
+              },
+              "@inv05": "SKU-WC-008"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a1234567-0004-4abc-9def-000000000004",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Desk Lamp LED",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Furniture",
+              "@inv02": 89,
+              "@inv03": 20,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "SKU-DL-009"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a1234567-0005-4abc-9def-000000000005",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Wireless Headphones",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronics",
+              "@inv02": 23,
+              "@inv03": 25,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "SKU-WH-010"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b1234567-0006-4abc-9def-000000000006",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Standing Desk Electric",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Furniture",
+              "@inv02": 3,
+              "@inv03": 5,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-ordered"
+              },
+              "@inv05": "SKU-SD-011"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b1234567-0007-4abc-9def-000000000007",
+            "text": {
+              "ops": [
+                {
+                  "insert": "4K Monitor 27\"",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronics",
+              "@inv02": 8,
+              "@inv03": 10,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-ordered"
+              },
+              "@inv05": "SKU-4K-012"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b1234567-0008-4abc-9def-000000000008",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Bluetooth Speaker",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronics",
+              "@inv02": 15,
+              "@inv03": 15,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-ordered"
+              },
+              "@inv05": "SKU-BS-013"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f83634e1-6031-40b7-927f-67606bcf2404",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Nokia 105"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Mobile phones",
+              "@inv02": 10,
+              "@inv03": 5,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "NnK105"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "91d81082-fd8f-4783-9701-010a990ce009",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Test"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "",
+              "@inv02": 10,
+              "@inv03": 5,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "0292886d-eafc-4b8e-8c49-23c82ab49d95",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Trotinette-5 "
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Anouar",
+              "@inv02": 10,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b2136ce2-36f7-4758-a2aa-a04c9ceb0da6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Test"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Test",
+              "@inv02": 20,
+              "@inv03": 10,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "TEST-01"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "247627f7-6e59-4634-9888-b222286d0615",
+            "text": {
+              "ops": [
+                {
+                  "insert": "tess"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "tes",
+              "@inv02": 3,
+              "@inv03": 3,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "sefesf34qd"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "85f99590-6510-4de2-8d84-716eeeb327b5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Perro "
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Toy ",
+              "@inv02": 5,
+              "@inv03": 2,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "75038726-3bb0-404f-83e6-d75dd193f549",
+            "text": {
+              "ops": [
+                {
+                  "insert": "test"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "test",
+              "@inv02": 11,
+              "@inv03": 1,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "ww"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "5b6b8f81-724e-4740-b834-60b545917a95",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Ball"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Gym",
+              "@inv02": 1,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "Chyr6789h"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "cf8542f7-9df0-4b9a-a3e1-b74e7f68de01",
+            "text": {
+              "ops": [
+                {
+                  "insert": "MOBILE STAND"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "FURNITURE",
+              "@inv02": 10,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "SKU-0001"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "216d652d-7d18-4b4d-8157-4fc9b9577887",
+            "text": {
+              "ops": [
+                {
+                  "insert": "edsqsqd"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "",
+              "@inv02": 156156,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-out"
+              },
+              "@inv05": "qsxsqxsq"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8b2a2eec-bed8-4ac7-bf03-1d0f68f74be2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Shahbaz"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electric and light",
+              "@inv02": 12,
+              "@inv03": 25,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "Sku"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "458b1aa2-07d0-4242-a34c-6aa949c8e429",
+            "text": {
+              "ops": [
+                {
+                  "insert": "B12"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Base Cabinets",
+              "@inv02": 1,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "A-13-1"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8c8ba493-1a30-4ca4-9c8f-196b50c5e323",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Mechanical keyboard "
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Mechanical keyboard ",
+              "@inv02": 2,
+              "@inv03": 2,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "05b841f2-9a2d-4af3-a617-c500dc602241",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Headcam hd 1080p"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronics",
+              "@inv02": 2,
+              "@inv03": 2,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "151894c3-1c1a-4b9b-aa09-b33049baa682",
+            "text": {
+              "ops": [
+                {
+                  "insert": "BEEEG Mice"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electricity BBY",
+              "@inv02": 4,
+              "@inv03": 1,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "96edef02-c7f4-4aa9-b25c-d46ff4540c68",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Tito's Vodka "
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Spirits",
+              "@inv02": 1400,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "750 ml x12 "
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "4fa62a34-d2d6-42a9-93f4-11f565ba0905",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Petrol "
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "E20",
+              "@inv02": 100,
+              "@inv03": 95,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "101"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "22cd8cbd-bce3-4249-ada3-7deb3abec544",
+            "text": {
+              "ops": [
+                {
+                  "insert": "yyy4yy4"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "y45y54y54y54",
+              "@inv02": 445656,
+              "@inv03": 654,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "65454g45"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e08dd9d2-f546-4ada-8998-8d02fc12ddb1",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Laptop"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronic",
+              "@inv02": 10,
+              "@inv03": 10,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "SKU-001"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "3bf5dcf6-3aaa-44ce-9a15-72753cfe7277",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Webcam HD 1080p"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "",
+              "@inv02": 100,
+              "@inv03": 20,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "Webcam HD 1080p"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2baea05d-4e03-4823-98c5-8c18c64bf4cb",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Bolt"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Gra",
+              "@inv02": 20,
+              "@inv03": 5,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a476ea2f-e01a-4128-bd89-569eb13ff1a3",
+            "text": {
+              "ops": [
+                {
+                  "insert": "nut"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "mechanical",
+              "@inv02": 25,
+              "@inv03": 10,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "15"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2c1a580c-2eb2-40cb-a9b2-6df7c864b671",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Lashes"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Iten",
+              "@inv02": 12,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "Bl-0001"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "6ab55771-9bc7-4ccb-8618-d2aae20f1a24",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Stage Platform"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Event Production",
+              "@inv02": 130,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "STAGE 01"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "107be893-8724-416d-b5fa-0d5db38b6af4",
+            "text": {
+              "ops": [
+                {
+                  "insert": "WOODEN HANDLE"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "RAW MATERIAL",
+              "@inv02": 12,
+              "@inv03": 5,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "WHRM001"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d2c33657-ad21-4d9f-8e43-b4cbbd01dc98",
+            "text": {
+              "ops": [
+                {
+                  "insert": "wendy"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "aa",
+              "@inv02": 1123,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8ff15111-75df-4317-9c35-2acda0b526d5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Playground Multiplay Top com Telhadinho Freso 2.0"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "",
+              "@inv02": 12,
+              "@inv03": 12,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "1489"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8c41dbe1-f2eb-4bfa-87fb-22fe4e2a82ff",
+            "text": {
+              "ops": [
+                {
+                  "insert": "123"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "",
+              "@inv02": 2,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "816b9611-2408-4f69-b171-f4c3e750b5ff",
+            "text": {
+              "ops": [
+                {
+                  "insert": "fdd"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "drill",
+              "@inv02": 4,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "49654654645"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "754486f5-8ef4-4f2c-9e36-ac40e7aaf92f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "test"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "test",
+              "@inv02": 2,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ee6ce282-e30c-47bc-a1f4-16b0d80ba7ee",
+            "text": {
+              "ops": [
+                {
+                  "insert": "M"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Tech",
+              "@inv02": 1,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c981d656-6707-4658-9bf3-29b6da026f43",
+            "text": {
+              "ops": [
+                {
+                  "insert": "tyjhyy"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "gfhdfg",
+              "@inv02": 7,
+              "@inv03": 7,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "hjyh"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "08e337a1-b2ab-4595-82ff-cf07a32019b8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Book"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "3du",
+              "@inv02": 200,
+              "@inv03": 150,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "72d96e59-c4b1-4720-8e6d-f5838de2e5dd",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Hoja de oro"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Patinas/Pinturas",
+              "@inv02": 50,
+              "@inv03": 30,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "1edcbe99-fa5f-4377-bc6d-7d8934fe9fdb",
+            "text": {
+              "ops": [
+                {
+                  "insert": "24x 20 -f83"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "thermal paber 1",
+              "@inv02": 100000,
+              "@inv03": 20000,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "thermal paber 1"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "73ffebf5-b1ed-47bc-b8bf-95eaec8a22dc",
+            "text": {
+              "ops": [
+                {
+                  "insert": "LS990ww"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Wiring devices ",
+              "@inv02": 100,
+              "@inv03": 50,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "JUNG-LS990WW"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "0515dc70-ba5b-4f17-a6a6-05f8f8d24f78",
+            "text": {
+              "ops": [
+                {
+                  "insert": "test"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Fun",
+              "@inv02": 10,
+              "@inv03": 10,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "47855"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "3be01520-a2b7-452a-bd42-dd25d7ecc36d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "4"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "4",
+              "@inv02": 4,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "1001"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "46fcda79-b300-47a0-9be3-bdc708694569",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Parche Bordado"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Bordado",
+              "@inv02": 10,
+              "@inv03": 20,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "001"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "978566b1-9cea-425c-a449-de8959f26a2b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "jhjkh"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "jhbj",
+              "@inv02": 5,
+              "@inv03": 7,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "jbjh"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "161adc3b-af2a-4ffb-a150-24158c672942",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Test"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Test-Category",
+              "@inv02": 1,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "SKU-011"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "422a7294-14eb-44c4-9dcc-1174b546d504",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Fgg"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "",
+              "@inv02": 55,
+              "@inv03": 5,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "6fa16d7b-0a14-4e11-8239-c229a3adbacc",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Blue Sofa Chair"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Furniture",
+              "@inv02": 1,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-low"
+              },
+              "@inv05": "SKU-000-01-01"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "637ebfb2-3bc1-432d-99f1-cf1bdd2d29d7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Diapers "
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Kid",
+              "@inv02": 12,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "89b6b29b-05df-415c-b6dc-21a067b62018",
+            "text": {
+              "ops": [
+                {
+                  "insert": "nm,"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "",
+              "@inv02": 77,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "06d82dd8-20d8-4e57-90cd-fce6145c459f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "tv shekhar"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "electronics",
+              "@inv02": 100,
+              "@inv03": 10,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "SKU0312"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "32a11dfb-9e2e-4622-b610-e7f33070f355",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Soda"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Soft",
+              "@inv02": 24,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "4873b9f9-d64f-4220-853b-79c17fb1371b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Test"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronics",
+              "@inv02": 5,
+              "@inv03": 1,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "KEY-01"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "0092f496-a8ec-44b6-9f37-7bd6c44582c3",
+            "text": {
+              "ops": [
+                {
+                  "insert": "paracetamol"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronic",
+              "@inv02": 50,
+              "@inv03": 10,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "SKU-0010"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "99017aa5-561c-4e6f-818e-5a49741301a2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Fan"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronic ",
+              "@inv02": 2,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "028c1a35-7049-4f92-82b1-67ec23a12e86",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Fan"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronic ",
+              "@inv02": 2,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "4daff482-2ef3-47d3-b330-eb03517bb694",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ttest"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "test",
+              "@inv02": 1,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "7dc22bd7-0d6e-4df5-96bb-cc2f664cfe0c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Monitor"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Electronics",
+              "@inv02": 35,
+              "@inv03": 25,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "SKU-007"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "326447e8-dceb-40e5-ae8b-56e786af9712",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Boogoo"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Business",
+              "@inv02": 1,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "eec3e516-cf42-4c2a-9fa3-2d96467a6a16",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Pendant stand"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Jewelry display",
+              "@inv02": 100,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "01"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "55734aa5-159b-4cc1-9b38-ca1aaa49ef9c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Mchele "
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Food stuff ",
+              "@inv02": 300,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "Food 001"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "24cec3bb-d83e-4ced-9d3b-719aa1671c70",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ee"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "",
+              "@inv02": 1,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "02b80697-e511-41ad-876d-eff0a5124ad1",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Kiss RTP Dangler"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "POSM",
+              "@inv02": 2000,
+              "@inv03": 50,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "Rotating dangler"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ae52339e-24e2-4afb-958d-07aa8188e0df",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Gaurav"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Fastener",
+              "@inv02": 3,
+              "@inv03": 3,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "Mishra"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "503b0baa-e870-4d99-a372-f1e719de80cb",
+            "text": {
+              "ops": [
+                {
+                  "insert": "hjggf"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "",
+              "@inv02": 56,
+              "@inv03": 56,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "746e95be-341a-4113-a02e-93e3e2992662",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Book"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "Paper",
+              "@inv02": 100,
+              "@inv03": 2,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "6289"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "11f5abb5-cf29-403e-8079-021c96721ac9",
+            "text": {
+              "ops": [
+                {
+                  "insert": "rerre"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "er",
+              "@inv02": 66,
+              "@inv03": 4,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "re"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "6e2797d9-9af7-43d6-86d4-0a7f7e37ef76",
+            "text": {
+              "ops": [
+                {
+                  "insert": "dwdqsd"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "",
+              "@inv02": 2,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e470eace-44cb-49c5-9326-511cd9dce342",
+            "text": {
+              "ops": [
+                {
+                  "insert": "track"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "",
+              "@inv02": 88,
+              "@inv03": 0,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c94efc76-dae4-4851-bd74-19ad8996a829",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Vibe"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@inv01": "HR",
+              "@inv02": 1,
+              "@inv03": 2,
+              "@inv04": {
+                "type": "Select",
+                "optionId": "stock-good"
+              },
+              "@inv05": "Vibe_1405"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@inv01": {
+            "id": "/attributes/@inv01",
+            "fieldPath": "/attributes/@inv01",
+            "rank": "z"
+          },
+          "/attributes/@inv02": {
+            "id": "/attributes/@inv02",
+            "fieldPath": "/attributes/@inv02",
+            "rank": "zV"
+          },
+          "/attributes/@inv03": {
+            "id": "/attributes/@inv03",
+            "fieldPath": "/attributes/@inv03",
+            "rank": "zk"
+          },
+          "/attributes/@inv04": {
+            "id": "/attributes/@inv04",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "zs"
+          },
+          "/attributes/@inv05": {
+            "id": "/attributes/@inv05",
+            "fieldPath": "/attributes/@inv05",
+            "rank": "zw"
+          },
+          "a90c5212-4768-4a34-a52b-132297d9e661": {
+            "id": "a90c5212-4768-4a34-a52b-132297d9e661",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "zy"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@inv01": {
+            "id": "/attributes/@inv01",
+            "fieldPath": "/attributes/@inv01",
+            "rank": "z"
+          },
+          "/attributes/@inv02": {
+            "id": "/attributes/@inv02",
+            "fieldPath": "/attributes/@inv02",
+            "rank": "zV"
+          },
+          "/attributes/@inv03": {
+            "id": "/attributes/@inv03",
+            "fieldPath": "/attributes/@inv03",
+            "rank": "zk"
+          },
+          "/attributes/@inv04": {
+            "id": "/attributes/@inv04",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "zs"
+          },
+          "/attributes/@inv05": {
+            "id": "/attributes/@inv05",
+            "fieldPath": "/attributes/@inv05",
+            "rank": "zw"
+          },
+          "c1cffad7-4d2c-4d5a-8c47-60eb30dac3ee": {
+            "id": "c1cffad7-4d2c-4d5a-8c47-60eb30dac3ee",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "zy"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@inv01": {
+            "id": "/attributes/@inv01",
+            "fieldPath": "/attributes/@inv01",
+            "rank": "z"
+          },
+          "/attributes/@inv02": {
+            "id": "/attributes/@inv02",
+            "fieldPath": "/attributes/@inv02",
+            "rank": "zV"
+          },
+          "/attributes/@inv03": {
+            "id": "/attributes/@inv03",
+            "fieldPath": "/attributes/@inv03",
+            "rank": "zk"
+          },
+          "/attributes/@inv04": {
+            "id": "/attributes/@inv04",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "zs"
+          },
+          "/attributes/@inv05": {
+            "id": "/attributes/@inv05",
+            "fieldPath": "/attributes/@inv05",
+            "rank": "zw"
+          },
+          "4ad98a16-2e9e-4a28-8775-a2395fc8999b": {
+            "id": "4ad98a16-2e9e-4a28-8775-a2395fc8999b",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "zy"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@inv01": {
+            "id": "/attributes/@inv01",
+            "fieldPath": "/attributes/@inv01",
+            "rank": "z"
+          },
+          "/attributes/@inv02": {
+            "id": "/attributes/@inv02",
+            "fieldPath": "/attributes/@inv02",
+            "rank": "zV"
+          },
+          "/attributes/@inv03": {
+            "id": "/attributes/@inv03",
+            "fieldPath": "/attributes/@inv03",
+            "rank": "zk"
+          },
+          "/attributes/@inv04": {
+            "id": "/attributes/@inv04",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "zs"
+          },
+          "/attributes/@inv05": {
+            "id": "/attributes/@inv05",
+            "fieldPath": "/attributes/@inv05",
+            "rank": "zw"
+          },
+          "26921ea9-8a1d-40a0-8606-a38546271297": {
+            "id": "26921ea9-8a1d-40a0-8606-a38546271297",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "zy"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@inv01": {
+            "id": "/attributes/@inv01",
+            "fieldPath": "/attributes/@inv01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@inv02": {
+            "id": "/attributes/@inv02",
+            "fieldPath": "/attributes/@inv02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@inv03": {
+            "id": "/attributes/@inv03",
+            "fieldPath": "/attributes/@inv03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@inv04": {
+            "id": "/attributes/@inv04",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@inv05": {
+            "id": "/attributes/@inv05",
+            "fieldPath": "/attributes/@inv05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "36fe42e9-d737-45ad-9f8e-904df6aecb71": {
+            "id": "36fe42e9-d737-45ad-9f8e-904df6aecb71",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "zy"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "groupBy": {
+          "type": "group_by",
+          "levels": {
+            "c5afc7c1-c59c-4a7f-917b-cf754405f062": {
+              "id": "c5afc7c1-c59c-4a7f-917b-cf754405f062",
+              "type": "field",
+              "fieldPath": "/attributes/@inv01",
+              "config": {
+                "type": "natural",
+                "order": "asc"
+              },
+              "rank": "V"
+            }
+          }
+        },
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 320
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@inv01": {
+            "id": "/attributes/@inv01",
+            "fieldPath": "/attributes/@inv01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@inv02": {
+            "id": "/attributes/@inv02",
+            "fieldPath": "/attributes/@inv02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@inv03": {
+            "id": "/attributes/@inv03",
+            "fieldPath": "/attributes/@inv03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@inv04": {
+            "id": "/attributes/@inv04",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@inv05": {
+            "id": "/attributes/@inv05",
+            "fieldPath": "/attributes/@inv05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "22fc6f51-9eef-4c5a-b7e2-5b59182e386b": {
+            "id": "22fc6f51-9eef-4c5a-b7e2-5b59182e386b",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "zy"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "4fa64ed6-0f70-4e18-b3d0-79aa1bbcc250": {
+            "id": "4fa64ed6-0f70-4e18-b3d0-79aa1bbcc250",
+            "fieldPath": "/attributes/@inv04",
+            "rank": "z"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@inv01": {
+        "type": "string",
+        "displayName": "Category"
+      },
+      "@inv02": {
+        "type": "number",
+        "displayName": "Quantity",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@inv03": {
+        "type": "number",
+        "displayName": "Reorder Level",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@inv04": {
+        "type": "Select",
+        "displayName": "Status",
+        "options": {
+          "stock-good": {
+            "id": "stock-good",
+            "name": "In Stock",
+            "color": "#10b981",
+            "rank": "0"
+          },
+          "stock-low": {
+            "id": "stock-low",
+            "name": "Low Stock",
+            "color": "#f59e0b",
+            "rank": "1"
+          },
+          "stock-ordered": {
+            "id": "stock-ordered",
+            "name": "On Order",
+            "color": "#3b82f6",
+            "rank": "2"
+          },
+          "stock-out": {
+            "id": "stock-out",
+            "name": "Out of Stock",
+            "color": "#ef4444",
+            "rank": "3"
+          }
+        }
+      },
+      "@inv05": {
+        "type": "string",
+        "displayName": "SKU"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "📧"
+    }
+  }
+}

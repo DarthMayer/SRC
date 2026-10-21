@@ -1,0 +1,1786 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "57e4e272-e59a-4f56-ae91-d5ee04a11c84",
+        "text": {
+          "ops": [
+            {
+              "insert": "Suppliers"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "b453a18a-d0a7-4835-a1b3-bc04fe5410b0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TechSource Inc",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "contact@techsource.com",
+              "@sup02": "+1-555-0123",
+              "@sup03": "Electronics",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-electronics"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-5"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-preferred"
+              },
+              "@sup07": "San Francisco, CA"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a75f3a4a-561d-4a23-8642-47a27c456009",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Office Plus",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "orders@officeplus.com",
+              "@sup02": "+1-555-0456",
+              "@sup03": "Furniture",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-furniture"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-4"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-active"
+              },
+              "@sup07": "Chicago, IL"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8e73b339-dcec-420d-b593-df2efd8e8df6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Cable Masters",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "sales@cablemasters.com",
+              "@sup02": "+1-555-0789",
+              "@sup03": "Accessories",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-electronics"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-4"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-active"
+              },
+              "@sup07": "Austin, TX"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "CoolAir Systems",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "service@coolairsystems.com",
+              "@sup02": "+1-555-1001",
+              "@sup03": "HVAC Installation & Repair",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-hvac"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-5"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-preferred"
+              },
+              "@sup07": "Denver, CO"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567002",
+            "text": {
+              "ops": [
+                {
+                  "insert": "FlowPro Plumbing",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "info@flowproplumbing.com",
+              "@sup02": "+1-555-1002",
+              "@sup03": "Commercial Plumbing",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-plumbing"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-4"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-active"
+              },
+              "@sup07": "Seattle, WA"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567003",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Spark Electric Co.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "projects@sparkelectric.com",
+              "@sup02": "+1-555-1003",
+              "@sup03": "Industrial Electrical",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-electrical"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-5"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-preferred"
+              },
+              "@sup07": "Phoenix, AZ"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567004",
+            "text": {
+              "ops": [
+                {
+                  "insert": "SafeGuard Industries",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "orders@safeguardind.com",
+              "@sup02": "+1-555-1004",
+              "@sup03": "Fire & Safety Equipment",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-safety"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-4"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-active"
+              },
+              "@sup07": "Boston, MA"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567005",
+            "text": {
+              "ops": [
+                {
+                  "insert": "GreenClean Solutions",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "supply@greenclean.com",
+              "@sup02": "+1-555-1005",
+              "@sup03": "Eco-Friendly Cleaning",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-cleaning"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-5"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-preferred"
+              },
+              "@sup07": "Portland, OR"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567006",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ProTools Direct",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "sales@protoolsdirect.com",
+              "@sup02": "+1-555-1006",
+              "@sup03": "Power Tools & Hardware",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-tools"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-4"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-active"
+              },
+              "@sup07": "Detroit, MI"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567007",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Arctic HVAC Supply",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "wholesale@arctichvac.com",
+              "@sup02": "+1-555-1007",
+              "@sup03": "HVAC Parts & Filters",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-hvac"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-3"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-review"
+              },
+              "@sup07": "Minneapolis, MN"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567008",
+            "text": {
+              "ops": [
+                {
+                  "insert": "WireWorks Electric",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "commercial@wireworks.com",
+              "@sup02": "+1-555-1008",
+              "@sup03": "Wiring & Panels",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-electrical"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-4"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-active"
+              },
+              "@sup07": "Atlanta, GA"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567009",
+            "text": {
+              "ops": [
+                {
+                  "insert": "PipeDream Supplies",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "orders@pipedream.com",
+              "@sup02": "+1-555-1009",
+              "@sup03": "Industrial Piping",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-plumbing"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-5"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-preferred"
+              },
+              "@sup07": "Houston, TX"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567010",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ErgoDesign Furniture",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "b2b@ergodesign.com",
+              "@sup02": "+1-555-1010",
+              "@sup03": "Ergonomic Office Furniture",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-furniture"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-5"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-preferred"
+              },
+              "@sup07": "New York, NY"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567011",
+            "text": {
+              "ops": [
+                {
+                  "insert": "FireStop Pro",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "safety@firestoppro.com",
+              "@sup02": "+1-555-1011",
+              "@sup03": "Fire Suppression Systems",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-safety"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-4"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-active"
+              },
+              "@sup07": "Las Vegas, NV"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567012",
+            "text": {
+              "ops": [
+                {
+                  "insert": "SmartBuild Electronics",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "enterprise@smartbuild.com",
+              "@sup02": "+1-555-1012",
+              "@sup03": "Building Automation",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-electronics"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-3"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-new"
+              },
+              "@sup07": "San Jose, CA"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567013",
+            "text": {
+              "ops": [
+                {
+                  "insert": "CleanMaster Industrial",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "bulk@cleanmaster.com",
+              "@sup02": "+1-555-1013",
+              "@sup03": "Industrial Cleaning Equipment",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-cleaning"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-4"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-active"
+              },
+              "@sup07": "Cleveland, OH"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567014",
+            "text": {
+              "ops": [
+                {
+                  "insert": "HeavyDuty Tools Co.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "industrial@heavydutytools.com",
+              "@sup02": "+1-555-1014",
+              "@sup03": "Industrial Hand Tools",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-tools"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-5"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-preferred"
+              },
+              "@sup07": "Milwaukee, WI"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c1a2b3c4-d5e6-7890-abcd-ef1234567015",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ComfortZone HVAC",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "contractors@comfortzone.com",
+              "@sup02": "+1-555-1015",
+              "@sup03": "Residential HVAC",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "cat-hvac"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "rate-4"
+              },
+              "@sup06": {
+                "type": "Select",
+                "optionId": "status-active"
+              },
+              "@sup07": "Dallas, TX"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sup01": {
+            "id": "/attributes/@sup01",
+            "fieldPath": "/attributes/@sup01",
+            "rank": "z"
+          },
+          "/attributes/@sup02": {
+            "id": "/attributes/@sup02",
+            "fieldPath": "/attributes/@sup02",
+            "rank": "zV"
+          },
+          "/attributes/@sup03": {
+            "id": "/attributes/@sup03",
+            "fieldPath": "/attributes/@sup03",
+            "rank": "zk"
+          },
+          "aba8932b-bc2f-4856-94e7-793f977882b9": {
+            "id": "aba8932b-bc2f-4856-94e7-793f977882b9",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "zs"
+          },
+          "67db02a9-c989-463d-9e93-ab9b47e93889": {
+            "id": "67db02a9-c989-463d-9e93-ab9b47e93889",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zw"
+          },
+          "78a9a550-0cca-428a-997f-4ef8764bb076": {
+            "id": "78a9a550-0cca-428a-997f-4ef8764bb076",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zy"
+          },
+          "a869e0a2-f984-4424-b651-a58e5adb1cf7": {
+            "id": "a869e0a2-f984-4424-b651-a58e5adb1cf7",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zz"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sup01": {
+            "id": "/attributes/@sup01",
+            "fieldPath": "/attributes/@sup01",
+            "rank": "z"
+          },
+          "/attributes/@sup02": {
+            "id": "/attributes/@sup02",
+            "fieldPath": "/attributes/@sup02",
+            "rank": "zV"
+          },
+          "/attributes/@sup03": {
+            "id": "/attributes/@sup03",
+            "fieldPath": "/attributes/@sup03",
+            "rank": "zk"
+          },
+          "21dac155-9620-4277-8339-77dc2192fd44": {
+            "id": "21dac155-9620-4277-8339-77dc2192fd44",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "zs"
+          },
+          "f7575c18-21a0-470d-96ad-0ebbe470d792": {
+            "id": "f7575c18-21a0-470d-96ad-0ebbe470d792",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zw"
+          },
+          "2a3f490b-0e7d-40ce-a1ca-90804c6d6864": {
+            "id": "2a3f490b-0e7d-40ce-a1ca-90804c6d6864",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zy"
+          },
+          "786a82c2-6754-4592-a919-8f2931495a44": {
+            "id": "786a82c2-6754-4592-a919-8f2931495a44",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zz"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sup01": {
+            "id": "/attributes/@sup01",
+            "fieldPath": "/attributes/@sup01",
+            "rank": "z"
+          },
+          "/attributes/@sup02": {
+            "id": "/attributes/@sup02",
+            "fieldPath": "/attributes/@sup02",
+            "rank": "zV"
+          },
+          "/attributes/@sup03": {
+            "id": "/attributes/@sup03",
+            "fieldPath": "/attributes/@sup03",
+            "rank": "zk"
+          },
+          "b7e3d222-9f27-4d08-9cb0-04307e8c47ea": {
+            "id": "b7e3d222-9f27-4d08-9cb0-04307e8c47ea",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "zs"
+          },
+          "6b14b799-7406-4ee1-8bef-d060966ca0fe": {
+            "id": "6b14b799-7406-4ee1-8bef-d060966ca0fe",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zw"
+          },
+          "299097e3-f725-4080-8cfc-abdc61134cd1": {
+            "id": "299097e3-f725-4080-8cfc-abdc61134cd1",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zy"
+          },
+          "be8ec3b8-68af-4d9f-b032-2f420da6df92": {
+            "id": "be8ec3b8-68af-4d9f-b032-2f420da6df92",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zz"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sup01": {
+            "id": "/attributes/@sup01",
+            "fieldPath": "/attributes/@sup01",
+            "rank": "z"
+          },
+          "/attributes/@sup02": {
+            "id": "/attributes/@sup02",
+            "fieldPath": "/attributes/@sup02",
+            "rank": "zV"
+          },
+          "/attributes/@sup03": {
+            "id": "/attributes/@sup03",
+            "fieldPath": "/attributes/@sup03",
+            "rank": "zk"
+          },
+          "d5ac5c58-63a9-4a3a-9218-df636bdc5b4c": {
+            "id": "d5ac5c58-63a9-4a3a-9218-df636bdc5b4c",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "zs"
+          },
+          "f56bd0f7-8646-45eb-94dd-e0487e3e7423": {
+            "id": "f56bd0f7-8646-45eb-94dd-e0487e3e7423",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zw"
+          },
+          "fe20698d-e40b-46c2-9a1e-11b90cc4754f": {
+            "id": "fe20698d-e40b-46c2-9a1e-11b90cc4754f",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zy"
+          },
+          "3983f0fc-52c7-4bc1-9d3e-f27dfbc11456": {
+            "id": "3983f0fc-52c7-4bc1-9d3e-f27dfbc11456",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zz"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@sup01": {
+            "id": "/attributes/@sup01",
+            "fieldPath": "/attributes/@sup01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@sup02": {
+            "id": "/attributes/@sup02",
+            "fieldPath": "/attributes/@sup02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@sup03": {
+            "id": "/attributes/@sup03",
+            "fieldPath": "/attributes/@sup03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "3434e12f-01fd-480b-a1bf-261abd78d3dc": {
+            "id": "3434e12f-01fd-480b-a1bf-261abd78d3dc",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "zs"
+          },
+          "e664a025-520a-4017-8b34-0bc5b6658913": {
+            "id": "e664a025-520a-4017-8b34-0bc5b6658913",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zw"
+          },
+          "0e266475-fea3-4fd3-8e0c-bc704b2819ac": {
+            "id": "0e266475-fea3-4fd3-8e0c-bc704b2819ac",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zy"
+          },
+          "1d22e473-d4d2-4e91-b446-45152dd066cd": {
+            "id": "1d22e473-d4d2-4e91-b446-45152dd066cd",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zz"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "sortBy": {
+          "type": "sort_by",
+          "levels": {
+            "734c77e9-20ee-4855-865e-b59dbb6592ec": {
+              "id": "734c77e9-20ee-4855-865e-b59dbb6592ec",
+              "type": "field",
+              "fieldPath": "/attributes/@sup05",
+              "config": {
+                "type": "natural",
+                "order": "asc"
+              },
+              "rank": "V"
+            }
+          }
+        },
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 320
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@sup01": {
+            "id": "/attributes/@sup01",
+            "fieldPath": "/attributes/@sup01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@sup02": {
+            "id": "/attributes/@sup02",
+            "fieldPath": "/attributes/@sup02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@sup03": {
+            "id": "/attributes/@sup03",
+            "fieldPath": "/attributes/@sup03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "5053a391-cf9b-46b8-8c74-d01129a03ac2": {
+            "id": "5053a391-cf9b-46b8-8c74-d01129a03ac2",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "zs"
+          },
+          "19fb6309-4ffb-4407-9b6d-01640d8299a3": {
+            "id": "19fb6309-4ffb-4407-9b6d-01640d8299a3",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zF"
+          },
+          "253690e7-ba5f-4435-9fcb-8efe4671e89b": {
+            "id": "253690e7-ba5f-4435-9fcb-8efe4671e89b",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zN"
+          },
+          "838b69e3-7a73-4264-bcd6-5e345a60aaff": {
+            "id": "838b69e3-7a73-4264-bcd6-5e345a60aaff",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zz"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "998912a5-c3c1-4dd6-bc68-3dde827e0d8c": {
+            "id": "998912a5-c3c1-4dd6-bc68-3dde827e0d8c",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "z"
+          },
+          "4880dd43-365a-4d63-ab53-997448d99a3f": {
+            "id": "4880dd43-365a-4d63-ab53-997448d99a3f",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zV"
+          },
+          "30eaa087-349b-4fe7-b3aa-3b3c39573d7d": {
+            "id": "30eaa087-349b-4fe7-b3aa-3b3c39573d7d",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zk"
+          },
+          "90d804e5-0e24-4941-b5f6-96968a507f80": {
+            "id": "90d804e5-0e24-4941-b5f6-96968a507f80",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zs"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@sup01": {
+        "type": "string",
+        "displayName": "Email"
+      },
+      "@sup02": {
+        "type": "string",
+        "displayName": "Phone"
+      },
+      "@sup03": {
+        "type": "string",
+        "displayName": "Specialty"
+      },
+      "@sup07": {
+        "type": "string",
+        "displayName": "Location"
+      },
+      "@sup06": {
+        "type": "Select",
+        "displayName": "Status",
+        "options": {
+          "status-active": {
+            "id": "status-active",
+            "name": "Active",
+            "color": "#22C55E",
+            "rank": "0"
+          },
+          "status-preferred": {
+            "id": "status-preferred",
+            "name": "Preferred Vendor",
+            "color": "#8B5CF6",
+            "rank": "1"
+          },
+          "status-new": {
+            "id": "status-new",
+            "name": "New",
+            "color": "#3B82F6",
+            "rank": "2"
+          },
+          "status-review": {
+            "id": "status-review",
+            "name": "Under Review",
+            "color": "#F59E0B",
+            "rank": "3"
+          },
+          "status-inactive": {
+            "id": "status-inactive",
+            "name": "Inactive",
+            "color": "#6B7280",
+            "rank": "4"
+          }
+        }
+      },
+      "@sup05": {
+        "type": "Select",
+        "displayName": "Rating",
+        "options": {
+          "rate-5": {
+            "id": "rate-5",
+            "name": "⭐⭐⭐⭐⭐ Excellent",
+            "color": "#22C55E",
+            "rank": "0"
+          },
+          "rate-4": {
+            "id": "rate-4",
+            "name": "⭐⭐⭐⭐ Good",
+            "color": "#84CC16",
+            "rank": "1"
+          },
+          "rate-3": {
+            "id": "rate-3",
+            "name": "⭐⭐⭐ Average",
+            "color": "#EAB308",
+            "rank": "2"
+          },
+          "rate-2": {
+            "id": "rate-2",
+            "name": "⭐⭐ Below Average",
+            "color": "#F97316",
+            "rank": "3"
+          },
+          "rate-1": {
+            "id": "rate-1",
+            "name": "⭐ Poor",
+            "color": "#EF4444",
+            "rank": "4"
+          }
+        }
+      },
+      "@sup04": {
+        "type": "Select",
+        "displayName": "Category",
+        "options": {
+          "cat-electronics": {
+            "id": "cat-electronics",
+            "name": "Electronics",
+            "color": "#3B82F6",
+            "rank": "0"
+          },
+          "cat-furniture": {
+            "id": "cat-furniture",
+            "name": "Furniture",
+            "color": "#8B5CF6",
+            "rank": "1"
+          },
+          "cat-hvac": {
+            "id": "cat-hvac",
+            "name": "HVAC",
+            "color": "#06B6D4",
+            "rank": "2"
+          },
+          "cat-plumbing": {
+            "id": "cat-plumbing",
+            "name": "Plumbing",
+            "color": "#0EA5E9",
+            "rank": "3"
+          },
+          "cat-electrical": {
+            "id": "cat-electrical",
+            "name": "Electrical",
+            "color": "#F59E0B",
+            "rank": "4"
+          },
+          "cat-safety": {
+            "id": "cat-safety",
+            "name": "Safety Equipment",
+            "color": "#EF4444",
+            "rank": "5"
+          },
+          "cat-cleaning": {
+            "id": "cat-cleaning",
+            "name": "Cleaning Supplies",
+            "color": "#10B981",
+            "rank": "6"
+          },
+          "cat-tools": {
+            "id": "cat-tools",
+            "name": "Tools & Hardware",
+            "color": "#6366F1",
+            "rank": "7"
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "📖"
+    }
+  }
+}

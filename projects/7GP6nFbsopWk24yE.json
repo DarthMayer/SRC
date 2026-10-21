@@ -1,0 +1,895 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "70306a1d-6b46-4cbe-9fea-3185c902158a",
+        "text": {
+          "ops": [
+            {
+              "insert": "BOLLE di CARICO SILURI"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": []
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@pdf10": {
+            "id": "/attributes/@pdf10",
+            "fieldPath": "/attributes/@pdf10",
+            "rank": "z"
+          },
+          "/attributes/@pdf01": {
+            "id": "/attributes/@pdf01",
+            "fieldPath": "/attributes/@pdf01",
+            "rank": "zV"
+          },
+          "/attributes/@pdf02": {
+            "id": "/attributes/@pdf02",
+            "fieldPath": "/attributes/@pdf02",
+            "rank": "zk"
+          },
+          "/attributes/@pdf03": {
+            "id": "/attributes/@pdf03",
+            "fieldPath": "/attributes/@pdf03",
+            "rank": "zs"
+          },
+          "/attributes/@pdf04": {
+            "id": "/attributes/@pdf04",
+            "fieldPath": "/attributes/@pdf04",
+            "rank": "zw"
+          },
+          "/attributes/@pdf05": {
+            "id": "/attributes/@pdf05",
+            "fieldPath": "/attributes/@pdf05",
+            "rank": "zy"
+          },
+          "/attributes/@pdf06": {
+            "id": "/attributes/@pdf06",
+            "fieldPath": "/attributes/@pdf06",
+            "rank": "zz"
+          },
+          "/attributes/@pdf07": {
+            "id": "/attributes/@pdf07",
+            "fieldPath": "/attributes/@pdf07",
+            "rank": "zzV"
+          },
+          "/attributes/@pdf08": {
+            "id": "/attributes/@pdf08",
+            "fieldPath": "/attributes/@pdf08",
+            "rank": "zzk"
+          },
+          "/attributes/@pdf09": {
+            "id": "/attributes/@pdf09",
+            "fieldPath": "/attributes/@pdf09",
+            "rank": "zzs"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@pdf10": {
+            "id": "/attributes/@pdf10",
+            "fieldPath": "/attributes/@pdf10",
+            "rank": "z"
+          },
+          "/attributes/@pdf01": {
+            "id": "/attributes/@pdf01",
+            "fieldPath": "/attributes/@pdf01",
+            "rank": "zV"
+          },
+          "/attributes/@pdf02": {
+            "id": "/attributes/@pdf02",
+            "fieldPath": "/attributes/@pdf02",
+            "rank": "zk"
+          },
+          "/attributes/@pdf03": {
+            "id": "/attributes/@pdf03",
+            "fieldPath": "/attributes/@pdf03",
+            "rank": "zs"
+          },
+          "/attributes/@pdf04": {
+            "id": "/attributes/@pdf04",
+            "fieldPath": "/attributes/@pdf04",
+            "rank": "zw"
+          },
+          "/attributes/@pdf05": {
+            "id": "/attributes/@pdf05",
+            "fieldPath": "/attributes/@pdf05",
+            "rank": "zy"
+          },
+          "/attributes/@pdf06": {
+            "id": "/attributes/@pdf06",
+            "fieldPath": "/attributes/@pdf06",
+            "rank": "zz"
+          },
+          "/attributes/@pdf07": {
+            "id": "/attributes/@pdf07",
+            "fieldPath": "/attributes/@pdf07",
+            "rank": "zzV"
+          },
+          "/attributes/@pdf08": {
+            "id": "/attributes/@pdf08",
+            "fieldPath": "/attributes/@pdf08",
+            "rank": "zzk"
+          },
+          "/attributes/@pdf09": {
+            "id": "/attributes/@pdf09",
+            "fieldPath": "/attributes/@pdf09",
+            "rank": "zzs"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@pdf10": {
+            "id": "/attributes/@pdf10",
+            "fieldPath": "/attributes/@pdf10",
+            "rank": "z"
+          },
+          "/attributes/@pdf01": {
+            "id": "/attributes/@pdf01",
+            "fieldPath": "/attributes/@pdf01",
+            "rank": "zV"
+          },
+          "/attributes/@pdf02": {
+            "id": "/attributes/@pdf02",
+            "fieldPath": "/attributes/@pdf02",
+            "rank": "zk"
+          },
+          "/attributes/@pdf03": {
+            "id": "/attributes/@pdf03",
+            "fieldPath": "/attributes/@pdf03",
+            "rank": "zs"
+          },
+          "/attributes/@pdf04": {
+            "id": "/attributes/@pdf04",
+            "fieldPath": "/attributes/@pdf04",
+            "rank": "zw"
+          },
+          "/attributes/@pdf05": {
+            "id": "/attributes/@pdf05",
+            "fieldPath": "/attributes/@pdf05",
+            "rank": "zy"
+          },
+          "/attributes/@pdf06": {
+            "id": "/attributes/@pdf06",
+            "fieldPath": "/attributes/@pdf06",
+            "rank": "zz"
+          },
+          "/attributes/@pdf07": {
+            "id": "/attributes/@pdf07",
+            "fieldPath": "/attributes/@pdf07",
+            "rank": "zzV"
+          },
+          "/attributes/@pdf08": {
+            "id": "/attributes/@pdf08",
+            "fieldPath": "/attributes/@pdf08",
+            "rank": "zzk"
+          },
+          "/attributes/@pdf09": {
+            "id": "/attributes/@pdf09",
+            "fieldPath": "/attributes/@pdf09",
+            "rank": "zzs"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@pdf10": {
+            "id": "/attributes/@pdf10",
+            "fieldPath": "/attributes/@pdf10",
+            "rank": "z"
+          },
+          "/attributes/@pdf01": {
+            "id": "/attributes/@pdf01",
+            "fieldPath": "/attributes/@pdf01",
+            "rank": "zV"
+          },
+          "/attributes/@pdf02": {
+            "id": "/attributes/@pdf02",
+            "fieldPath": "/attributes/@pdf02",
+            "rank": "zk"
+          },
+          "/attributes/@pdf03": {
+            "id": "/attributes/@pdf03",
+            "fieldPath": "/attributes/@pdf03",
+            "rank": "zs"
+          },
+          "/attributes/@pdf04": {
+            "id": "/attributes/@pdf04",
+            "fieldPath": "/attributes/@pdf04",
+            "rank": "zw"
+          },
+          "/attributes/@pdf05": {
+            "id": "/attributes/@pdf05",
+            "fieldPath": "/attributes/@pdf05",
+            "rank": "zy"
+          },
+          "/attributes/@pdf06": {
+            "id": "/attributes/@pdf06",
+            "fieldPath": "/attributes/@pdf06",
+            "rank": "zz"
+          },
+          "/attributes/@pdf07": {
+            "id": "/attributes/@pdf07",
+            "fieldPath": "/attributes/@pdf07",
+            "rank": "zzV"
+          },
+          "/attributes/@pdf08": {
+            "id": "/attributes/@pdf08",
+            "fieldPath": "/attributes/@pdf08",
+            "rank": "zzk"
+          },
+          "/attributes/@pdf09": {
+            "id": "/attributes/@pdf09",
+            "fieldPath": "/attributes/@pdf09",
+            "rank": "zzs"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@pdf10": {
+            "id": "/attributes/@pdf10",
+            "fieldPath": "/attributes/@pdf10",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@pdf01": {
+            "id": "/attributes/@pdf01",
+            "fieldPath": "/attributes/@pdf01",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@pdf02": {
+            "id": "/attributes/@pdf02",
+            "fieldPath": "/attributes/@pdf02",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@pdf03": {
+            "id": "/attributes/@pdf03",
+            "fieldPath": "/attributes/@pdf03",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@pdf04": {
+            "id": "/attributes/@pdf04",
+            "fieldPath": "/attributes/@pdf04",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@pdf05": {
+            "id": "/attributes/@pdf05",
+            "fieldPath": "/attributes/@pdf05",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@pdf06": {
+            "id": "/attributes/@pdf06",
+            "fieldPath": "/attributes/@pdf06",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@pdf07": {
+            "id": "/attributes/@pdf07",
+            "fieldPath": "/attributes/@pdf07",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@pdf08": {
+            "id": "/attributes/@pdf08",
+            "fieldPath": "/attributes/@pdf08",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "/attributes/@pdf09": {
+            "id": "/attributes/@pdf09",
+            "fieldPath": "/attributes/@pdf09",
+            "rank": "zzs",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@pdf10": {
+            "id": "/attributes/@pdf10",
+            "fieldPath": "/attributes/@pdf10",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@pdf01": {
+            "id": "/attributes/@pdf01",
+            "fieldPath": "/attributes/@pdf01",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@pdf02": {
+            "id": "/attributes/@pdf02",
+            "fieldPath": "/attributes/@pdf02",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@pdf03": {
+            "id": "/attributes/@pdf03",
+            "fieldPath": "/attributes/@pdf03",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@pdf04": {
+            "id": "/attributes/@pdf04",
+            "fieldPath": "/attributes/@pdf04",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@pdf05": {
+            "id": "/attributes/@pdf05",
+            "fieldPath": "/attributes/@pdf05",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@pdf06": {
+            "id": "/attributes/@pdf06",
+            "fieldPath": "/attributes/@pdf06",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@pdf07": {
+            "id": "/attributes/@pdf07",
+            "fieldPath": "/attributes/@pdf07",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@pdf08": {
+            "id": "/attributes/@pdf08",
+            "fieldPath": "/attributes/@pdf08",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "/attributes/@pdf09": {
+            "id": "/attributes/@pdf09",
+            "fieldPath": "/attributes/@pdf09",
+            "rank": "zzs",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@pdf10": {
+        "type": "DateTime",
+        "title": "Importato il"
+      },
+      "@pdf01": {
+        "type": "string",
+        "displayName": "PDF URL"
+      },
+      "@pdf02": {
+        "type": "string",
+        "displayName": "Numero DDT"
+      },
+      "@pdf03": {
+        "type": "DateTime",
+        "title": "Data DDT"
+      },
+      "@pdf04": {
+        "type": "string",
+        "displayName": "Codice mangime"
+      },
+      "@pdf05": {
+        "type": "string",
+        "displayName": "Denominazione"
+      },
+      "@pdf06": {
+        "type": "string",
+        "displayName": "Lotto"
+      },
+      "@pdf07": {
+        "type": "number",
+        "displayName": "Quantità TM",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@pdf08": {
+        "type": "string",
+        "displayName": "Targa"
+      },
+      "@pdf09": {
+        "type": "string",
+        "displayName": "Cliente"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "🔭"
+    }
+  }
+}

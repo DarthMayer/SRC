@@ -1,0 +1,313 @@
+{
+  "version": "2",
+  "flowTitle": "Importa DDT PDF - SILURI",
+  "trigger": {
+    "type": "FORM",
+    "displayName": "Carica DDT SILURI",
+    "settings": {
+      "description": "",
+      "inputs": [
+        {
+          "id": "file",
+          "title": "DDT PDF",
+          "description": "Trascina qui il DDT.",
+          "type": "file"
+        }
+      ],
+      "isEndPageEnabled": false
+    }
+  },
+  "actions": [
+    {
+      "name": "1f117c42-d982-4b52-9f54-7420dd4f6fca",
+      "valid": true,
+      "displayName": "Registra data di carico",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "pieceVersion": "1.0.0",
+        "actionName": "utils.getRunInfo",
+        "input": {}
+      }
+    },
+    {
+      "name": "a1f4f4d0-1f3d-46bb-8d89-1cb8151aa901",
+      "valid": true,
+      "displayName": "Estrai testo DDT",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "{{ trigger[\"file\"] }}"
+        }
+      }
+    },
+    {
+      "name": "a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901",
+      "valid": true,
+      "displayName": "Interpreta DDT",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "{{ a1f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"content\"] }}",
+          "output": {
+            "type": "object",
+            "required": [
+              "code",
+              "name",
+              "lot",
+              "ddt",
+              "date",
+              "quantity",
+              "plate",
+              "client",
+              "clientName",
+              "note"
+            ],
+            "properties": {
+              "ddt": {
+                "type": "string"
+              },
+              "lot": {
+                "type": "string"
+              },
+              "code": {
+                "type": "string"
+              },
+              "date": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              },
+              "plate": {
+                "type": "string"
+              },
+              "client": {
+                "type": "string"
+              },
+              "quantity": {
+                "type": "number"
+              },
+              "clientName": {
+                "type": "string"
+              }
+            }
+          },
+          "prompt": "Leggi il testo del DDT SILURI e restituisci esclusivamente un oggetto con i campi code, name, lot, ddt, quantity, date, plate, client e clientName. Usa solo valori presenti nel documento, senza inventare. Se il codice prodotto contiene il prefisso TM, rimuovilo e restituisci solo il codice prodotto, ad esempio 1436RCI1. Se un campo non è presente, restituisci una stringa vuota; quantity deve essere un numero espresso in quintali. Se la quantità nel documento è in TM o tonnellate metriche, convertila in quintali moltiplicando per 10, perché 1 TM = 10 q.li. Se la quantità è già in quintali, mantienila invariata. Normalizza date in formato ISO quando possibile. client deve essere un oggetto Select con optionId agristar oppure agristar-foddi, scegliendo quella corrispondente al documento; clientName deve contenere il nome del cliente in testo. Non aggiungere altri campi.",
+          "outputType": "structuredoutput"
+        }
+      }
+    },
+    {
+      "name": "a3f4f4d0-1f3d-46bb-8d89-1cb8151aa901",
+      "valid": false,
+      "displayName": "Crea riga SILURI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@sil01": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"code\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@sil01"
+            },
+            "@sil02": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"name\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@sil02"
+            },
+            "@sil03": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"lot\"] }}"
+              },
+              "rank": "2",
+              "fieldId": "@sil03"
+            },
+            "@sil04": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"date\"] }}"
+              },
+              "rank": "3",
+              "fieldId": "@sil04"
+            },
+            "@sil05": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"ddt\"] }}"
+              },
+              "rank": "4",
+              "fieldId": "@sil05"
+            },
+            "@sil06": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"quantity\"] }}"
+              },
+              "rank": "5",
+              "fieldId": "@sil06"
+            },
+            "@sil07": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"plate\"] }}"
+              },
+              "rank": "6",
+              "fieldId": "@sil07"
+            },
+            "@sil08": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"client\"] }}"
+              },
+              "rank": "7",
+              "fieldId": "@sil08"
+            },
+            "@sil09": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"note\"] }}"
+              },
+              "rank": "8",
+              "fieldId": "@sil09"
+            },
+            "@sil10": {
+              "data": {
+                "value": "carico"
+              },
+              "rank": "9",
+              "fieldId": "@sil10"
+            },
+            "@sil11": {
+              "data": {
+                "value": "si"
+              },
+              "rank": "10",
+              "fieldId": "@sil11"
+            }
+          },
+          "content": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"code\"] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "VQ7SifXzUJrCUbwV"
+          }
+        }
+      }
+    },
+    {
+      "name": "f99b7c3e-9bf0-4117-9cdc-67842337175f",
+      "valid": false,
+      "displayName": "Archivia PDF SILURI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@pdf01": {
+              "data": {
+                "value": "{{ trigger[\"file\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@pdf01"
+            },
+            "@pdf02": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"ddt\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@pdf02"
+            },
+            "@pdf03": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"date\"] }}"
+              },
+              "rank": "2",
+              "fieldId": "@pdf03"
+            },
+            "@pdf04": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"code\"] }}"
+              },
+              "rank": "3",
+              "fieldId": "@pdf04"
+            },
+            "@pdf05": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"name\"] }}"
+              },
+              "rank": "4",
+              "fieldId": "@pdf05"
+            },
+            "@pdf06": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"lot\"] }}"
+              },
+              "rank": "5",
+              "fieldId": "@pdf06"
+            },
+            "@pdf07": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"quantity\"] }}"
+              },
+              "rank": "6",
+              "fieldId": "@pdf07"
+            },
+            "@pdf08": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"plate\"] }}"
+              },
+              "rank": "7",
+              "fieldId": "@pdf08"
+            },
+            "@pdf09": {
+              "data": {
+                "value": "{{ a2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"clientName\"] }}"
+              },
+              "rank": "8",
+              "fieldId": "@pdf09"
+            },
+            "@pdf10": {
+              "data": {
+                "value": "{{ 1f117c42-d982-4b52-9f54-7420dd4f6fca[\"ranAt\"] }}"
+              },
+              "rank": "9",
+              "fieldId": "@pdf10"
+            }
+          },
+          "content": "{{ trigger[\"file\"] }}",
+          "position": "beforeend",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "7GP6nFbsopWk24yE"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "VQ7SifXzUJrCUbwV": {
+      "id": "VQ7SifXzUJrCUbwV",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    },
+    "7GP6nFbsopWk24yE": {
+      "id": "7GP6nFbsopWk24yE",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

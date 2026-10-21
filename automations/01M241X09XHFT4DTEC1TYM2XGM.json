@@ -1,0 +1,326 @@
+{
+  "version": "2",
+  "flowTitle": "Importa DDT PDF - SACCHI",
+  "trigger": {
+    "type": "FORM",
+    "displayName": "Carica DDT SACCHI",
+    "settings": {
+      "description": "",
+      "inputs": [
+        {
+          "id": "file",
+          "title": "DDT PDF",
+          "description": "Trascina qui il DDT.",
+          "type": "file"
+        }
+      ],
+      "isEndPageEnabled": false
+    }
+  },
+  "actions": [
+    {
+      "name": "c1f4f4d0-1f3d-46bb-8d89-1cb8151aa901",
+      "valid": true,
+      "displayName": "Estrai testo DDT",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "{{ trigger[\"file\"] }}"
+        }
+      }
+    },
+    {
+      "name": "c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901",
+      "valid": true,
+      "displayName": "Interpreta DDT",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "{{ c1f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"content\"] }}",
+          "output": {
+            "type": "object",
+            "required": [
+              "code",
+              "name",
+              "lot",
+              "ddt",
+              "date",
+              "quantity",
+              "plate",
+              "count",
+              "epal",
+              "client",
+              "note"
+            ],
+            "properties": {
+              "ddt": {
+                "type": "string"
+              },
+              "lot": {
+                "type": "string"
+              },
+              "code": {
+                "type": "string"
+              },
+              "date": {
+                "type": "string"
+              },
+              "epal": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              },
+              "count": {
+                "type": "number"
+              },
+              "plate": {
+                "type": "string"
+              },
+              "client": {
+                "type": "string"
+              },
+              "quantity": {
+                "type": "number"
+              }
+            }
+          },
+          "prompt": "Estrai codice, lotto, numero DDT, quantità q.li, data, targa, numero sacchi, pedane EPAL e cliente/destinazione dal testo del DDT. Restituisci i dati presenti nei campi code, lot, ddt, quantity, date, plate, count, epal e client.",
+          "outputType": "structuredoutput"
+        }
+      }
+    },
+    {
+      "name": "c3f4f4d0-1f3d-46bb-8d89-1cb8151aa901",
+      "valid": false,
+      "displayName": "Crea riga SACCHI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@stk01": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"code\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@stk01"
+            },
+            "@stk02": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"name\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@stk02"
+            },
+            "@stk03": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"lot\"] }}"
+              },
+              "rank": "2",
+              "fieldId": "@stk03"
+            },
+            "@stk04": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"date\"] }}"
+              },
+              "rank": "3",
+              "fieldId": "@stk04"
+            },
+            "@stk05": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"ddt\"] }}"
+              },
+              "rank": "4",
+              "fieldId": "@stk05"
+            },
+            "@stk06": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"quantity\"] }}"
+              },
+              "rank": "5",
+              "fieldId": "@stk06"
+            },
+            "@stk07": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"plate\"] }}"
+              },
+              "rank": "6",
+              "fieldId": "@stk07"
+            },
+            "@stk08": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"count\"] }}"
+              },
+              "rank": "7",
+              "fieldId": "@stk08"
+            },
+            "@stk09": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"epal\"] }}"
+              },
+              "rank": "8",
+              "fieldId": "@stk09"
+            },
+            "@stk10": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"note\"] }}"
+              },
+              "rank": "9",
+              "fieldId": "@stk10"
+            },
+            "@stk11": {
+              "data": {
+                "value": "carico"
+              },
+              "rank": "10",
+              "fieldId": "@stk11"
+            },
+            "@stk12": {
+              "data": {
+                "value": "si"
+              },
+              "rank": "11",
+              "fieldId": "@stk12"
+            },
+            "@stk13": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"client\"] }}"
+              },
+              "rank": "12",
+              "fieldId": "@stk13"
+            }
+          },
+          "content": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"code\"] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "JPEsz6CJgZAphTTt"
+          }
+        }
+      }
+    },
+    {
+      "name": "732fa79b-d8cf-4c7e-8283-e784d5bf9c20",
+      "valid": false,
+      "displayName": "Archivia PDF SACCHI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@arc11": {
+              "data": {
+                "value": "{{ trigger[\"file\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@arc11"
+            },
+            "@arc12": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"ddt\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@arc12"
+            },
+            "@arc13": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"date\"] }}"
+              },
+              "rank": "2",
+              "fieldId": "@arc13"
+            },
+            "@arc14": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"code\"] }}"
+              },
+              "rank": "3",
+              "fieldId": "@arc14"
+            },
+            "@arc15": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"lot\"] }}"
+              },
+              "rank": "4",
+              "fieldId": "@arc15"
+            },
+            "@arc16": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"quantity\"] }}"
+              },
+              "rank": "5",
+              "fieldId": "@arc16"
+            },
+            "@arc17": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"plate\"] }}"
+              },
+              "rank": "6",
+              "fieldId": "@arc17"
+            },
+            "@arc18": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"count\"] }}"
+              },
+              "rank": "7",
+              "fieldId": "@arc18"
+            },
+            "@arc19": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"epal\"] }}"
+              },
+              "rank": "8",
+              "fieldId": "@arc19"
+            },
+            "@arc20": {
+              "data": {
+                "value": "{{ c2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"client\"] }}"
+              },
+              "rank": "9",
+              "fieldId": "@arc20"
+            },
+            "@arc21": {
+              "data": {
+                "value": "{{ trigger[\"triggeredAt\"] }}"
+              },
+              "rank": "10",
+              "fieldId": "@arc21"
+            }
+          },
+          "content": "{{ trigger[\"file\"] }}",
+          "position": "beforeend",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "veHbx3q6TckRnuv7"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "JPEsz6CJgZAphTTt": {
+      "id": "JPEsz6CJgZAphTTt",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    },
+    "veHbx3q6TckRnuv7": {
+      "id": "veHbx3q6TckRnuv7",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

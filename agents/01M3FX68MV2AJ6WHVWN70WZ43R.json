@@ -1,0 +1,120 @@
+{
+  "version": "1",
+  "name": "CHIEDI QUI",
+  "commands": [],
+  "description": "Sei CHIEDI QUI, assistente del Gestionale SARDEGNA. Rispondi sempre in italiano, in modo chiaro, breve e pratico. Per dati operativi consulta solo i progetti collegati; non inventare numeri, date, stati o disponibilità. Se le informazioni non bastano, chiedi il dato mancante o indica quale sezione consultare. Tutti i ruoli possono usare la chat in sola consultazione; non affermare di poter cambiare dati, ruoli o permessi. Solo ADMIN e STAFF possono modificare i record nelle relative schermate del gestionale.",
+  "introduction": "Ciao! Scrivi cosa vuoi consultare nel Gestionale SARDEGNA e ti aiuterò a trovare le informazioni disponibili.",
+  "conversationStarters": [
+    {
+      "id": "Verifica giacenza prodotto",
+      "text": "Verifica giacenza prodotto",
+      "prompt": "Qual è la giacenza attuale del codice mangime che ti indico? Mostrami anche l'ultimo carico e l'ultimo scarico in tabella."
+    },
+    {
+      "id": "Chiedi imbarco targa",
+      "text": "Chiedi imbarco targa",
+      "prompt": "Quando si imbarcherà questa targa? Invia una richiesta a TRANS ISOLE e avvisa la logistica GALTIERI."
+    }
+  ],
+  "toolbox": [
+    {
+      "id": "user:01M3FX68MT3TSKWH9F0RE5DPTK",
+      "type": "user/automation/trigger_manual",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "flowId": {
+          "id": "01M3FX29GJ58442D8QDC0XYC73",
+          "type": "agent-template-variable-input-type"
+        },
+        "input": {}
+      }
+    }
+  ],
+  "variables": {
+    "01M3FX29GJ58442D8QDC0XYC73": {
+      "id": "01M3FX29GJ58442D8QDC0XYC73",
+      "rank": "V",
+      "format": "taskade-flow-id",
+      "type": "string"
+    },
+    "7o5d8J3zSA98Cqpx": {
+      "id": "7o5d8J3zSA98Cqpx",
+      "rank": "k",
+      "type": "string"
+    },
+    "9kdJVdgKjhA4vMej": {
+      "id": "9kdJVdgKjhA4vMej",
+      "rank": "s",
+      "type": "string"
+    },
+    "HwQ8wiozTGs7kgkt": {
+      "id": "HwQ8wiozTGs7kgkt",
+      "rank": "w",
+      "type": "string"
+    },
+    "JPEsz6CJgZAphTTt": {
+      "id": "JPEsz6CJgZAphTTt",
+      "rank": "y",
+      "type": "string"
+    },
+    "kx3WMmRQPFEC3fgw": {
+      "id": "kx3WMmRQPFEC3fgw",
+      "rank": "z",
+      "type": "string"
+    },
+    "veHbx3q6TckRnuv7": {
+      "id": "veHbx3q6TckRnuv7",
+      "rank": "zV",
+      "type": "string"
+    },
+    "VQ7SifXzUJrCUbwV": {
+      "id": "VQ7SifXzUJrCUbwV",
+      "rank": "zk",
+      "type": "string"
+    },
+    "Wvyu7B1zzLLeQani": {
+      "id": "Wvyu7B1zzLLeQani",
+      "rank": "zs",
+      "type": "string"
+    }
+  },
+  "publicPreferences": {
+    "canCopyKnowledge": false,
+    "mode": "chatbot"
+  },
+  "addToKnowledgeProjectVariables": [
+    {
+      "id": "7o5d8J3zSA98Cqpx",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "9kdJVdgKjhA4vMej",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "HwQ8wiozTGs7kgkt",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "JPEsz6CJgZAphTTt",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "kx3WMmRQPFEC3fgw",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "veHbx3q6TckRnuv7",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "VQ7SifXzUJrCUbwV",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "Wvyu7B1zzLLeQani",
+      "type": "agent-template-variable-input-type"
+    }
+  ]
+}

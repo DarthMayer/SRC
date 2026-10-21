@@ -1,0 +1,1083 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "cf4095eb-28f0-4859-8138-d9d9019f94a5",
+        "text": {
+          "ops": [
+            {
+              "insert": "Stati Siluri"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "c532d90d-5308-42b3-bef3-564d9984f122",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Targa AB 910 84 - VUOTA",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sst01": "AB 910 84",
+              "@sst02": {
+                "type": "Select",
+                "optionId": "vuota"
+              },
+              "@sst03": "AGRISTAR",
+              "@sst04": "",
+              "@sst05": "",
+              "@sst06": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c7acb3b8-2e83-4a96-9171-185fdd82d83d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Targa XA 433 BR - VUOTA",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sst01": "XA 433 BR",
+              "@sst02": {
+                "type": "Select",
+                "optionId": "vuota"
+              },
+              "@sst03": "AGRISTAR",
+              "@sst04": "",
+              "@sst05": "",
+              "@sst06": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "7bb4e06b-52eb-46a7-a431-268b0116b561",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Targa AH 165 28 - VUOTA",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sst01": "AH 165 28",
+              "@sst02": {
+                "type": "Select",
+                "optionId": "vuota"
+              },
+              "@sst03": "AGRISTAR",
+              "@sst04": "",
+              "@sst05": "",
+              "@sst06": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "18028a41-035b-4376-8d4c-7fc857f92ed0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Targa AC 168 63 - VUOTA",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sst01": "AC 168 63",
+              "@sst02": {
+                "type": "Select",
+                "optionId": "vuota"
+              },
+              "@sst03": "AGRISTAR",
+              "@sst04": "",
+              "@sst05": "",
+              "@sst06": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b78e3d9b-4a6d-4c0c-b221-48637cb324f8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Targa AF 716 90 - VUOTA",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sst01": "AF 716 90",
+              "@sst02": {
+                "type": "Select",
+                "optionId": "vuota"
+              },
+              "@sst03": "AGRISTAR",
+              "@sst04": "",
+              "@sst05": "",
+              "@sst06": ""
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "95c6d7b1-2bb5-492a-81de-27b347958a40",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Targa XA 745 EY - VUOTA",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sst01": "XA 745 EY",
+              "@sst02": {
+                "type": "Select",
+                "optionId": "vuota"
+              },
+              "@sst03": "AGRISTAR",
+              "@sst04": "",
+              "@sst05": "",
+              "@sst06": ""
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sst01": {
+            "id": "/attributes/@sst01",
+            "fieldPath": "/attributes/@sst01",
+            "rank": "z"
+          },
+          "/attributes/@sst02": {
+            "id": "/attributes/@sst02",
+            "fieldPath": "/attributes/@sst02",
+            "rank": "zV"
+          },
+          "/attributes/@sst03": {
+            "id": "/attributes/@sst03",
+            "fieldPath": "/attributes/@sst03",
+            "rank": "zk"
+          },
+          "/attributes/@sst04": {
+            "id": "/attributes/@sst04",
+            "fieldPath": "/attributes/@sst04",
+            "rank": "zs"
+          },
+          "0737e12b-e541-4239-a22e-a174bb54ec13": {
+            "id": "0737e12b-e541-4239-a22e-a174bb54ec13",
+            "fieldPath": "/attributes/@sst05",
+            "rank": "zw"
+          },
+          "a369f57a-b8b6-445f-972f-4ab582e580cf": {
+            "id": "a369f57a-b8b6-445f-972f-4ab582e580cf",
+            "fieldPath": "/attributes/@sst06",
+            "rank": "zy"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sst01": {
+            "id": "/attributes/@sst01",
+            "fieldPath": "/attributes/@sst01",
+            "rank": "z"
+          },
+          "/attributes/@sst02": {
+            "id": "/attributes/@sst02",
+            "fieldPath": "/attributes/@sst02",
+            "rank": "zV"
+          },
+          "/attributes/@sst03": {
+            "id": "/attributes/@sst03",
+            "fieldPath": "/attributes/@sst03",
+            "rank": "zk"
+          },
+          "/attributes/@sst04": {
+            "id": "/attributes/@sst04",
+            "fieldPath": "/attributes/@sst04",
+            "rank": "zs"
+          },
+          "752940b2-22d7-4330-b560-fc0a17ba24a6": {
+            "id": "752940b2-22d7-4330-b560-fc0a17ba24a6",
+            "fieldPath": "/attributes/@sst05",
+            "rank": "zw"
+          },
+          "09a260e9-afd1-4088-8a7e-79200a9b4047": {
+            "id": "09a260e9-afd1-4088-8a7e-79200a9b4047",
+            "fieldPath": "/attributes/@sst06",
+            "rank": "zy"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sst01": {
+            "id": "/attributes/@sst01",
+            "fieldPath": "/attributes/@sst01",
+            "rank": "z"
+          },
+          "/attributes/@sst02": {
+            "id": "/attributes/@sst02",
+            "fieldPath": "/attributes/@sst02",
+            "rank": "zV"
+          },
+          "/attributes/@sst03": {
+            "id": "/attributes/@sst03",
+            "fieldPath": "/attributes/@sst03",
+            "rank": "zk"
+          },
+          "/attributes/@sst04": {
+            "id": "/attributes/@sst04",
+            "fieldPath": "/attributes/@sst04",
+            "rank": "zs"
+          },
+          "6092e5cb-c45c-44e3-8f39-e8443a252c0f": {
+            "id": "6092e5cb-c45c-44e3-8f39-e8443a252c0f",
+            "fieldPath": "/attributes/@sst05",
+            "rank": "zw"
+          },
+          "aa8a942a-9cbc-43a2-aadf-e0bde50cf4f1": {
+            "id": "aa8a942a-9cbc-43a2-aadf-e0bde50cf4f1",
+            "fieldPath": "/attributes/@sst06",
+            "rank": "zy"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sst01": {
+            "id": "/attributes/@sst01",
+            "fieldPath": "/attributes/@sst01",
+            "rank": "z"
+          },
+          "/attributes/@sst02": {
+            "id": "/attributes/@sst02",
+            "fieldPath": "/attributes/@sst02",
+            "rank": "zV"
+          },
+          "/attributes/@sst03": {
+            "id": "/attributes/@sst03",
+            "fieldPath": "/attributes/@sst03",
+            "rank": "zk"
+          },
+          "/attributes/@sst04": {
+            "id": "/attributes/@sst04",
+            "fieldPath": "/attributes/@sst04",
+            "rank": "zs"
+          },
+          "5ec56ce8-412f-4a17-a312-b9188f6f59dc": {
+            "id": "5ec56ce8-412f-4a17-a312-b9188f6f59dc",
+            "fieldPath": "/attributes/@sst05",
+            "rank": "zw"
+          },
+          "d6c63efb-ceba-49da-b622-89db7921f14e": {
+            "id": "d6c63efb-ceba-49da-b622-89db7921f14e",
+            "fieldPath": "/attributes/@sst06",
+            "rank": "zy"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@sst01": {
+            "id": "/attributes/@sst01",
+            "fieldPath": "/attributes/@sst01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@sst02": {
+            "id": "/attributes/@sst02",
+            "fieldPath": "/attributes/@sst02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@sst03": {
+            "id": "/attributes/@sst03",
+            "fieldPath": "/attributes/@sst03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@sst04": {
+            "id": "/attributes/@sst04",
+            "fieldPath": "/attributes/@sst04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "c34f31a1-5ad6-4c70-b8bc-ab4f83b8e7d4": {
+            "id": "c34f31a1-5ad6-4c70-b8bc-ab4f83b8e7d4",
+            "fieldPath": "/attributes/@sst05",
+            "rank": "zw"
+          },
+          "8d00cd5a-cb62-4a1c-b777-abb5e4f37eb9": {
+            "id": "8d00cd5a-cb62-4a1c-b777-abb5e4f37eb9",
+            "fieldPath": "/attributes/@sst06",
+            "rank": "zy"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@sst01": {
+            "id": "/attributes/@sst01",
+            "fieldPath": "/attributes/@sst01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@sst02": {
+            "id": "/attributes/@sst02",
+            "fieldPath": "/attributes/@sst02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@sst03": {
+            "id": "/attributes/@sst03",
+            "fieldPath": "/attributes/@sst03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@sst04": {
+            "id": "/attributes/@sst04",
+            "fieldPath": "/attributes/@sst04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "80aeca4a-6b64-486d-8d5d-38edb8c0f852": {
+            "id": "80aeca4a-6b64-486d-8d5d-38edb8c0f852",
+            "fieldPath": "/attributes/@sst05",
+            "rank": "zw"
+          },
+          "4871bdce-928a-41b8-bc1b-5d6cfcc7183d": {
+            "id": "4871bdce-928a-41b8-bc1b-5d6cfcc7183d",
+            "fieldPath": "/attributes/@sst06",
+            "rank": "zy"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "12f5ad66-39c8-4e38-8652-4ec75b471e39": {
+            "id": "12f5ad66-39c8-4e38-8652-4ec75b471e39",
+            "fieldPath": "/attributes/@sst05",
+            "rank": "z"
+          },
+          "f78d1624-ab3d-43a5-ab0d-1a0ef3bb7ae6": {
+            "id": "f78d1624-ab3d-43a5-ab0d-1a0ef3bb7ae6",
+            "fieldPath": "/attributes/@sst06",
+            "rank": "zV"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@sst01": {
+        "type": "string",
+        "displayName": "Targa"
+      },
+      "@sst02": {
+        "type": "Select",
+        "displayName": "Stato",
+        "options": {
+          "vuota": {
+            "id": "vuota",
+            "name": "Svuotata",
+            "color": "#cbd5e1",
+            "rank": "0"
+          },
+          "transito": {
+            "id": "transito",
+            "name": "In transito",
+            "color": "#facc15",
+            "rank": "1"
+          },
+          "porto": {
+            "id": "porto",
+            "name": "Porto Cagliari",
+            "color": "#67e8f9",
+            "rank": "2"
+          },
+          "deposito": {
+            "id": "deposito",
+            "name": "Dal cliente",
+            "color": "#fdba74",
+            "rank": "3"
+          }
+        }
+      },
+      "@sst03": {
+        "type": "string",
+        "displayName": "Cliente"
+      },
+      "@sst04": {
+        "type": "string",
+        "displayName": "Ultimo aggiornamento"
+      },
+      "@sst05": {
+        "type": "string",
+        "displayName": "ID carico siluro"
+      },
+      "@sst06": {
+        "type": "string",
+        "displayName": "Data modifica ultima posizione"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "board",
+    "avatar": {
+      "type": "emoji",
+      "value": "⭐"
+    }
+  }
+}

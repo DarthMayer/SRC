@@ -1,0 +1,19 @@
+{
+  "name": "Gestionale SARDEGNA",
+  "short_name": "SARDEGNA",
+  "description": "Gestione operativa di casse, siluri, targhe e movimenti.",
+  "lang": "it-IT",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080713",
+  "theme_color": "#00d9e8",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "https://files.taskade.com/space-files/b8c1f181-5dc9-4f9e-a1cd-2aa8d2b3f2fb/original/LOGO%20FINAL.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

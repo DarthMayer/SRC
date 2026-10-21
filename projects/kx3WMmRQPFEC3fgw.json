@@ -1,0 +1,901 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "9b9776b3-744d-4a73-a2ee-affcf95b0396",
+        "text": {
+          "ops": [
+            {
+              "insert": "BOLLE di CARICO SACCONI"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": []
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@arc01": {
+            "id": "/attributes/@arc01",
+            "fieldPath": "/attributes/@arc01",
+            "rank": "z"
+          },
+          "/attributes/@arc02": {
+            "id": "/attributes/@arc02",
+            "fieldPath": "/attributes/@arc02",
+            "rank": "zV"
+          },
+          "/attributes/@arc03": {
+            "id": "/attributes/@arc03",
+            "fieldPath": "/attributes/@arc03",
+            "rank": "zk"
+          },
+          "/attributes/@arc04": {
+            "id": "/attributes/@arc04",
+            "fieldPath": "/attributes/@arc04",
+            "rank": "zs"
+          },
+          "/attributes/@arc05": {
+            "id": "/attributes/@arc05",
+            "fieldPath": "/attributes/@arc05",
+            "rank": "zw"
+          },
+          "/attributes/@arc06": {
+            "id": "/attributes/@arc06",
+            "fieldPath": "/attributes/@arc06",
+            "rank": "zy"
+          },
+          "/attributes/@arc07": {
+            "id": "/attributes/@arc07",
+            "fieldPath": "/attributes/@arc07",
+            "rank": "zz"
+          },
+          "/attributes/@arc08": {
+            "id": "/attributes/@arc08",
+            "fieldPath": "/attributes/@arc08",
+            "rank": "zzV"
+          },
+          "/attributes/@arc09": {
+            "id": "/attributes/@arc09",
+            "fieldPath": "/attributes/@arc09",
+            "rank": "zzk"
+          },
+          "/attributes/@arc10": {
+            "id": "/attributes/@arc10",
+            "fieldPath": "/attributes/@arc10",
+            "rank": "zzs"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@arc01": {
+            "id": "/attributes/@arc01",
+            "fieldPath": "/attributes/@arc01",
+            "rank": "z"
+          },
+          "/attributes/@arc02": {
+            "id": "/attributes/@arc02",
+            "fieldPath": "/attributes/@arc02",
+            "rank": "zV"
+          },
+          "/attributes/@arc03": {
+            "id": "/attributes/@arc03",
+            "fieldPath": "/attributes/@arc03",
+            "rank": "zk"
+          },
+          "/attributes/@arc04": {
+            "id": "/attributes/@arc04",
+            "fieldPath": "/attributes/@arc04",
+            "rank": "zs"
+          },
+          "/attributes/@arc05": {
+            "id": "/attributes/@arc05",
+            "fieldPath": "/attributes/@arc05",
+            "rank": "zw"
+          },
+          "/attributes/@arc06": {
+            "id": "/attributes/@arc06",
+            "fieldPath": "/attributes/@arc06",
+            "rank": "zy"
+          },
+          "/attributes/@arc07": {
+            "id": "/attributes/@arc07",
+            "fieldPath": "/attributes/@arc07",
+            "rank": "zz"
+          },
+          "/attributes/@arc08": {
+            "id": "/attributes/@arc08",
+            "fieldPath": "/attributes/@arc08",
+            "rank": "zzV"
+          },
+          "/attributes/@arc09": {
+            "id": "/attributes/@arc09",
+            "fieldPath": "/attributes/@arc09",
+            "rank": "zzk"
+          },
+          "/attributes/@arc10": {
+            "id": "/attributes/@arc10",
+            "fieldPath": "/attributes/@arc10",
+            "rank": "zzs"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@arc01": {
+            "id": "/attributes/@arc01",
+            "fieldPath": "/attributes/@arc01",
+            "rank": "z"
+          },
+          "/attributes/@arc02": {
+            "id": "/attributes/@arc02",
+            "fieldPath": "/attributes/@arc02",
+            "rank": "zV"
+          },
+          "/attributes/@arc03": {
+            "id": "/attributes/@arc03",
+            "fieldPath": "/attributes/@arc03",
+            "rank": "zk"
+          },
+          "/attributes/@arc04": {
+            "id": "/attributes/@arc04",
+            "fieldPath": "/attributes/@arc04",
+            "rank": "zs"
+          },
+          "/attributes/@arc05": {
+            "id": "/attributes/@arc05",
+            "fieldPath": "/attributes/@arc05",
+            "rank": "zw"
+          },
+          "/attributes/@arc06": {
+            "id": "/attributes/@arc06",
+            "fieldPath": "/attributes/@arc06",
+            "rank": "zy"
+          },
+          "/attributes/@arc07": {
+            "id": "/attributes/@arc07",
+            "fieldPath": "/attributes/@arc07",
+            "rank": "zz"
+          },
+          "/attributes/@arc08": {
+            "id": "/attributes/@arc08",
+            "fieldPath": "/attributes/@arc08",
+            "rank": "zzV"
+          },
+          "/attributes/@arc09": {
+            "id": "/attributes/@arc09",
+            "fieldPath": "/attributes/@arc09",
+            "rank": "zzk"
+          },
+          "/attributes/@arc10": {
+            "id": "/attributes/@arc10",
+            "fieldPath": "/attributes/@arc10",
+            "rank": "zzs"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@arc01": {
+            "id": "/attributes/@arc01",
+            "fieldPath": "/attributes/@arc01",
+            "rank": "z"
+          },
+          "/attributes/@arc02": {
+            "id": "/attributes/@arc02",
+            "fieldPath": "/attributes/@arc02",
+            "rank": "zV"
+          },
+          "/attributes/@arc03": {
+            "id": "/attributes/@arc03",
+            "fieldPath": "/attributes/@arc03",
+            "rank": "zk"
+          },
+          "/attributes/@arc04": {
+            "id": "/attributes/@arc04",
+            "fieldPath": "/attributes/@arc04",
+            "rank": "zs"
+          },
+          "/attributes/@arc05": {
+            "id": "/attributes/@arc05",
+            "fieldPath": "/attributes/@arc05",
+            "rank": "zw"
+          },
+          "/attributes/@arc06": {
+            "id": "/attributes/@arc06",
+            "fieldPath": "/attributes/@arc06",
+            "rank": "zy"
+          },
+          "/attributes/@arc07": {
+            "id": "/attributes/@arc07",
+            "fieldPath": "/attributes/@arc07",
+            "rank": "zz"
+          },
+          "/attributes/@arc08": {
+            "id": "/attributes/@arc08",
+            "fieldPath": "/attributes/@arc08",
+            "rank": "zzV"
+          },
+          "/attributes/@arc09": {
+            "id": "/attributes/@arc09",
+            "fieldPath": "/attributes/@arc09",
+            "rank": "zzk"
+          },
+          "/attributes/@arc10": {
+            "id": "/attributes/@arc10",
+            "fieldPath": "/attributes/@arc10",
+            "rank": "zzs"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@arc01": {
+            "id": "/attributes/@arc01",
+            "fieldPath": "/attributes/@arc01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@arc02": {
+            "id": "/attributes/@arc02",
+            "fieldPath": "/attributes/@arc02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@arc03": {
+            "id": "/attributes/@arc03",
+            "fieldPath": "/attributes/@arc03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@arc04": {
+            "id": "/attributes/@arc04",
+            "fieldPath": "/attributes/@arc04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@arc05": {
+            "id": "/attributes/@arc05",
+            "fieldPath": "/attributes/@arc05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@arc06": {
+            "id": "/attributes/@arc06",
+            "fieldPath": "/attributes/@arc06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@arc07": {
+            "id": "/attributes/@arc07",
+            "fieldPath": "/attributes/@arc07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@arc08": {
+            "id": "/attributes/@arc08",
+            "fieldPath": "/attributes/@arc08",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@arc09": {
+            "id": "/attributes/@arc09",
+            "fieldPath": "/attributes/@arc09",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "/attributes/@arc10": {
+            "id": "/attributes/@arc10",
+            "fieldPath": "/attributes/@arc10",
+            "rank": "zzs",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@arc01": {
+            "id": "/attributes/@arc01",
+            "fieldPath": "/attributes/@arc01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@arc02": {
+            "id": "/attributes/@arc02",
+            "fieldPath": "/attributes/@arc02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@arc03": {
+            "id": "/attributes/@arc03",
+            "fieldPath": "/attributes/@arc03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@arc04": {
+            "id": "/attributes/@arc04",
+            "fieldPath": "/attributes/@arc04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@arc05": {
+            "id": "/attributes/@arc05",
+            "fieldPath": "/attributes/@arc05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@arc06": {
+            "id": "/attributes/@arc06",
+            "fieldPath": "/attributes/@arc06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@arc07": {
+            "id": "/attributes/@arc07",
+            "fieldPath": "/attributes/@arc07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@arc08": {
+            "id": "/attributes/@arc08",
+            "fieldPath": "/attributes/@arc08",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@arc09": {
+            "id": "/attributes/@arc09",
+            "fieldPath": "/attributes/@arc09",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "/attributes/@arc10": {
+            "id": "/attributes/@arc10",
+            "fieldPath": "/attributes/@arc10",
+            "rank": "zzs",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@arc10": {
+        "type": "DateTime",
+        "title": "Inserito il"
+      },
+      "@arc01": {
+        "type": "string",
+        "displayName": "PDF URL"
+      },
+      "@arc02": {
+        "type": "string",
+        "displayName": "Numero DDT"
+      },
+      "@arc03": {
+        "type": "DateTime",
+        "title": "Data DDT"
+      },
+      "@arc04": {
+        "type": "string",
+        "displayName": "Codice mangime"
+      },
+      "@arc05": {
+        "type": "string",
+        "displayName": "Lotto"
+      },
+      "@arc06": {
+        "type": "number",
+        "displayName": "Quantità TM",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@arc07": {
+        "type": "string",
+        "displayName": "Targa"
+      },
+      "@arc08": {
+        "type": "number",
+        "displayName": "N. Sacconi",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@arc09": {
+        "type": "string",
+        "displayName": "Cliente"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "💾"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": "2",
+  "flowTitle": "Notifiche Inventario di fine giornata",
+  "trigger": {
+    "valid": true,
+    "displayName": "Ogni giorno alle 19:00, ora di Bari",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.daily",
+      "input": {
+        "timezone": "Europe/Rome",
+        "timeOfDay": "7:00 PM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "4695cd0b-0461-4fb1-ad9e-0bb5cc97a263",
+      "valid": true,
+      "displayName": "Invia promemoria inventario",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "notify.email",
+        "input": {
+          "body": "Il file giacenze delle 19:00 è disponibile nella sezione SCARICA FILE GIACENZE PRODOTTI del gestionale GALTIERI. Il file contiene CASSE, SILURI, SACCONI e SACCHI, con i codici attivi e quelli con giacenza superiore a 0. Apri il gestionale: https://galtieri-trans-isole-9081.taskade.app/",
+          "format": "markdown",
+          "subject": "Notifiche Inventario di fine giornata",
+          "recipientEmail": "wtp.igame@gmail.com"
+        }
+      }
+    }
+  ]
+}

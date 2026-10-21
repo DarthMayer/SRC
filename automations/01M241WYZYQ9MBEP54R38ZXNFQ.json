@@ -1,0 +1,308 @@
+{
+  "version": "2",
+  "flowTitle": "Importa DDT PDF - SACCONI",
+  "trigger": {
+    "type": "FORM",
+    "displayName": "Carica DDT SACCONI",
+    "settings": {
+      "description": "",
+      "inputs": [
+        {
+          "id": "file",
+          "title": "DDT PDF",
+          "description": "Trascina qui il DDT.",
+          "type": "file"
+        }
+      ],
+      "isEndPageEnabled": false
+    }
+  },
+  "actions": [
+    {
+      "name": "b1f4f4d0-1f3d-46bb-8d89-1cb8151aa901",
+      "valid": true,
+      "displayName": "Estrai testo DDT",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "{{ trigger[\"file\"] }}"
+        }
+      }
+    },
+    {
+      "name": "b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901",
+      "valid": true,
+      "displayName": "Interpreta DDT",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "{{ b1f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"content\"] }}",
+          "output": {
+            "type": "object",
+            "required": [
+              "code",
+              "name",
+              "lot",
+              "ddt",
+              "date",
+              "quantity",
+              "plate",
+              "count",
+              "client",
+              "note"
+            ],
+            "properties": {
+              "ddt": {
+                "type": "string"
+              },
+              "lot": {
+                "type": "string"
+              },
+              "code": {
+                "type": "string"
+              },
+              "date": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              },
+              "count": {
+                "type": "number"
+              },
+              "plate": {
+                "type": "string"
+              },
+              "client": {
+                "type": "string"
+              },
+              "quantity": {
+                "type": "number"
+              }
+            }
+          },
+          "prompt": "Estrai codice, lotto, numero DDT, quantità q.li, data, targa, numero sacconi e cliente/destinazione dal testo del DDT. Restituisci i dati presenti nei campi code, lot, ddt, quantity, date, plate, count e client.",
+          "outputType": "structuredoutput"
+        }
+      }
+    },
+    {
+      "name": "b3f4f4d0-1f3d-46bb-8d89-1cb8151aa901",
+      "valid": false,
+      "displayName": "Crea riga SACCONI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@sac01": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"code\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@sac01"
+            },
+            "@sac02": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"name\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@sac02"
+            },
+            "@sac03": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"lot\"] }}"
+              },
+              "rank": "2",
+              "fieldId": "@sac03"
+            },
+            "@sac04": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"date\"] }}"
+              },
+              "rank": "3",
+              "fieldId": "@sac04"
+            },
+            "@sac05": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"ddt\"] }}"
+              },
+              "rank": "4",
+              "fieldId": "@sac05"
+            },
+            "@sac06": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"quantity\"] }}"
+              },
+              "rank": "5",
+              "fieldId": "@sac06"
+            },
+            "@sac07": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"plate\"] }}"
+              },
+              "rank": "6",
+              "fieldId": "@sac07"
+            },
+            "@sac08": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"count\"] }}"
+              },
+              "rank": "7",
+              "fieldId": "@sac08"
+            },
+            "@sac09": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"note\"] }}"
+              },
+              "rank": "8",
+              "fieldId": "@sac09"
+            },
+            "@sac10": {
+              "data": {
+                "value": "carico"
+              },
+              "rank": "9",
+              "fieldId": "@sac10"
+            },
+            "@sac11": {
+              "data": {
+                "value": "si"
+              },
+              "rank": "10",
+              "fieldId": "@sac11"
+            },
+            "@sac12": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"client\"] }}"
+              },
+              "rank": "11",
+              "fieldId": "@sac12"
+            }
+          },
+          "content": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"code\"] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "7o5d8J3zSA98Cqpx"
+          }
+        }
+      }
+    },
+    {
+      "name": "3031a511-5c0e-40ba-947c-3cfef677bfdf",
+      "valid": false,
+      "displayName": "Archivia PDF SACCONI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@arc01": {
+              "data": {
+                "value": "{{ trigger[\"file\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@arc01"
+            },
+            "@arc02": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"ddt\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@arc02"
+            },
+            "@arc03": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"date\"] }}"
+              },
+              "rank": "2",
+              "fieldId": "@arc03"
+            },
+            "@arc04": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"code\"] }}"
+              },
+              "rank": "3",
+              "fieldId": "@arc04"
+            },
+            "@arc05": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"lot\"] }}"
+              },
+              "rank": "4",
+              "fieldId": "@arc05"
+            },
+            "@arc06": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"quantity\"] }}"
+              },
+              "rank": "5",
+              "fieldId": "@arc06"
+            },
+            "@arc07": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"plate\"] }}"
+              },
+              "rank": "6",
+              "fieldId": "@arc07"
+            },
+            "@arc08": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"count\"] }}"
+              },
+              "rank": "7",
+              "fieldId": "@arc08"
+            },
+            "@arc09": {
+              "data": {
+                "value": "{{ b2f4f4d0-1f3d-46bb-8d89-1cb8151aa901[\"client\"] }}"
+              },
+              "rank": "8",
+              "fieldId": "@arc09"
+            },
+            "@arc10": {
+              "data": {
+                "value": "{{ trigger[\"triggeredAt\"] }}"
+              },
+              "rank": "9",
+              "fieldId": "@arc10"
+            }
+          },
+          "content": "{{ trigger[\"file\"] }}",
+          "position": "beforeend",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "kx3WMmRQPFEC3fgw"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "7o5d8J3zSA98Cqpx": {
+      "id": "7o5d8J3zSA98Cqpx",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    },
+    "kx3WMmRQPFEC3fgw": {
+      "id": "kx3WMmRQPFEC3fgw",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

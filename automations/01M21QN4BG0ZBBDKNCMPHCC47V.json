@@ -1,0 +1,47 @@
+{
+  "version": "2",
+  "flowTitle": "Monitor Stati Targhe Siluri",
+  "trigger": {
+    "valid": false,
+    "displayName": "Quando cambia stato targa Siluri",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "1.0.0",
+      "triggerName": "task.custom_attribute_updated",
+      "input": {
+        "fieldId": "@sst02",
+        "projectId": {
+          "type": "flow-template-variable-input-type",
+          "id": "MwZuaxmvBryXCZhq"
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "cdf0ac90-771d-416a-baaa-d738fcc02863",
+      "valid": true,
+      "displayName": "Notifica stato Siluri",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "notify.email",
+        "input": {
+          "body": "La targa {{ trigger[\"nodeText\"] }} ha ricevuto un aggiornamento di stato nel progetto Stati Siluri.",
+          "subject": "Aggiornamento stato targa Siluri",
+          "recipientEmail": "wtp.igame@gmail.com"
+        }
+      }
+    }
+  ],
+  "variables": {
+    "MwZuaxmvBryXCZhq": {
+      "id": "MwZuaxmvBryXCZhq",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

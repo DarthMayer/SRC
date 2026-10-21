@@ -1,0 +1,142 @@
+{
+  "version": "1",
+  "name": "GALTIERI Magazzino",
+  "commands": [],
+  "description": "Sei l'assistente operativo del Gestionale SARDEGNA per GALTIERI e TRANS ISOLE. Rispondi sempre in italiano, con tono concreto e sintetico. Per giacenze, carichi, scarichi, DDT, lotti, targhe, siluri, casse, sacconi, sacchi, mangimi e pedane EPAL usa soltanto i progetti collegati come fonte. Non inventare quantità, date, stati o denominazioni; se il dato non compare, dillo chiaramente. Aiuta tutti i ruoli a consultare i dati, ma non dichiarare di poter modificare record o autorizzazioni dalla chat. Le modifiche operative sono riservate ad ADMIN e STAFF attraverso le schermate del gestionale. Spiega in italiano dove trovare la sezione o il filtro utile.",
+  "introduction": "Ciao, sono l’assistente del Gestionale SARDEGNA. Posso aiutarti a consultare giacenze, DDT, lotti, targhe e programma scarichi.",
+  "conversationStarters": [
+    {
+      "id": "Controlla le giacenze",
+      "text": "Controlla le giacenze",
+      "prompt": "Qual è la situazione attuale delle giacenze per categoria?"
+    },
+    {
+      "id": "Riepiloga le EPAL",
+      "text": "Riepiloga le EPAL",
+      "prompt": "Quante EPAL risultano spedite, rientrate e ancora fuori?"
+    },
+    {
+      "id": "Vedi gli scarichi",
+      "text": "Vedi gli scarichi",
+      "prompt": "Quali scarichi sono programmati nei prossimi giorni?"
+    }
+  ],
+  "toolbox": [
+    {
+      "id": "01M21PJ1R1RAH32YJVNAFGYA8C",
+      "type": "openapi/action",
+      "config": {
+        "path": "DEFAULT",
+        "method": "GET",
+        "servers": [
+          {
+            "url": "https://www.taskade.com/api/v1"
+          }
+        ],
+        "description": "DEFAULT",
+        "operationId": "DEFAULT"
+      },
+      "enabled": true
+    },
+    {
+      "id": "user:01M21PJ1R14VW2W071GJ3YMHH2",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": "BLANK"
+      }
+    }
+  ],
+  "publicPreferences": {
+    "canCopyKnowledge": false,
+    "mode": "chatbot"
+  },
+  "variables": {
+    "7o5d8J3zSA98Cqpx": {
+      "id": "7o5d8J3zSA98Cqpx",
+      "rank": "V",
+      "type": "string"
+    },
+    "9kdJVdgKjhA4vMej": {
+      "id": "9kdJVdgKjhA4vMej",
+      "rank": "k",
+      "type": "string"
+    },
+    "HwQ8wiozTGs7kgkt": {
+      "id": "HwQ8wiozTGs7kgkt",
+      "rank": "s",
+      "type": "string"
+    },
+    "JPEsz6CJgZAphTTt": {
+      "id": "JPEsz6CJgZAphTTt",
+      "rank": "w",
+      "type": "string"
+    },
+    "MwZuaxmvBryXCZhq": {
+      "id": "MwZuaxmvBryXCZhq",
+      "rank": "y",
+      "type": "string"
+    },
+    "r51wY768EqDu1pCC": {
+      "id": "r51wY768EqDu1pCC",
+      "rank": "z",
+      "type": "string"
+    },
+    "TecL6SbRxFU2GGz7": {
+      "id": "TecL6SbRxFU2GGz7",
+      "rank": "zV",
+      "type": "string"
+    },
+    "VhVNMZNQqufwVbGV": {
+      "id": "VhVNMZNQqufwVbGV",
+      "rank": "zk",
+      "type": "string"
+    },
+    "VQ7SifXzUJrCUbwV": {
+      "id": "VQ7SifXzUJrCUbwV",
+      "rank": "zs",
+      "type": "string"
+    }
+  },
+  "addToKnowledgeProjectVariables": [
+    {
+      "id": "7o5d8J3zSA98Cqpx",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "9kdJVdgKjhA4vMej",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "HwQ8wiozTGs7kgkt",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "JPEsz6CJgZAphTTt",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "MwZuaxmvBryXCZhq",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "r51wY768EqDu1pCC",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "TecL6SbRxFU2GGz7",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "VhVNMZNQqufwVbGV",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "VQ7SifXzUJrCUbwV",
+      "type": "agent-template-variable-input-type"
+    }
+  ]
+}

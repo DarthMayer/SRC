@@ -1,0 +1,187 @@
+{
+  "version": "2",
+  "flowTitle": "Daily Inventory Health Report",
+  "trigger": {
+    "valid": true,
+    "displayName": "Daily 9 AM Check",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "BLANK",
+      "triggerName": "schedule.daily",
+      "input": {
+        "timezone": "Europe/Warsaw",
+        "timeOfDay": "9:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "a3333333-1111-4abc-9def-111111111111",
+      "valid": false,
+      "displayName": "Find All Inventory Items",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "tasks.find",
+        "input": {
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "5ZVc4Wadk2xBUB33"
+          },
+          "rowsToReturn": "all_matching_rows",
+          "noTasksFoundBehavior": "continue"
+        }
+      }
+    },
+    {
+      "name": "b3333333-2222-4abc-9def-222222222222",
+      "valid": true,
+      "displayName": "AI Analyze Stock Health",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Inventory data: {{ a3333333-1111-4abc-9def-111111111111 }}",
+          "prompt": "Analyze this inventory data. Count how many items are: OUT_OF_STOCK (quantity=0), LOW_STOCK (quantity < reorder level), IN_STOCK (healthy). Return ONLY: 'CRITICAL' if there are 3+ out of stock items, 'WARNING' if 1-2 out of stock, or 'HEALTHY' if none out of stock."
+        }
+      }
+    },
+    {
+      "name": "c3333333-3333-4abc-9def-333333333333",
+      "valid": true,
+      "displayName": "Route by Urgency",
+      "type": "BRANCH",
+      "settings": {},
+      "paths": [
+        {
+          "name": "d3333333-4444-4abc-9def-444444444444",
+          "valid": true,
+          "displayName": "Critical Alert",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_contains",
+                        "id": "8e885c6e-08a1-46fa-b0a9-d4e379a1ba02",
+                        "data": "{{ b3333333-2222-4abc-9def-222222222222[\"result\"] }}",
+                        "comparator": "CRITICAL"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "e3333333-5555-4abc-9def-555555555555",
+              "valid": false,
+              "displayName": "Create Urgent Restock Task",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "task.create",
+                "input": {
+                  "content": "🚨 CRITICAL: Multiple items out of stock! Immediate restocking required. Check Inventory Items project for details.",
+                  "position": "afterbegin"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "f3333333-6666-4abc-9def-666666666666",
+          "valid": true,
+          "displayName": "Warning Notice",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_contains",
+                        "id": "ffadb678-eb2d-4d84-87ba-55653c35750f",
+                        "data": "{{ b3333333-2222-4abc-9def-222222222222[\"result\"] }}",
+                        "comparator": "WARNING"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "g3333333-7777-4abc-9def-777777777777",
+              "valid": false,
+              "displayName": "Create Warning Task",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "task.create",
+                "input": {
+                  "content": "⚠️ WARNING: Some items running low or out of stock. Review inventory levels soon.",
+                  "position": "afterbegin"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "h3333333-8888-4abc-9def-888888888888",
+          "valid": true,
+          "displayName": "All Good",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "FALLBACK"
+            }
+          },
+          "actions": [
+            {
+              "name": "i3333333-9999-4abc-9def-999999999999",
+              "valid": false,
+              "displayName": "Create Status Update",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "task.create",
+                "input": {
+                  "content": "✅ Daily Inventory Check: All stock levels healthy.",
+                  "position": "afterbegin"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "5ZVc4Wadk2xBUB33": {
+      "id": "5ZVc4Wadk2xBUB33",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

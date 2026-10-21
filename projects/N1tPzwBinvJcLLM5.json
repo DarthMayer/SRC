@@ -1,0 +1,2116 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "41e4d9e4-acb2-4adb-b9b6-8da70593c78e",
+        "text": {
+          "ops": [
+            {
+              "insert": "Accessi GALTIERI"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "b75ed0c1-7553-4759-846b-4269e119b8f1",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Registrazione · Programma carichi"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "18:58:59",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Registrazione Programma carichi",
+              "@acc10": {
+                "type": "Select",
+                "optionId": "programma"
+              },
+              "@acc11": "Prenotazione SILURI 1435RAF · Data scarico: 2026-10-09T22:00:00.000Z · Codice: 1435RAF · Denominazione: A/10 OVA01 - 1 FASE A.F. + INTEGRAZIONE · Quantità TM: 310 · Stato scarico: programmato · Priorità urgenza: 3"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "70c557c9-005d-4f66-87f7-0dcba8abbb34",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Casse"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@acc11": "Nuovo carico · @cas03: 1943/08 · Lotto: 1943/08 · @cas04: 2026-08-25T22:00:00+00:00 · Data carico: 2026-08-25T22:00:00+00:00 · @cas05: 1105 · Numero DDT: 1105 · @cas06: 310.4 · Quantità TM: 310.4 · @cas07: XA 708 MB · Targa: XA 708 MB · @cas08: MXMU 530197-7 · CASSA: MXMU 530197-7 · @cas09: DEPOSITO · Destinazione: DEPOSITO · completed: false · @cas11: carico · Movimento: Carico · @cas01: 1400 · Codice: 1400 · @cas12: si · Disponibile: Disponibile · Riga cd45a38b-2c0a-40ca-9cc0-21672ebb5ead",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:00:25",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Casse",
+              "@acc07": "1105",
+              "@acc08": "1400",
+              "@acc09": "1943/08"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "1c195375-70ad-4f06-a752-cbc6ad2a26c4",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Casse"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@acc11": "Scarico cassa MXMU 530197-7 · @cas03: 1943/08 · Lotto: 1943/08 · @cas04: 2026-09-30T22:00:00+00:00 · Data carico: 2026-09-30T22:00:00+00:00 · @cas05: 1111 · Numero DDT: 1111 · @cas06: 100 · Quantità TM: 100 · @cas07: XA 708 MB · Targa: XA 708 MB · @cas08: MXMU 530197-7 · CASSA: MXMU 530197-7 · @cas09: foddi · Destinazione: foddi · completed: false · @cas11: scarico · Movimento: Scarico · @cas01: 1400 · Codice: 1400 · @cas12: no · Disponibile: Non disponibile · Riga 7f7595b3-f910-49e2-a3e0-a5de9919c5f7",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:00:25",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Casse",
+              "@acc07": "1111",
+              "@acc08": "1400",
+              "@acc09": "1943/08"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "acb0f618-48af-4e23-9a2e-71b8b80549c7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Casse"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@acc11": "Scarico cassa MXMU 530197-7 · @cas03: 1943/08 · Lotto: 1943/08 · @cas04: 2026-09-17T22:00:00+00:00 · Data carico: 2026-09-17T22:00:00+00:00 · @cas05: 1211 · Numero DDT: 1211 · @cas06: 95.60000000000001 · Quantità TM: 95.60000000000001 · @cas07: XA 708 MB · Targa: XA 708 MB · @cas08: MXMU 530197-7 · CASSA: MXMU 530197-7 · @cas09: VINKO · Destinazione: VINKO · completed: false · @cas10: ESCE COME 1440 · Note: ESCE COME 1440 · @cas11: scarico · Movimento: Scarico · @cas01: 1400 · Codice: 1400 · @cas12: no · Disponibile: Non disponibile · Riga f5a227db-4aeb-4a7b-ad04-6c42c656543b",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:00:26",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Casse",
+              "@acc07": "1211",
+              "@acc08": "1400",
+              "@acc09": "1943/08"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "0350f03c-433f-4a4e-8a35-c8183e15e9c0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Casse"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@acc11": "XB 615 BC - 1440 · @cas02: 1440 · Denominazione: 1440 · @cas03: 1447/09 · Lotto: 1447/09 · @cas04: 2026-09-18T00:00:00 · Data carico: 2026-09-18T00:00:00 · @cas05: 1209 · Numero DDT: 1209 · @cas06: 300.59999999999997 · Quantità TM: 300.59999999999997 · @cas07: XB 615 BC · Targa: XB 615 BC · @cas08: MXMU 530223-2 · CASSA: MXMU 530223-2 · @cas09: DEPOSITO CAGLIARI · Destinazione: DEPOSITO CAGLIARI · completed: false · @cas11: carico · Movimento: Carico · @cas01: 1440 · Codice: 1440 · @cas12: si · Disponibile: Disponibile · Riga 21b60a4c-df6e-4d8a-86d5-7c19423b912b",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:00:39",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Casse",
+              "@acc07": "1209",
+              "@acc08": "1440",
+              "@acc09": "1447/09"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a261c5f9-82cf-4998-a9aa-bf6340dea026",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Casse"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@acc11": "Scarico cassa MXMU 530223-2 · @cas02: 1440 · Denominazione: 1440 · @cas03: 1447/09 · Lotto: 1447/09 · @cas04: 2026-09-22T22:00:00+00:00 · Data carico: 2026-09-22T22:00:00+00:00 · @cas05: 1233 · Numero DDT: 1233 · @cas06: 25.6 · Quantità TM: 25.6 · @cas07: XB 615 BC · Targa: XB 615 BC · @cas08: MXMU 530223-2 · CASSA: MXMU 530223-2 · @cas09: SU FENOSU · Destinazione: SU FENOSU · completed: false · @cas11: scarico · Movimento: Scarico · @cas01: 1440 · Codice: 1440 · @cas12: no · Disponibile: Non disponibile · Riga 93f56eab-b31f-4a5d-a108-50546870e438",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:00:40",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Casse",
+              "@acc07": "1233",
+              "@acc08": "1440",
+              "@acc09": "1447/09"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2ba3f9ec-fa39-46b1-b98d-5f35b50a3c03",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Casse"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@acc11": "Scarico cassa MXMU 530223-2 · @cas02: 1440 · Denominazione: 1440 · @cas03: 1447/09 · Lotto: 1447/09 · @cas04: 2026-09-22T22:00:00+00:00 · Data carico: 2026-09-22T22:00:00+00:00 · @cas05: 1234 · Numero DDT: 1234 · @cas06: 39 · Quantità TM: 39 · @cas07: XB 615 BC · Targa: XB 615 BC · @cas08: MXMU 530223-2 · CASSA: MXMU 530223-2 · @cas09: VINKO · Destinazione: VINKO · completed: false · @cas11: scarico · Movimento: Scarico · @cas01: 1440 · Codice: 1440 · @cas12: no · Disponibile: Non disponibile · Riga 82d37081-d357-45e9-9313-6d85b920c899",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:00:40",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Casse",
+              "@acc07": "1234",
+              "@acc08": "1440",
+              "@acc09": "1447/09"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "55ba6603-1cb8-4451-8d5b-4d5cacc846a8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Casse"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@acc11": "Scarico cassa MXMU 530223-2 · @cas02: 1440 · Denominazione: 1440 · @cas03: 1447/09 · Lotto: 1447/09 · @cas04: 2026-09-22T22:00:00+00:00 · Data carico: 2026-09-22T22:00:00+00:00 · @cas05: 1235 · Numero DDT: 1235 · @cas06: 134.4 · Quantità TM: 134.4 · @cas07: XB 615 BC · Targa: XB 615 BC · @cas08: MXMU 530223-2 · CASSA: MXMU 530223-2 · @cas09: PASSERINI · Destinazione: PASSERINI · completed: false · @cas11: scarico · Movimento: Scarico · @cas01: 1440 · Codice: 1440 · @cas12: no · Disponibile: Non disponibile · Riga 78ccf5ec-996f-47aa-b9e0-62544407ec1a",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:00:41",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Casse",
+              "@acc07": "1235",
+              "@acc08": "1440",
+              "@acc09": "1447/09"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "53323928-c9cc-42b8-904d-bd214ba1bfec",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Casse"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@acc11": "XA 622 AK - 1440 · @cas02: 1440 · Denominazione: 1440 · @cas03: 1116/09 · Lotto: 1116/09 · @cas04: 2026-09-14T00:00:00 · Data carico: 2026-09-14T00:00:00 · @cas05: 1199 · Numero DDT: 1199 · @cas06: 307.8 · Quantità TM: 307.8 · @cas07: XA 622 AK · Targa: XA 622 AK · @cas08: MXMU 530314-1 · CASSA: MXMU 530314-1 · @cas09: DEPOSITO CAGLIARI · Destinazione: DEPOSITO CAGLIARI · completed: false · @cas11: carico · Movimento: Carico · @cas01: 1440 · Codice: 1440 · @cas12: si · Disponibile: Disponibile · Riga 20932d07-af9d-441a-b72f-25731addf978",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:00:52",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Casse",
+              "@acc07": "1199",
+              "@acc08": "1440",
+              "@acc09": "1116/09"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "474f94be-b5b6-41b3-bad5-b9a49ce1d36c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Siluri"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "siluri"
+              },
+              "@acc11": "Nuovo carico · @sil01: 1435RAF · Codice: 1435RAF · @sil03: 1783/09 · Lotto: 1783/09 · @sil04: 2026-09-21T22:00:00+00:00 · Data carico: 2026-09-21T22:00:00+00:00 · @sil05: 12858 · Numero DDT: 12858 · @sil06: 299.20000000000005 · Quantità TM: 299.20000000000005 · @sil07: AA 803 24 · Targa: AA 803 24 · @sil08: agristar · Cliente: AGRISTAR · completed: false · @sil10: carico · Movimento: Carico · @sil11: si · Disponibile: Disponibile · Riga 442d6acb-53e7-4fb7-b9a6-6a7269703ccf",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:01:59",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Siluri",
+              "@acc07": "12858",
+              "@acc08": "1435RAF",
+              "@acc09": "1783/09"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f1a2e7e2-efab-4843-8dd8-43983bf5378a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Gestionale"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:01:59",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Gestionale",
+              "@acc10": {
+                "type": "Select",
+                "optionId": "altro"
+              },
+              "@acc11": "Targa AA 803 24 - AGRISTAR · @sst03: AGRISTAR · Cliente: AGRISTAR · @sst04: 2026-09-28T22:00:00.000Z · Ultimo aggiornamento: 2026-09-28T22:00:00.000Z · @sst05: 442d6acb-53e7-4fb7-b9a6-6a7269703ccf · ID carico siluro: 442d6acb-53e7-4fb7-b9a6-6a7269703ccf · @sst06: 2026-09-30T00:05:48.325Z · Data modifica ultima posizione: 2026-09-30T00:05:48.325Z · completed: false · @sst01: AA 803 24 · Targa: AA 803 24 · @sst02: deposito · Stato: Dal cliente · Riga 2bfc93a0-032d-43c8-a543-409182ad87da"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "9cbdb215-b150-4566-8c1d-c1e09db3b36a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Siluri"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "siluri"
+              },
+              "@acc11": "Nuovo carico · @sil01: 1436RCI1 · Codice: 1436RCI1 · @sil03: 1529/09 · Lotto: 1529/09 · @sil04: 2026-09-17T22:00:00+00:00 · Data carico: 2026-09-17T22:00:00+00:00 · @sil05: 12717 · Numero DDT: 12717 · @sil06: 307.4 · Quantità TM: 307.4 · @sil07: AB 101 33 · Targa: AB 101 33 · @sil08: agristar · Cliente: AGRISTAR · completed: false · @sil10: carico · Movimento: Carico · @sil11: si · Disponibile: Disponibile · Riga d55cdd3a-90b9-41a3-9421-954a18df58b7",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:02:11",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Siluri",
+              "@acc07": "12717",
+              "@acc08": "1436RCI1",
+              "@acc09": "1529/09"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "5772dd9d-1495-4825-ad8b-78539aede80b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Gestionale"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:02:12",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Gestionale",
+              "@acc10": {
+                "type": "Select",
+                "optionId": "altro"
+              },
+              "@acc11": "Targa AB 101 33 - AGRISTAR · @sst03: AGRISTAR · Cliente: AGRISTAR · @sst04: 2026-09-23T22:00:00.000Z · Ultimo aggiornamento: 2026-09-23T22:00:00.000Z · @sst05: d55cdd3a-90b9-41a3-9421-954a18df58b7 · ID carico siluro: d55cdd3a-90b9-41a3-9421-954a18df58b7 · @sst06: 2026-09-30T00:07:11.943Z · Data modifica ultima posizione: 2026-09-30T00:07:11.943Z · completed: false · @sst01: AB 101 33 · Targa: AB 101 33 · @sst02: deposito · Stato: Dal cliente · Riga 8f1c6d4c-18f8-4d2e-9b97-a3e2ee443fbc"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "da8e3862-42b7-4476-a937-bb2e01e53ce8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Siluri"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "siluri"
+              },
+              "@acc11": "Nuovo carico · @sil01: 1455R · Codice: 1455R · @sil03: 869/09 · Lotto: 869/09 · @sil04: 2026-09-10T22:00:00+00:00 · Data carico: 2026-09-10T22:00:00+00:00 · @sil05: 12334 · Numero DDT: 12334 · @sil06: 300.2 · Quantità TM: 300.2 · @sil07: AC 169 65 · Targa: AC 169 65 · @sil08: agristar · Cliente: AGRISTAR · completed: false · @sil10: carico · Movimento: Carico · @sil11: si · Disponibile: Disponibile · Riga c28bb723-937a-4099-96f8-5f568418d55b",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:02:24",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Siluri",
+              "@acc07": "12334",
+              "@acc08": "1455R",
+              "@acc09": "869/09"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "325aa783-e2f5-4a50-bed3-06c8b4accb3f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Gestionale"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:02:24",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Gestionale",
+              "@acc10": {
+                "type": "Select",
+                "optionId": "altro"
+              },
+              "@acc11": "Targa AC 169 65 - AGRISTAR · @sst03: AGRISTAR · Cliente: AGRISTAR · @sst04: 2026-09-29T22:00:00.000Z · Ultimo aggiornamento: 2026-09-29T22:00:00.000Z · @sst05: c28bb723-937a-4099-96f8-5f568418d55b · ID carico siluro: c28bb723-937a-4099-96f8-5f568418d55b · @sst06: 2026-09-30T00:08:39.203Z · Data modifica ultima posizione: 2026-09-30T00:08:39.203Z · completed: false · @sst01: AC 169 65 · Targa: AC 169 65 · @sst02: porto · Stato: Porto Cagliari · Riga 4f963f62-3f45-4b9b-9963-1688fa4fadae"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f0c9ae88-5a1f-486e-b221-8d5e87a997d1",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Siluri"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "siluri"
+              },
+              "@acc11": "Nuovo carico · @sil01: 1440R · Codice: 1440R · @sil03: 350/09 · Lotto: 350/09 · @sil04: 2026-09-04T22:00:00+00:00 · Data carico: 2026-09-04T22:00:00+00:00 · @sil05: 12019 · Numero DDT: 12019 · @sil06: 310.59999999999997 · Quantità TM: 310.59999999999997 · @sil07: AB 100 18 · Targa: AB 100 18 · @sil08: agristar · Cliente: AGRISTAR · completed: false · @sil10: carico · Movimento: Carico · @sil11: si · Disponibile: Disponibile · Riga aa0c5acb-1d6e-4beb-8583-a574530df455",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:02:33",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Siluri",
+              "@acc07": "12019",
+              "@acc08": "1440R",
+              "@acc09": "350/09"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "eade20a3-783f-4f41-a630-28785cb6e552",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Gestionale"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:02:33",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Gestionale",
+              "@acc10": {
+                "type": "Select",
+                "optionId": "altro"
+              },
+              "@acc11": "Targa AB 100 18 - AGRISTAR · @sst03: AGRISTAR · Cliente: AGRISTAR · @sst04: 2026-09-29T22:00:00.000Z · Ultimo aggiornamento: 2026-09-29T22:00:00.000Z · @sst05: aa0c5acb-1d6e-4beb-8583-a574530df455 · ID carico siluro: aa0c5acb-1d6e-4beb-8583-a574530df455 · @sst06: 2026-09-30T00:10:27.255Z · Data modifica ultima posizione: 2026-09-30T00:10:27.255Z · completed: false · @sst01: AB 100 18 · Targa: AB 100 18 · @sst02: porto · Stato: Porto Cagliari · Riga f7c51b30-6a63-4f1d-a8e3-64e76507df2a"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "268612dc-54f5-400a-a1f9-632844345f58",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Siluri"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc10": {
+                "type": "Select",
+                "optionId": "siluri"
+              },
+              "@acc11": "Nuovo carico · @sil01: 1440IR · Codice: 1440IR · @sil03: 1313/09 · Lotto: 1313/09 · @sil04: 2026-09-15T22:00:00+00:00 · Data carico: 2026-09-15T22:00:00+00:00 · @sil05: 12562 · Numero DDT: 12562 · @sil06: 309.6 · Quantità TM: 309.6 · @sil07: AB 101 05 · Targa: AB 101 05 · @sil08: agristar-foddi · Cliente: AGRISTAR/FODDI · completed: false · @sil10: carico · Movimento: Carico · @sil11: si · Disponibile: Disponibile · Riga 62aea9b7-99ee-451f-af18-1cfe90a68129",
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:02:43",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Siluri",
+              "@acc07": "12562",
+              "@acc08": "1440IR",
+              "@acc09": "1313/09"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d332936f-d423-4f32-8a73-ec17513bbb7f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Eliminazione · Gestionale"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:02:44",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Eliminazione Gestionale",
+              "@acc10": {
+                "type": "Select",
+                "optionId": "altro"
+              },
+              "@acc11": "Targa AB 101 05 - AGRISTAR/FODDI · @sst03: AGRISTAR/FODDI · Cliente: AGRISTAR/FODDI · @sst04: 2026-09-29T22:00:00.000Z · Ultimo aggiornamento: 2026-09-29T22:00:00.000Z · @sst05: 62aea9b7-99ee-451f-af18-1cfe90a68129 · ID carico siluro: 62aea9b7-99ee-451f-af18-1cfe90a68129 · @sst06: 2026-09-30T00:09:34.877Z · Data modifica ultima posizione: 2026-09-30T00:09:34.877Z · completed: false · @sst01: AB 101 05 · Targa: AB 101 05 · @sst02: porto · Stato: Porto Cagliari · Riga 196d70e9-d2fd-4a31-a6a2-f7a43e250e43"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "1514716b-19f7-4760-9fc8-13cc877dd34a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Registrazione · Programma carichi"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:03:11",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Registrazione Programma carichi",
+              "@acc10": {
+                "type": "Select",
+                "optionId": "programma"
+              },
+              "@acc11": "Prenotazione CASSE 1400 · Data scarico: 2026-10-10T22:00:00.000Z · Codice: 1400 · Denominazione: A10 Starter Ovaiola · Quantità TM: 310 · Stato scarico: programmato · Priorità urgenza: 5"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8699cc39-e87f-4d8c-b59a-e9decadf80f5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Modifica · Programma carichi"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:04:55",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Modifica Programma carichi",
+              "@acc10": {
+                "type": "Select",
+                "optionId": "programma"
+              },
+              "@acc11": "Data scarico: 2026-09-30T22:00:00.000Z"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ded1d0b9-b3f6-4ec0-a55e-342f579956bd",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dario Di Maro · Modifica · Programma carichi"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@acc01": "wtp.igame@gmail.com",
+              "@acc02": "Dario Di Maro",
+              "@acc03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "19:05:04",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@acc04": {
+                "type": "Select",
+                "optionId": "accesso"
+              },
+              "@acc05": "Gestionale SARDEGNA",
+              "@acc06": "Modifica Programma carichi",
+              "@acc10": {
+                "type": "Select",
+                "optionId": "programma"
+              },
+              "@acc11": "Data scarico: 2026-08-31T22:00:00.000Z"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@acc01": {
+            "id": "/attributes/@acc01",
+            "fieldPath": "/attributes/@acc01",
+            "rank": "z"
+          },
+          "/attributes/@acc02": {
+            "id": "/attributes/@acc02",
+            "fieldPath": "/attributes/@acc02",
+            "rank": "zV"
+          },
+          "/attributes/@acc03": {
+            "id": "/attributes/@acc03",
+            "fieldPath": "/attributes/@acc03",
+            "rank": "zk"
+          },
+          "/attributes/@acc04": {
+            "id": "/attributes/@acc04",
+            "fieldPath": "/attributes/@acc04",
+            "rank": "zs"
+          },
+          "/attributes/@acc05": {
+            "id": "/attributes/@acc05",
+            "fieldPath": "/attributes/@acc05",
+            "rank": "zw"
+          },
+          "453776e5-6ebe-47d5-b38a-f653604aa2d8": {
+            "id": "453776e5-6ebe-47d5-b38a-f653604aa2d8",
+            "fieldPath": "/attributes/@acc06",
+            "rank": "zy"
+          },
+          "aa91c202-bdd2-4a5b-93be-ee17ecfcf682": {
+            "id": "aa91c202-bdd2-4a5b-93be-ee17ecfcf682",
+            "fieldPath": "/attributes/@acc07",
+            "rank": "zz"
+          },
+          "a870e6fe-ea25-4d26-9a3c-834bd479ba6f": {
+            "id": "a870e6fe-ea25-4d26-9a3c-834bd479ba6f",
+            "fieldPath": "/attributes/@acc08",
+            "rank": "zzV"
+          },
+          "25ad6d61-3242-4384-9e2f-501fa02354bd": {
+            "id": "25ad6d61-3242-4384-9e2f-501fa02354bd",
+            "fieldPath": "/attributes/@acc09",
+            "rank": "zzk"
+          },
+          "47d509e1-cc9b-4807-b69c-a55f2319a072": {
+            "id": "47d509e1-cc9b-4807-b69c-a55f2319a072",
+            "fieldPath": "/attributes/@acc10",
+            "rank": "zzs"
+          },
+          "d0589cc8-2ba2-4f73-8929-df9ed4edb748": {
+            "id": "d0589cc8-2ba2-4f73-8929-df9ed4edb748",
+            "fieldPath": "/attributes/@acc11",
+            "rank": "zzw"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@acc01": {
+            "id": "/attributes/@acc01",
+            "fieldPath": "/attributes/@acc01",
+            "rank": "z"
+          },
+          "/attributes/@acc02": {
+            "id": "/attributes/@acc02",
+            "fieldPath": "/attributes/@acc02",
+            "rank": "zV"
+          },
+          "/attributes/@acc03": {
+            "id": "/attributes/@acc03",
+            "fieldPath": "/attributes/@acc03",
+            "rank": "zk"
+          },
+          "/attributes/@acc04": {
+            "id": "/attributes/@acc04",
+            "fieldPath": "/attributes/@acc04",
+            "rank": "zs"
+          },
+          "/attributes/@acc05": {
+            "id": "/attributes/@acc05",
+            "fieldPath": "/attributes/@acc05",
+            "rank": "zw"
+          },
+          "b32361da-7dcf-46dd-aba5-ee4bce4e27f7": {
+            "id": "b32361da-7dcf-46dd-aba5-ee4bce4e27f7",
+            "fieldPath": "/attributes/@acc06",
+            "rank": "zy"
+          },
+          "cc081bba-d43d-48e1-b8b0-fddaa1051f3a": {
+            "id": "cc081bba-d43d-48e1-b8b0-fddaa1051f3a",
+            "fieldPath": "/attributes/@acc07",
+            "rank": "zz"
+          },
+          "e479c3d5-5a71-429e-b3cf-50f1a5d50847": {
+            "id": "e479c3d5-5a71-429e-b3cf-50f1a5d50847",
+            "fieldPath": "/attributes/@acc08",
+            "rank": "zzV"
+          },
+          "fa673435-d721-44e7-bce7-6b1d4ad71a56": {
+            "id": "fa673435-d721-44e7-bce7-6b1d4ad71a56",
+            "fieldPath": "/attributes/@acc09",
+            "rank": "zzk"
+          },
+          "c35d157f-256f-4041-a469-536fcb36442b": {
+            "id": "c35d157f-256f-4041-a469-536fcb36442b",
+            "fieldPath": "/attributes/@acc10",
+            "rank": "zzs"
+          },
+          "0292d24e-3c0a-4222-ad69-f4920325ba05": {
+            "id": "0292d24e-3c0a-4222-ad69-f4920325ba05",
+            "fieldPath": "/attributes/@acc11",
+            "rank": "zzw"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@acc01": {
+            "id": "/attributes/@acc01",
+            "fieldPath": "/attributes/@acc01",
+            "rank": "z"
+          },
+          "/attributes/@acc02": {
+            "id": "/attributes/@acc02",
+            "fieldPath": "/attributes/@acc02",
+            "rank": "zV"
+          },
+          "/attributes/@acc03": {
+            "id": "/attributes/@acc03",
+            "fieldPath": "/attributes/@acc03",
+            "rank": "zk"
+          },
+          "/attributes/@acc04": {
+            "id": "/attributes/@acc04",
+            "fieldPath": "/attributes/@acc04",
+            "rank": "zs"
+          },
+          "/attributes/@acc05": {
+            "id": "/attributes/@acc05",
+            "fieldPath": "/attributes/@acc05",
+            "rank": "zw"
+          },
+          "0531b744-5b21-40f2-8e4e-ece11d69f9f6": {
+            "id": "0531b744-5b21-40f2-8e4e-ece11d69f9f6",
+            "fieldPath": "/attributes/@acc06",
+            "rank": "zy"
+          },
+          "d2630f4e-3c95-4063-99aa-f2986ff6ca48": {
+            "id": "d2630f4e-3c95-4063-99aa-f2986ff6ca48",
+            "fieldPath": "/attributes/@acc07",
+            "rank": "zz"
+          },
+          "a61b7cb5-4e49-4329-9d7d-6eef504be1dc": {
+            "id": "a61b7cb5-4e49-4329-9d7d-6eef504be1dc",
+            "fieldPath": "/attributes/@acc08",
+            "rank": "zzV"
+          },
+          "d09b2715-738d-406f-91e3-ae5158904049": {
+            "id": "d09b2715-738d-406f-91e3-ae5158904049",
+            "fieldPath": "/attributes/@acc09",
+            "rank": "zzk"
+          },
+          "4ab42bde-325b-4915-a511-d128dd346288": {
+            "id": "4ab42bde-325b-4915-a511-d128dd346288",
+            "fieldPath": "/attributes/@acc10",
+            "rank": "zzs"
+          },
+          "b0fd52e9-c566-43ae-90d3-7f2be3181e96": {
+            "id": "b0fd52e9-c566-43ae-90d3-7f2be3181e96",
+            "fieldPath": "/attributes/@acc11",
+            "rank": "zzw"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@acc01": {
+            "id": "/attributes/@acc01",
+            "fieldPath": "/attributes/@acc01",
+            "rank": "z"
+          },
+          "/attributes/@acc02": {
+            "id": "/attributes/@acc02",
+            "fieldPath": "/attributes/@acc02",
+            "rank": "zV"
+          },
+          "/attributes/@acc03": {
+            "id": "/attributes/@acc03",
+            "fieldPath": "/attributes/@acc03",
+            "rank": "zk"
+          },
+          "/attributes/@acc04": {
+            "id": "/attributes/@acc04",
+            "fieldPath": "/attributes/@acc04",
+            "rank": "zs"
+          },
+          "/attributes/@acc05": {
+            "id": "/attributes/@acc05",
+            "fieldPath": "/attributes/@acc05",
+            "rank": "zw"
+          },
+          "8274935b-d6e6-453e-bc58-480b01fba446": {
+            "id": "8274935b-d6e6-453e-bc58-480b01fba446",
+            "fieldPath": "/attributes/@acc06",
+            "rank": "zy"
+          },
+          "96bf04bd-c646-422e-932e-85132c357612": {
+            "id": "96bf04bd-c646-422e-932e-85132c357612",
+            "fieldPath": "/attributes/@acc07",
+            "rank": "zz"
+          },
+          "d1d08062-e0f7-454e-a44a-de720ff8b615": {
+            "id": "d1d08062-e0f7-454e-a44a-de720ff8b615",
+            "fieldPath": "/attributes/@acc08",
+            "rank": "zzV"
+          },
+          "4b6f5bd9-bbb0-4ff7-8f12-425cfdcc1e1a": {
+            "id": "4b6f5bd9-bbb0-4ff7-8f12-425cfdcc1e1a",
+            "fieldPath": "/attributes/@acc09",
+            "rank": "zzk"
+          },
+          "b151807e-d25a-45d5-98c9-509635f1c22d": {
+            "id": "b151807e-d25a-45d5-98c9-509635f1c22d",
+            "fieldPath": "/attributes/@acc10",
+            "rank": "zzs"
+          },
+          "b9ef997d-3630-400b-8a55-7eb27f06945d": {
+            "id": "b9ef997d-3630-400b-8a55-7eb27f06945d",
+            "fieldPath": "/attributes/@acc11",
+            "rank": "zzw"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@acc01": {
+            "id": "/attributes/@acc01",
+            "fieldPath": "/attributes/@acc01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@acc02": {
+            "id": "/attributes/@acc02",
+            "fieldPath": "/attributes/@acc02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@acc03": {
+            "id": "/attributes/@acc03",
+            "fieldPath": "/attributes/@acc03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@acc04": {
+            "id": "/attributes/@acc04",
+            "fieldPath": "/attributes/@acc04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@acc05": {
+            "id": "/attributes/@acc05",
+            "fieldPath": "/attributes/@acc05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "31dbacca-ba43-4279-bcdc-ba6355710e47": {
+            "id": "31dbacca-ba43-4279-bcdc-ba6355710e47",
+            "fieldPath": "/attributes/@acc06",
+            "rank": "zy"
+          },
+          "e1dfd1eb-0ca7-40c5-af4f-d4e8ea39380f": {
+            "id": "e1dfd1eb-0ca7-40c5-af4f-d4e8ea39380f",
+            "fieldPath": "/attributes/@acc07",
+            "rank": "zz"
+          },
+          "b5d86f87-e483-4648-aeb3-29cdc52faf53": {
+            "id": "b5d86f87-e483-4648-aeb3-29cdc52faf53",
+            "fieldPath": "/attributes/@acc08",
+            "rank": "zzV"
+          },
+          "5b48262f-1794-4360-93b1-234f40055f79": {
+            "id": "5b48262f-1794-4360-93b1-234f40055f79",
+            "fieldPath": "/attributes/@acc09",
+            "rank": "zzk"
+          },
+          "65976ec4-c242-4ae5-b4c9-b965d2e98ac0": {
+            "id": "65976ec4-c242-4ae5-b4c9-b965d2e98ac0",
+            "fieldPath": "/attributes/@acc10",
+            "rank": "zzs"
+          },
+          "eceb29b2-aeab-4f51-b2ac-2117526ad17f": {
+            "id": "eceb29b2-aeab-4f51-b2ac-2117526ad17f",
+            "fieldPath": "/attributes/@acc11",
+            "rank": "zzw"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@acc01": {
+            "id": "/attributes/@acc01",
+            "fieldPath": "/attributes/@acc01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@acc02": {
+            "id": "/attributes/@acc02",
+            "fieldPath": "/attributes/@acc02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@acc03": {
+            "id": "/attributes/@acc03",
+            "fieldPath": "/attributes/@acc03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@acc04": {
+            "id": "/attributes/@acc04",
+            "fieldPath": "/attributes/@acc04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@acc05": {
+            "id": "/attributes/@acc05",
+            "fieldPath": "/attributes/@acc05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "ff548cf6-8a86-4a17-b6b5-afe025cc579b": {
+            "id": "ff548cf6-8a86-4a17-b6b5-afe025cc579b",
+            "fieldPath": "/attributes/@acc06",
+            "rank": "zy"
+          },
+          "85aa6fb8-138b-4fc3-a0de-4e9d72bd4653": {
+            "id": "85aa6fb8-138b-4fc3-a0de-4e9d72bd4653",
+            "fieldPath": "/attributes/@acc07",
+            "rank": "zz"
+          },
+          "1f903d5f-0144-4237-9a2f-c23bb27a0f1d": {
+            "id": "1f903d5f-0144-4237-9a2f-c23bb27a0f1d",
+            "fieldPath": "/attributes/@acc08",
+            "rank": "zzV"
+          },
+          "f2c9bad5-6441-43dd-9d07-82403d62bb20": {
+            "id": "f2c9bad5-6441-43dd-9d07-82403d62bb20",
+            "fieldPath": "/attributes/@acc09",
+            "rank": "zzk"
+          },
+          "c0a24e8c-d4c6-45bb-aec0-e4aebaa72187": {
+            "id": "c0a24e8c-d4c6-45bb-aec0-e4aebaa72187",
+            "fieldPath": "/attributes/@acc10",
+            "rank": "zzs"
+          },
+          "f08859d4-63fc-496d-ab56-9b1119c2bb09": {
+            "id": "f08859d4-63fc-496d-ab56-9b1119c2bb09",
+            "fieldPath": "/attributes/@acc11",
+            "rank": "zzw"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "ddfdd124-ac03-45b6-86e3-b8a69ec882e7": {
+            "id": "ddfdd124-ac03-45b6-86e3-b8a69ec882e7",
+            "fieldPath": "/attributes/@acc06",
+            "rank": "z"
+          },
+          "d20eb5e9-e5f0-4a77-9500-d75918c1c139": {
+            "id": "d20eb5e9-e5f0-4a77-9500-d75918c1c139",
+            "fieldPath": "/attributes/@acc07",
+            "rank": "zV"
+          },
+          "0811e494-410b-48ef-8c07-548229b10e78": {
+            "id": "0811e494-410b-48ef-8c07-548229b10e78",
+            "fieldPath": "/attributes/@acc08",
+            "rank": "zk"
+          },
+          "aa3d60a6-f352-4971-97d7-b2a120dd1209": {
+            "id": "aa3d60a6-f352-4971-97d7-b2a120dd1209",
+            "fieldPath": "/attributes/@acc09",
+            "rank": "zs"
+          },
+          "d8f8edc2-2a62-40d5-97e7-4ddc18772c1b": {
+            "id": "d8f8edc2-2a62-40d5-97e7-4ddc18772c1b",
+            "fieldPath": "/attributes/@acc10",
+            "rank": "zw"
+          },
+          "e15467ca-62e0-4d9c-bb8d-1d3aed81f86e": {
+            "id": "e15467ca-62e0-4d9c-bb8d-1d3aed81f86e",
+            "fieldPath": "/attributes/@acc11",
+            "rank": "zy"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@acc10": {
+        "type": "Select",
+        "displayName": "Magazzino",
+        "options": {
+          "casse": {
+            "id": "casse",
+            "name": "Casse",
+            "color": "#0EA5E9",
+            "rank": "0"
+          },
+          "siluri": {
+            "id": "siluri",
+            "name": "Siluri",
+            "color": "#14B8A6",
+            "rank": "1"
+          },
+          "sacconi": {
+            "id": "sacconi",
+            "name": "Sacconi",
+            "color": "#8B5CF6",
+            "rank": "2"
+          },
+          "sacchi": {
+            "id": "sacchi",
+            "name": "Sacchi",
+            "color": "#F59E0B",
+            "rank": "3"
+          },
+          "epal": {
+            "id": "epal",
+            "name": "EPAL",
+            "color": "#EF4444",
+            "rank": "4"
+          },
+          "programma": {
+            "id": "programma",
+            "name": "Programma carichi",
+            "color": "#64748B",
+            "rank": "5"
+          },
+          "utenti": {
+            "id": "utenti",
+            "name": "Utenti",
+            "color": "#22C55E",
+            "rank": "6"
+          },
+          "impostazioni": {
+            "id": "impostazioni",
+            "name": "Impostazioni",
+            "color": "#A855F7",
+            "rank": "7"
+          },
+          "altro": {
+            "id": "altro",
+            "name": "Altro",
+            "color": "#94A3B8",
+            "rank": "8"
+          }
+        }
+      },
+      "@acc11": {
+        "type": "string",
+        "displayName": "Dettaglio"
+      },
+      "@acc01": {
+        "type": "string",
+        "displayName": "Email"
+      },
+      "@acc02": {
+        "type": "string",
+        "displayName": "Nome"
+      },
+      "@acc03": {
+        "type": "DateTime",
+        "title": "Data e ora"
+      },
+      "@acc04": {
+        "type": "Select",
+        "displayName": "Tipo accesso",
+        "options": {
+          "accesso": {
+            "id": "accesso",
+            "name": "Accesso",
+            "color": "#5B8C85",
+            "rank": "0"
+          },
+          "iscrizione": {
+            "id": "iscrizione",
+            "name": "Iscrizione",
+            "color": "#D9A441",
+            "rank": "1"
+          },
+          "approvazione": {
+            "id": "approvazione",
+            "name": "Approvazione",
+            "color": "#6B7FD7",
+            "rank": "2"
+          }
+        }
+      },
+      "@acc05": {
+        "type": "string",
+        "displayName": "Origine"
+      },
+      "@acc06": {
+        "type": "string",
+        "displayName": "Operazione"
+      },
+      "@acc07": {
+        "type": "string",
+        "displayName": "DDT"
+      },
+      "@acc08": {
+        "type": "string",
+        "displayName": "Prodotto"
+      },
+      "@acc09": {
+        "type": "string",
+        "displayName": "Lotto"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "📞"
+    }
+  }
+}

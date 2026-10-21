@@ -1,0 +1,1439 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "ba9060a1-0132-4f70-a8f6-448cd2a27e00",
+        "text": {
+          "ops": [
+            {
+              "insert": "Giacenza Casse"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "196d62de-a622-4e84-89da-e6ea8026b88f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "XA 027 LJ - Rimorchio vuoto",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cas07": "XA 027 LJ",
+              "@cas09": "Vuota",
+              "@cas11": {
+                "type": "Select",
+                "optionId": "carico"
+              },
+              "@cas12": {
+                "type": "Select",
+                "optionId": "no"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8e5aa51d-9a05-4979-a5f2-a3b91b27fc08",
+            "text": {
+              "ops": [
+                {
+                  "insert": "XA 030 LJ - Rimorchio vuoto",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cas07": "XA 030 LJ",
+              "@cas09": "Vuota",
+              "@cas11": {
+                "type": "Select",
+                "optionId": "carico"
+              },
+              "@cas12": {
+                "type": "Select",
+                "optionId": "no"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "02af5e52-f4c4-4ac9-b39b-ee017a7cc612",
+            "text": {
+              "ops": [
+                {
+                  "insert": "XA 705 MB - Rimorchio vuoto",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cas07": "XA 705 MB",
+              "@cas09": "Vuota - Da lavare",
+              "@cas11": {
+                "type": "Select",
+                "optionId": "carico"
+              },
+              "@cas12": {
+                "type": "Select",
+                "optionId": "no"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "29245184-2177-4f88-8914-2c60bf4541a2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "XA 583 TA - 1440",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cas10": "",
+              "@cas11": {
+                "type": "Select",
+                "optionId": "carico"
+              },
+              "@cas01": "1440",
+              "@cas12": {
+                "type": "Select",
+                "optionId": "no"
+              },
+              "@cas02": "1440",
+              "@cas03": "2118/09",
+              "@cas04": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-09-25",
+                  "time": "00:00:00"
+                }
+              },
+              "@cas05": "1248",
+              "@cas06": 306.4,
+              "@cas07": "XA 583 TA",
+              "@cas08": "MXMU 530226-9",
+              "@cas09": "IN TRANSITO"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "63edd3f0-aeba-47ee-8a56-5ddea819a8d4",
+            "text": {
+              "ops": [
+                {
+                  "insert": "XB 614 BC - Rimorchio vuoto",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cas07": "XB 614 BC",
+              "@cas09": "Vuota",
+              "@cas11": {
+                "type": "Select",
+                "optionId": "carico"
+              },
+              "@cas12": {
+                "type": "Select",
+                "optionId": "no"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "9831fc14-082c-42d3-843e-c02c31d5e7b1",
+            "text": {
+              "ops": [
+                {
+                  "insert": "XA 767 LH - 1440R",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cas10": "",
+              "@cas11": {
+                "type": "Select",
+                "optionId": "carico"
+              },
+              "@cas01": "1440R",
+              "@cas12": {
+                "type": "Select",
+                "optionId": "si"
+              },
+              "@cas02": "1440R",
+              "@cas03": "1317/09",
+              "@cas04": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-09-16",
+                  "time": "00:00:00"
+                }
+              },
+              "@cas05": "1205",
+              "@cas06": 304.6,
+              "@cas07": "XA 767 LH",
+              "@cas08": "MXMU 530294-7",
+              "@cas09": "DEPOSITO CAGLIARI"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e5fc79bd-a4cb-4195-9ca4-c82f644b5ff5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Scarico cassa MXMU 530294-7"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cas11": {
+                "type": "Select",
+                "optionId": "scarico"
+              },
+              "@cas01": "1440R",
+              "@cas12": {
+                "type": "Select",
+                "optionId": "no"
+              },
+              "@cas02": "1440R",
+              "@cas03": "1317/09",
+              "@cas04": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-09-27",
+                  "time": "22:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@cas05": "1256",
+              "@cas06": 7,
+              "@cas07": "XA 767 LH",
+              "@cas08": "MXMU 530294-7",
+              "@cas09": "LA GADONESE"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "264e2a2b-f6db-447f-8b71-2ff995b151e6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Scarico cassa MXMU 530294-7"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cas10": "ESCE COME 1450 lotto 2084/09",
+              "@cas11": {
+                "type": "Select",
+                "optionId": "scarico"
+              },
+              "@cas01": "1440R",
+              "@cas12": {
+                "type": "Select",
+                "optionId": "no"
+              },
+              "@cas02": "1440R",
+              "@cas03": "1317/09",
+              "@cas04": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-09-27",
+                  "time": "22:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@cas05": "1257",
+              "@cas06": 65.4,
+              "@cas07": "XA 767 LH",
+              "@cas08": "MXMU 530294-7",
+              "@cas09": "SERUSI"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cas01": {
+            "id": "/attributes/@cas01",
+            "fieldPath": "/attributes/@cas01",
+            "rank": "z"
+          },
+          "/attributes/@cas02": {
+            "id": "/attributes/@cas02",
+            "fieldPath": "/attributes/@cas02",
+            "rank": "zV"
+          },
+          "/attributes/@cas03": {
+            "id": "/attributes/@cas03",
+            "fieldPath": "/attributes/@cas03",
+            "rank": "zk"
+          },
+          "/attributes/@cas04": {
+            "id": "/attributes/@cas04",
+            "fieldPath": "/attributes/@cas04",
+            "rank": "zs"
+          },
+          "/attributes/@cas05": {
+            "id": "/attributes/@cas05",
+            "fieldPath": "/attributes/@cas05",
+            "rank": "zw"
+          },
+          "/attributes/@cas06": {
+            "id": "/attributes/@cas06",
+            "fieldPath": "/attributes/@cas06",
+            "rank": "zy"
+          },
+          "/attributes/@cas07": {
+            "id": "/attributes/@cas07",
+            "fieldPath": "/attributes/@cas07",
+            "rank": "zz"
+          },
+          "/attributes/@cas08": {
+            "id": "/attributes/@cas08",
+            "fieldPath": "/attributes/@cas08",
+            "rank": "zzV"
+          },
+          "/attributes/@cas09": {
+            "id": "/attributes/@cas09",
+            "fieldPath": "/attributes/@cas09",
+            "rank": "zzk"
+          },
+          "0153b666-adbe-4860-a7d8-f705617e8f78": {
+            "id": "0153b666-adbe-4860-a7d8-f705617e8f78",
+            "fieldPath": "/attributes/@cas10",
+            "rank": "zzs"
+          },
+          "43ac0d62-485a-4419-b54d-e6cc3a58a74a": {
+            "id": "43ac0d62-485a-4419-b54d-e6cc3a58a74a",
+            "fieldPath": "/attributes/@cas11",
+            "rank": "zzw"
+          },
+          "b4de12da-7ce9-4a16-a5d2-c1d931f707fa": {
+            "id": "b4de12da-7ce9-4a16-a5d2-c1d931f707fa",
+            "fieldPath": "/attributes/@cas12",
+            "rank": "zzy"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cas01": {
+            "id": "/attributes/@cas01",
+            "fieldPath": "/attributes/@cas01",
+            "rank": "z"
+          },
+          "/attributes/@cas02": {
+            "id": "/attributes/@cas02",
+            "fieldPath": "/attributes/@cas02",
+            "rank": "zV"
+          },
+          "/attributes/@cas03": {
+            "id": "/attributes/@cas03",
+            "fieldPath": "/attributes/@cas03",
+            "rank": "zk"
+          },
+          "/attributes/@cas04": {
+            "id": "/attributes/@cas04",
+            "fieldPath": "/attributes/@cas04",
+            "rank": "zs"
+          },
+          "/attributes/@cas05": {
+            "id": "/attributes/@cas05",
+            "fieldPath": "/attributes/@cas05",
+            "rank": "zw"
+          },
+          "/attributes/@cas06": {
+            "id": "/attributes/@cas06",
+            "fieldPath": "/attributes/@cas06",
+            "rank": "zy"
+          },
+          "/attributes/@cas07": {
+            "id": "/attributes/@cas07",
+            "fieldPath": "/attributes/@cas07",
+            "rank": "zz"
+          },
+          "/attributes/@cas08": {
+            "id": "/attributes/@cas08",
+            "fieldPath": "/attributes/@cas08",
+            "rank": "zzV"
+          },
+          "/attributes/@cas09": {
+            "id": "/attributes/@cas09",
+            "fieldPath": "/attributes/@cas09",
+            "rank": "zzk"
+          },
+          "7b8af1a7-ee18-4843-ab35-9f2babc77ef4": {
+            "id": "7b8af1a7-ee18-4843-ab35-9f2babc77ef4",
+            "fieldPath": "/attributes/@cas10",
+            "rank": "zzs"
+          },
+          "18540b17-7010-4e9c-8ff4-5a5458e6b3b5": {
+            "id": "18540b17-7010-4e9c-8ff4-5a5458e6b3b5",
+            "fieldPath": "/attributes/@cas11",
+            "rank": "zzw"
+          },
+          "68b283ac-f741-441e-9ed4-db1b49122197": {
+            "id": "68b283ac-f741-441e-9ed4-db1b49122197",
+            "fieldPath": "/attributes/@cas12",
+            "rank": "zzy"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cas01": {
+            "id": "/attributes/@cas01",
+            "fieldPath": "/attributes/@cas01",
+            "rank": "z"
+          },
+          "/attributes/@cas02": {
+            "id": "/attributes/@cas02",
+            "fieldPath": "/attributes/@cas02",
+            "rank": "zV"
+          },
+          "/attributes/@cas03": {
+            "id": "/attributes/@cas03",
+            "fieldPath": "/attributes/@cas03",
+            "rank": "zk"
+          },
+          "/attributes/@cas04": {
+            "id": "/attributes/@cas04",
+            "fieldPath": "/attributes/@cas04",
+            "rank": "zs"
+          },
+          "/attributes/@cas05": {
+            "id": "/attributes/@cas05",
+            "fieldPath": "/attributes/@cas05",
+            "rank": "zw"
+          },
+          "/attributes/@cas06": {
+            "id": "/attributes/@cas06",
+            "fieldPath": "/attributes/@cas06",
+            "rank": "zy"
+          },
+          "/attributes/@cas07": {
+            "id": "/attributes/@cas07",
+            "fieldPath": "/attributes/@cas07",
+            "rank": "zz"
+          },
+          "/attributes/@cas08": {
+            "id": "/attributes/@cas08",
+            "fieldPath": "/attributes/@cas08",
+            "rank": "zzV"
+          },
+          "/attributes/@cas09": {
+            "id": "/attributes/@cas09",
+            "fieldPath": "/attributes/@cas09",
+            "rank": "zzk"
+          },
+          "71a83271-5208-47a0-ac70-ec0627feb5c6": {
+            "id": "71a83271-5208-47a0-ac70-ec0627feb5c6",
+            "fieldPath": "/attributes/@cas10",
+            "rank": "zzs"
+          },
+          "419b1ca0-8dc0-453e-8662-673759d0e210": {
+            "id": "419b1ca0-8dc0-453e-8662-673759d0e210",
+            "fieldPath": "/attributes/@cas11",
+            "rank": "zzw"
+          },
+          "e6a96d8f-735c-412c-a213-f1c3d9ba771c": {
+            "id": "e6a96d8f-735c-412c-a213-f1c3d9ba771c",
+            "fieldPath": "/attributes/@cas12",
+            "rank": "zzy"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cas01": {
+            "id": "/attributes/@cas01",
+            "fieldPath": "/attributes/@cas01",
+            "rank": "z"
+          },
+          "/attributes/@cas02": {
+            "id": "/attributes/@cas02",
+            "fieldPath": "/attributes/@cas02",
+            "rank": "zV"
+          },
+          "/attributes/@cas03": {
+            "id": "/attributes/@cas03",
+            "fieldPath": "/attributes/@cas03",
+            "rank": "zk"
+          },
+          "/attributes/@cas04": {
+            "id": "/attributes/@cas04",
+            "fieldPath": "/attributes/@cas04",
+            "rank": "zs"
+          },
+          "/attributes/@cas05": {
+            "id": "/attributes/@cas05",
+            "fieldPath": "/attributes/@cas05",
+            "rank": "zw"
+          },
+          "/attributes/@cas06": {
+            "id": "/attributes/@cas06",
+            "fieldPath": "/attributes/@cas06",
+            "rank": "zy"
+          },
+          "/attributes/@cas07": {
+            "id": "/attributes/@cas07",
+            "fieldPath": "/attributes/@cas07",
+            "rank": "zz"
+          },
+          "/attributes/@cas08": {
+            "id": "/attributes/@cas08",
+            "fieldPath": "/attributes/@cas08",
+            "rank": "zzV"
+          },
+          "/attributes/@cas09": {
+            "id": "/attributes/@cas09",
+            "fieldPath": "/attributes/@cas09",
+            "rank": "zzk"
+          },
+          "d6e3e697-fdca-4886-9f6e-05f0789b3bad": {
+            "id": "d6e3e697-fdca-4886-9f6e-05f0789b3bad",
+            "fieldPath": "/attributes/@cas10",
+            "rank": "zzs"
+          },
+          "79b69442-7ecd-4b72-b77a-1e9a72e65cd3": {
+            "id": "79b69442-7ecd-4b72-b77a-1e9a72e65cd3",
+            "fieldPath": "/attributes/@cas11",
+            "rank": "zzw"
+          },
+          "49cf5e5c-676b-4f9d-81b9-ca5f678bb34d": {
+            "id": "49cf5e5c-676b-4f9d-81b9-ca5f678bb34d",
+            "fieldPath": "/attributes/@cas12",
+            "rank": "zzy"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cas01": {
+            "id": "/attributes/@cas01",
+            "fieldPath": "/attributes/@cas01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cas02": {
+            "id": "/attributes/@cas02",
+            "fieldPath": "/attributes/@cas02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cas03": {
+            "id": "/attributes/@cas03",
+            "fieldPath": "/attributes/@cas03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cas04": {
+            "id": "/attributes/@cas04",
+            "fieldPath": "/attributes/@cas04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@cas05": {
+            "id": "/attributes/@cas05",
+            "fieldPath": "/attributes/@cas05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cas06": {
+            "id": "/attributes/@cas06",
+            "fieldPath": "/attributes/@cas06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@cas07": {
+            "id": "/attributes/@cas07",
+            "fieldPath": "/attributes/@cas07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@cas08": {
+            "id": "/attributes/@cas08",
+            "fieldPath": "/attributes/@cas08",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@cas09": {
+            "id": "/attributes/@cas09",
+            "fieldPath": "/attributes/@cas09",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "db770db6-0f72-4471-9119-23a24384da38": {
+            "id": "db770db6-0f72-4471-9119-23a24384da38",
+            "fieldPath": "/attributes/@cas10",
+            "rank": "zzs"
+          },
+          "9730c8a5-2fed-41fc-b372-f8a82577df42": {
+            "id": "9730c8a5-2fed-41fc-b372-f8a82577df42",
+            "fieldPath": "/attributes/@cas11",
+            "rank": "zzw"
+          },
+          "bdaa870f-fd4b-4d13-8326-b226a4000622": {
+            "id": "bdaa870f-fd4b-4d13-8326-b226a4000622",
+            "fieldPath": "/attributes/@cas12",
+            "rank": "zzy"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cas01": {
+            "id": "/attributes/@cas01",
+            "fieldPath": "/attributes/@cas01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cas02": {
+            "id": "/attributes/@cas02",
+            "fieldPath": "/attributes/@cas02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cas03": {
+            "id": "/attributes/@cas03",
+            "fieldPath": "/attributes/@cas03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cas04": {
+            "id": "/attributes/@cas04",
+            "fieldPath": "/attributes/@cas04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@cas05": {
+            "id": "/attributes/@cas05",
+            "fieldPath": "/attributes/@cas05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cas06": {
+            "id": "/attributes/@cas06",
+            "fieldPath": "/attributes/@cas06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@cas07": {
+            "id": "/attributes/@cas07",
+            "fieldPath": "/attributes/@cas07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@cas08": {
+            "id": "/attributes/@cas08",
+            "fieldPath": "/attributes/@cas08",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@cas09": {
+            "id": "/attributes/@cas09",
+            "fieldPath": "/attributes/@cas09",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "495ef2f6-ccbb-4ff9-87f1-dbab6b17b49c": {
+            "id": "495ef2f6-ccbb-4ff9-87f1-dbab6b17b49c",
+            "fieldPath": "/attributes/@cas10",
+            "rank": "zzs"
+          },
+          "f374d4ab-1eea-4405-a558-48173e2a978e": {
+            "id": "f374d4ab-1eea-4405-a558-48173e2a978e",
+            "fieldPath": "/attributes/@cas11",
+            "rank": "zzw"
+          },
+          "596b80f7-8a78-478e-97ab-8ee876acc60e": {
+            "id": "596b80f7-8a78-478e-97ab-8ee876acc60e",
+            "fieldPath": "/attributes/@cas12",
+            "rank": "zzy"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "2dbb5a2f-0e52-40e9-a497-9673bd33ce2f": {
+            "id": "2dbb5a2f-0e52-40e9-a497-9673bd33ce2f",
+            "fieldPath": "/attributes/@cas10",
+            "rank": "z"
+          },
+          "9faecc3a-d274-4120-a607-931b52068644": {
+            "id": "9faecc3a-d274-4120-a607-931b52068644",
+            "fieldPath": "/attributes/@cas11",
+            "rank": "zV"
+          },
+          "5e7db379-707e-4b64-bb43-2c5d15f43519": {
+            "id": "5e7db379-707e-4b64-bb43-2c5d15f43519",
+            "fieldPath": "/attributes/@cas12",
+            "rank": "zk"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@cas10": {
+        "type": "string",
+        "displayName": "Note"
+      },
+      "@cas11": {
+        "type": "Select",
+        "displayName": "Movimento",
+        "options": {
+          "carico": {
+            "id": "carico",
+            "name": "Carico",
+            "color": "#22c55e",
+            "rank": "0"
+          },
+          "scarico": {
+            "id": "scarico",
+            "name": "Scarico",
+            "color": "#ef4444",
+            "rank": "1"
+          }
+        }
+      },
+      "@cas01": {
+        "type": "string",
+        "displayName": "Codice"
+      },
+      "@cas12": {
+        "type": "Select",
+        "displayName": "Disponibile",
+        "options": {
+          "si": {
+            "id": "si",
+            "name": "Disponibile",
+            "color": "#22c55e",
+            "rank": "0"
+          },
+          "no": {
+            "id": "no",
+            "name": "Non disponibile",
+            "color": "#94a3b8",
+            "rank": "1"
+          }
+        }
+      },
+      "@cas02": {
+        "type": "string",
+        "displayName": "Denominazione"
+      },
+      "@cas03": {
+        "type": "string",
+        "displayName": "Lotto"
+      },
+      "@cas04": {
+        "type": "DateTime",
+        "title": "Data carico"
+      },
+      "@cas05": {
+        "type": "string",
+        "displayName": "Numero DDT"
+      },
+      "@cas06": {
+        "type": "number",
+        "displayName": "Quantità TM",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@cas07": {
+        "type": "string",
+        "displayName": "Targa"
+      },
+      "@cas08": {
+        "type": "string",
+        "displayName": "CASSA"
+      },
+      "@cas09": {
+        "type": "string",
+        "displayName": "Destinazione"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "✔️"
+    }
+  }
+}

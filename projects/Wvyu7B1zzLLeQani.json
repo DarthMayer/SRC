@@ -1,0 +1,2116 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "e88c3147-df4b-4095-ba37-09717f98eb9c",
+        "text": {
+          "ops": [
+            {
+              "insert": "Archivio Codici Mangimi"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "f6ccf0c0-2da4-4d1d-b2fb-0a1a5cbb1b62",
+            "text": {
+              "ops": [
+                {
+                  "insert": "A10 Ova 2ª Fase",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@cod01": "1450",
+              "@den01": "A10 Ova 2ª Fase"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "0b03bff2-817f-400e-8cb4-0e508c4f85a5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "A/10 OVAIOLA STARTER",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@cod01": "1400",
+              "@den01": "A/10 OVAIOLA STARTER"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d555863a-56e2-407b-b858-45a26c0b0381",
+            "text": {
+              "ops": [
+                {
+                  "insert": "A/10 OVA 1 - PRIMA FASE",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@cod01": "1440",
+              "@den01": "A/10 OVA 1 - PRIMA FASE"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "eeb66916-1269-42b2-9bd2-472fa207a06f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "A/10 OVA 1 - PRIMA FASE + INTEGRAZIONE",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@cod01": "1440R",
+              "@den01": "A/10 OVA 1 - PRIMA FASE + INTEGRAZIONE"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "7e4a7c4a-0d8d-45f5-9518-5c77f76f2066",
+            "text": {
+              "ops": [
+                {
+                  "insert": "A/10 OVA 1 - PRIMA FASE + INTEGR. (FODDI)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@cod01": "1440RI7",
+              "@den01": "A/10 OVA 1 - PRIMA FASE + INTEGR. (FODDI)"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2b060e75-5e6c-494d-83f1-3d1310fe86b2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "A/10 OVA01 - 1 FASE A.F. + INTEGRAZIONE",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "siluri"
+              },
+              "@cod01": "1435RAF",
+              "@den01": "A/10 OVA01 - 1 FASE A.F. + INTEGRAZIONE"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "bc4497b0-a5ba-4e6c-bf09-a2141a3dab33",
+            "text": {
+              "ops": [
+                {
+                  "insert": "A/10 OVA02 - 2 FASE + INTEGRAZIONE",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "siluri"
+              },
+              "@cod01": "1436RCI1",
+              "@den01": "A/10 OVA02 - 2 FASE + INTEGRAZIONE"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "420405b1-09a1-41a5-b650-40472a0cc582",
+            "text": {
+              "ops": [
+                {
+                  "insert": "A/10 OVA01 GIALLO PLUS",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "siluri"
+              },
+              "@cod01": "1455R",
+              "@den01": "A/10 OVA01 GIALLO PLUS"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "6b157ad7-aebc-45b0-90df-07c614ee3106",
+            "text": {
+              "ops": [
+                {
+                  "insert": "A/10 OVA 1 - 1 FASE + INTEGRAZIONE",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "siluri"
+              },
+              "@cod01": "1440R",
+              "@den01": "A/10 OVA 1 - 1 FASE + INTEGRAZIONE"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d605900b-e694-4df8-a903-f51694082c90",
+            "text": {
+              "ops": [
+                {
+                  "insert": "A/10 OVA01 - 1 FASE + INTEGR. (FODDI)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "siluri"
+              },
+              "@cod01": "1440IR",
+              "@den01": "A/10 OVA01 - 1 FASE + INTEGR. (FODDI)"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "3d3d7fc4-3fb1-4cfe-a59f-e6881cd13e00",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1031S",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1031S",
+              "@den01": "Ruspanti 1° periodo sbriciolato"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c8cbf1e3-e1f0-4dfa-94c4-6c98d9a79786",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1046SAF",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1046SAF",
+              "@den01": "Galletti 1 “G” Vegetariano Sbriciolato"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "943fb78a-da03-4861-a364-05226170633e",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1047SCPAF",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "casse"
+              },
+              "@cod01": "1047SCPAF",
+              "@den01": "Galletti 2 G"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "cd7b62b3-e1a2-42ad-9d0f-e81c524af501",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1048P",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1048P",
+              "@den01": "Ruspanti 2° periodo pellet"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c31ec676-15b2-4c02-8da1-caa1be179d29",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1266S",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1266S",
+              "@den01": "G 10–25 Sbriciolato Primo"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b023f2ba-4485-4dab-ad8a-0d352810e8f5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1267P",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1267P",
+              "@den01": "G 25–40 Pellet Secondo"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a7e92d84-617d-4c39-adeb-cb8058dd20d1",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1270SCP",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1270SCP",
+              "@den01": "CPL G >35 Pellet Terzo"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "98f9be1f-43cf-43d0-9fb7-820af5bb8e8c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1300S",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1300S",
+              "@den01": "A/7B Pulcini 0–4 settimane"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "670e8ffa-0adf-4fe2-aad7-b803d66258a4",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1372F",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1372F",
+              "@den01": "OVOFattoria Farina"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f365bfef-9a74-4a7b-94c4-32d999e22752",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1400",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1400",
+              "@den01": "A10 Starter Ovaiola"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "26527636-67e4-4566-b22b-cc4ec47028d3",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1400R",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1400R",
+              "@den01": "A10 Starter + Repellente"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "96c1810f-2726-4642-9e45-49f25d6606d7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1405",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1405",
+              "@den01": "A10 PD Farina"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b64c2c3b-68aa-4213-b120-e7fb09964eb1",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1435I3",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1435I3",
+              "@den01": "A10 OVA01 + Integrazione"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8d767645-c625-44a1-b735-c7d98ff7fd02",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1440",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1440",
+              "@den01": "A10 Ova 1ª Fase"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a397935e-3977-461c-8026-6b0c9d468ba0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1450",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1450",
+              "@den01": "A10 Ova 2ª Fase"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "322dbd19-5866-4c53-94a2-dec1b0806d90",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1602P",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1602P",
+              "@den01": "AR 36–110 giorni"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e03c3fa3-0d2e-4c76-95b9-8ed9a5d79bbe",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1603P",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1603P",
+              "@den01": "AR 18 PD Pellet"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "74d4774a-510d-4969-a0b8-347931cd73dc",
+            "text": {
+              "ops": [
+                {
+                  "insert": "1607S",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "1607S",
+              "@den01": "AR/GR Sbriciolato"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "75fa2b19-9ddb-4434-a310-6051c47d8525",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2013",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "2013",
+              "@den01": "S/13 Suini Magroni"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "91d9cce1-095f-436a-8231-4da785e99fdf",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2015",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "2015",
+              "@den01": "S/15 Scrofe"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "eea12da6-4c05-4dbe-b28d-512383b8d209",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2310N",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "2310N",
+              "@den01": "O/10 Mix Pecore"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "da579f44-7fdf-45f2-a5e9-3f0eef75e164",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2314",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "2314",
+              "@den01": "O/14 Pecore da Latte"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "6920728f-46e0-4454-adb4-a607e2ca0202",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2316N",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "2316N",
+              "@den01": "Mix Pecore Fiok"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "1887e3ba-5b5c-4ec9-85a9-dcf4398a745c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2322N",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "2322N",
+              "@den01": "Pecore Milk 200 Extra"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "31dcd81a-dba4-4cfa-a791-b0f9ec04cf94",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2323",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "2323",
+              "@den01": "Pecore Asciutta 170"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "63f1d64d-b9d0-4cc4-ac58-f016534ff266",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2324N",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "2324N",
+              "@den01": "Pecore Milk 200 Mais"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2ec165af-9826-4eb6-b4f7-1f6c17269465",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2340",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "2340",
+              "@den01": "O/30 Pecore Milk 165"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2abb6825-c6ba-4f44-9393-7397b322ecf9",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2348N",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "2348N",
+              "@den01": "Pecora Lattazione CRL17"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "1f44859c-7eec-4a18-9180-c0256aa30800",
+            "text": {
+              "ops": [
+                {
+                  "insert": "3540",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "3540",
+              "@den01": "Cavalli Mantenimento FK"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "978f1ad1-1a53-4425-9ba5-f739254edfff",
+            "text": {
+              "ops": [
+                {
+                  "insert": "5066",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "5066",
+              "@den01": "B/66 Bovini Ingrasso"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "4d9c4dfc-1b93-45c7-9a0d-67037e6949e2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "5080",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "5080",
+              "@den01": "B/80 Bovimix"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ca7ae21d-6784-448a-93b8-d53f8ee5cf26",
+            "text": {
+              "ops": [
+                {
+                  "insert": "5082",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacconi"
+              },
+              "@cod01": "5082",
+              "@den01": "B/82 Bovimix"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c5327a6b-437f-4328-924a-c2ae246d4a99",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2310N-S25",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacchi"
+              },
+              "@cod01": "2310N-S25",
+              "@den01": "O|10 MIX PECORA"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "bb2265d5-e88d-4f29-bcb5-32204de1bfb2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "2348N-S25",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cat01": {
+                "type": "Select",
+                "optionId": "sacchi"
+              },
+              "@cod01": "2348N-S25",
+              "@den01": "PECORE LATT. CRL17"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cat01": {
+            "id": "/attributes/@cat01",
+            "fieldPath": "/attributes/@cat01",
+            "rank": "z"
+          },
+          "/attributes/@cod01": {
+            "id": "/attributes/@cod01",
+            "fieldPath": "/attributes/@cod01",
+            "rank": "zV"
+          },
+          "/attributes/@den01": {
+            "id": "/attributes/@den01",
+            "fieldPath": "/attributes/@den01",
+            "rank": "zk"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cat01": {
+            "id": "/attributes/@cat01",
+            "fieldPath": "/attributes/@cat01",
+            "rank": "z"
+          },
+          "/attributes/@cod01": {
+            "id": "/attributes/@cod01",
+            "fieldPath": "/attributes/@cod01",
+            "rank": "zV"
+          },
+          "/attributes/@den01": {
+            "id": "/attributes/@den01",
+            "fieldPath": "/attributes/@den01",
+            "rank": "zk"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cat01": {
+            "id": "/attributes/@cat01",
+            "fieldPath": "/attributes/@cat01",
+            "rank": "z"
+          },
+          "/attributes/@cod01": {
+            "id": "/attributes/@cod01",
+            "fieldPath": "/attributes/@cod01",
+            "rank": "zV"
+          },
+          "/attributes/@den01": {
+            "id": "/attributes/@den01",
+            "fieldPath": "/attributes/@den01",
+            "rank": "zk"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cat01": {
+            "id": "/attributes/@cat01",
+            "fieldPath": "/attributes/@cat01",
+            "rank": "z"
+          },
+          "/attributes/@cod01": {
+            "id": "/attributes/@cod01",
+            "fieldPath": "/attributes/@cod01",
+            "rank": "zV"
+          },
+          "/attributes/@den01": {
+            "id": "/attributes/@den01",
+            "fieldPath": "/attributes/@den01",
+            "rank": "zk"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cat01": {
+            "id": "/attributes/@cat01",
+            "fieldPath": "/attributes/@cat01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cod01": {
+            "id": "/attributes/@cod01",
+            "fieldPath": "/attributes/@cod01",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@den01": {
+            "id": "/attributes/@den01",
+            "fieldPath": "/attributes/@den01",
+            "rank": "zk",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cat01": {
+            "id": "/attributes/@cat01",
+            "fieldPath": "/attributes/@cat01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cod01": {
+            "id": "/attributes/@cod01",
+            "fieldPath": "/attributes/@cod01",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@den01": {
+            "id": "/attributes/@den01",
+            "fieldPath": "/attributes/@den01",
+            "rank": "zk",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@cat01": {
+        "type": "Select",
+        "displayName": "Categoria",
+        "options": {
+          "casse": {
+            "id": "casse",
+            "name": "CASSE",
+            "color": "#f59e0b",
+            "rank": "0"
+          },
+          "siluri": {
+            "id": "siluri",
+            "name": "SILURI AGRISTAR",
+            "color": "#06b6d4",
+            "rank": "1"
+          },
+          "sacconi": {
+            "id": "sacconi",
+            "name": "SACCONI",
+            "color": "#a855f7",
+            "rank": "2"
+          },
+          "sacchi": {
+            "id": "sacchi",
+            "name": "SACCHI",
+            "color": "#22c55e",
+            "rank": "3"
+          }
+        }
+      },
+      "@cod01": {
+        "type": "string",
+        "displayName": "Codice"
+      },
+      "@den01": {
+        "type": "string",
+        "displayName": "Denominazione"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "📋"
+    }
+  }
+}

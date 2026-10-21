@@ -1,0 +1,33 @@
+{
+  "version": "2",
+  "flowTitle": "Avviso Nuovo Scarico GALTIERI",
+  "trigger": {
+    "valid": false,
+    "displayName": "Quando viene inserito un nuovo scarico",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "1.0.0",
+      "triggerName": "task.added",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "15171591-fff7-4096-9f9d-6e310ce32605",
+      "valid": true,
+      "displayName": "Avvisa il titolare",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "notify.email",
+        "input": {
+          "body": "È stato inserito un nuovo scarico nel Programma Scarichi: {{ trigger[\"nodeText\"] }}. Apri l'app GALTIERI per i dettagli.",
+          "subject": "Nuovo scarico nel programma GALTIERI",
+          "recipientEmail": "wtp.igame@gmail.com"
+        }
+      }
+    }
+  ]
+}

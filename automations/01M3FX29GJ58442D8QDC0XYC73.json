@@ -1,0 +1,49 @@
+{
+  "version": "2",
+  "flowTitle": "CHIEDI QUI - Richiesta imbarco targa",
+  "trigger": {
+    "valid": true,
+    "displayName": "Richiesta imbarco targa",
+    "type": "MANUAL",
+    "settings": {
+      "inputUiInfo": {},
+      "paramsSchema": {
+        "type": "object",
+        "properties": {
+          "plate": {
+            "type": "string",
+            "description": "Input for plate"
+          },
+          "requestText": {
+            "type": "string",
+            "description": "Input for requestText"
+          },
+          "requesterEmail": {
+            "type": "string",
+            "description": "Input for requesterEmail"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "63cb700b-fe66-49e4-9b38-0b094a3626b8",
+      "valid": true,
+      "displayName": "Invia richiesta a TRANS ISOLE e GALTIERI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "notify.email",
+        "input": {
+          "body": "Buongiorno, chiediamo gentilmente maggiori informazioni sulla targa {{ trigger[\"plate\"] }}. Vi chiediamo di indicarci se la targa si è già imbarcata oppure quando si imbarcherà, specificando in entrambi i casi la data esatta di imbarco. Dettagli aggiuntivi: {{ trigger[\"requestText\"] }}. Grazie.",
+          "format": "plain",
+          "subject": "Richiesta aggiornamento imbarco targa {{ trigger[\"plate\"] }}",
+          "recipientEmail": "ordini@transisole.com; trafficosardegna@transisole.com; trafficoitalia@transisole.com; logistica@galtieri.it"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "version": "2",
+  "flowTitle": "New Item Smart Categorizer",
+  "trigger": {
+    "valid": false,
+    "displayName": "When New Item Added",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "BLANK",
+      "triggerName": "task.added",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "a2222222-1111-4abc-9def-111111111111",
+      "valid": true,
+      "displayName": "AI Categorize Item",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Item name: {{ trigger[\"nodeText\"] }}",
+          "prompt": "You are an inventory categorization expert. Based on the item name, determine the most appropriate category. Return ONLY one word: 'Electronics', 'Accessories', 'Furniture', or 'Office'"
+        }
+      }
+    },
+    {
+      "name": "b2222222-2222-4abc-9def-222222222222",
+      "valid": true,
+      "displayName": "Route by Category",
+      "type": "BRANCH",
+      "settings": {},
+      "paths": [
+        {
+          "name": "c2222222-3333-4abc-9def-333333333333",
+          "valid": true,
+          "displayName": "Electronics",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_contains",
+                        "id": "02463281-ebdf-45e2-98bd-c71f872eba6a",
+                        "data": "{{ a2222222-1111-4abc-9def-111111111111[\"result\"] }}",
+                        "comparator": "Electronics"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "d2222222-4444-4abc-9def-444444444444",
+              "valid": false,
+              "displayName": "Set Electronics Fields",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "updateCustomFields",
+                "input": {
+                  "fields": {
+                    "@inv01": {
+                      "data": {
+                        "value": "Electronics"
+                      },
+                      "rank": "0",
+                      "fieldId": "@inv01"
+                    },
+                    "@inv02": {
+                      "data": {
+                        "value": "0"
+                      },
+                      "rank": "1",
+                      "fieldId": "@inv02"
+                    },
+                    "@inv03": {
+                      "data": {
+                        "value": "15"
+                      },
+                      "rank": "2",
+                      "fieldId": "@inv03"
+                    },
+                    "@inv04": {
+                      "data": {
+                        "value": "stock-out"
+                      },
+                      "rank": "3",
+                      "fieldId": "@inv04"
+                    }
+                  },
+                  "nodeId": "{{ trigger[\"nodeId\"] }}",
+                  "projectId": {
+                    "type": "flow-template-variable-input-type",
+                    "id": "5ZVc4Wadk2xBUB33"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "e2222222-5555-4abc-9def-555555555555",
+          "valid": true,
+          "displayName": "Accessories",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_contains",
+                        "id": "e60beed4-ae98-4ddd-874d-6908b6a3452b",
+                        "data": "{{ a2222222-1111-4abc-9def-111111111111[\"result\"] }}",
+                        "comparator": "Accessories"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "f2222222-6666-4abc-9def-666666666666",
+              "valid": false,
+              "displayName": "Set Accessories Fields",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "updateCustomFields",
+                "input": {
+                  "fields": {
+                    "@inv01": {
+                      "data": {
+                        "value": "Accessories"
+                      },
+                      "rank": "0",
+                      "fieldId": "@inv01"
+                    },
+                    "@inv02": {
+                      "data": {
+                        "value": "0"
+                      },
+                      "rank": "1",
+                      "fieldId": "@inv02"
+                    },
+                    "@inv03": {
+                      "data": {
+                        "value": "25"
+                      },
+                      "rank": "2",
+                      "fieldId": "@inv03"
+                    },
+                    "@inv04": {
+                      "data": {
+                        "value": "stock-out"
+                      },
+                      "rank": "3",
+                      "fieldId": "@inv04"
+                    }
+                  },
+                  "nodeId": "{{ trigger[\"nodeId\"] }}",
+                  "projectId": {
+                    "type": "flow-template-variable-input-type",
+                    "id": "5ZVc4Wadk2xBUB33"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "g2222222-7777-4abc-9def-777777777777",
+          "valid": true,
+          "displayName": "Furniture",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_contains",
+                        "id": "f05ba500-7440-4ca4-b204-e16f60f4b8c1",
+                        "data": "{{ a2222222-1111-4abc-9def-111111111111[\"result\"] }}",
+                        "comparator": "Furniture"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "h2222222-8888-4abc-9def-888888888888",
+              "valid": false,
+              "displayName": "Set Furniture Fields",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "updateCustomFields",
+                "input": {
+                  "fields": {
+                    "@inv01": {
+                      "data": {
+                        "value": "Furniture"
+                      },
+                      "rank": "0",
+                      "fieldId": "@inv01"
+                    },
+                    "@inv02": {
+                      "data": {
+                        "value": "0"
+                      },
+                      "rank": "1",
+                      "fieldId": "@inv02"
+                    },
+                    "@inv03": {
+                      "data": {
+                        "value": "10"
+                      },
+                      "rank": "2",
+                      "fieldId": "@inv03"
+                    },
+                    "@inv04": {
+                      "data": {
+                        "value": "stock-out"
+                      },
+                      "rank": "3",
+                      "fieldId": "@inv04"
+                    }
+                  },
+                  "nodeId": "{{ trigger[\"nodeId\"] }}",
+                  "projectId": {
+                    "type": "flow-template-variable-input-type",
+                    "id": "5ZVc4Wadk2xBUB33"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "i2222222-9999-4abc-9def-999999999999",
+          "valid": true,
+          "displayName": "Default (Office)",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "FALLBACK"
+            }
+          },
+          "actions": [
+            {
+              "name": "j2222222-aaaa-4abc-9def-aaaaaaaaaaaa",
+              "valid": false,
+              "displayName": "Set Office Fields",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "BLANK",
+                "actionName": "updateCustomFields",
+                "input": {
+                  "fields": {
+                    "@inv01": {
+                      "data": {
+                        "value": "Office Supplies"
+                      },
+                      "rank": "0",
+                      "fieldId": "@inv01"
+                    },
+                    "@inv02": {
+                      "data": {
+                        "value": "0"
+                      },
+                      "rank": "1",
+                      "fieldId": "@inv02"
+                    },
+                    "@inv03": {
+                      "data": {
+                        "value": "20"
+                      },
+                      "rank": "2",
+                      "fieldId": "@inv03"
+                    },
+                    "@inv04": {
+                      "data": {
+                        "value": "stock-out"
+                      },
+                      "rank": "3",
+                      "fieldId": "@inv04"
+                    }
+                  },
+                  "nodeId": "{{ trigger[\"nodeId\"] }}",
+                  "projectId": {
+                    "type": "flow-template-variable-input-type",
+                    "id": "5ZVc4Wadk2xBUB33"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "5ZVc4Wadk2xBUB33": {
+      "id": "5ZVc4Wadk2xBUB33",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

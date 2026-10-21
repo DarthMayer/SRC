@@ -1,0 +1,155 @@
+{
+  "version": "1",
+  "name": "Assistente Magazzino GALTIERI",
+  "commands": [],
+  "description": "Sei l'assistente operativo di GALTIERI per il magazzino gestito con TRANS ISOLE. Rispondi in italiano, in modo concreto e sintetico. Aiuti a consultare giacenze di CASSE, SILURI, SACCONI e SACCHI, verificare DDT, lotti, quantità in quintali, targhe, casse, sacconi, sacchi e pedane EPAL, leggere gli stati delle targhe e il programma scarichi. Usa esclusivamente i dati dei progetti collegati come fonte operativa. Non inventare quantità o date. Ricorda che gli utenti autorizzati lavorano in sola lettura e le modifiche spettano al titolare.",
+  "introduction": "Ciao, sono l’assistente del magazzino GALTIERI. Posso aiutarti a trovare giacenze, DDT, targhe, EPAL e scarichi programmati.",
+  "conversationStarters": [
+    {
+      "id": "Controlla le giacenze",
+      "text": "Controlla le giacenze",
+      "prompt": "Qual è la situazione attuale delle giacenze per categoria?"
+    },
+    {
+      "id": "Riepiloga le EPAL",
+      "text": "Riepiloga le EPAL",
+      "prompt": "Quante EPAL risultano spedite, rientrate e ancora fuori?"
+    },
+    {
+      "id": "Vedi gli scarichi",
+      "text": "Vedi gli scarichi",
+      "prompt": "Quali scarichi sono programmati nei prossimi giorni?"
+    }
+  ],
+  "toolbox": [
+    {
+      "id": "user:01M21PBWWE45DVE7386NJ5A7SE",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01M21PBWWFZ4FJ2TJH382TGASY",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "web.search",
+        "pieceVersion": "BLANK"
+      }
+    }
+  ],
+  "publicPreferences": {
+    "canCopyKnowledge": false,
+    "mode": "chatbot"
+  },
+  "variables": {
+    "5ZVc4Wadk2xBUB33": {
+      "id": "5ZVc4Wadk2xBUB33",
+      "rank": "V",
+      "type": "string"
+    },
+    "7o5d8J3zSA98Cqpx": {
+      "id": "7o5d8J3zSA98Cqpx",
+      "rank": "k",
+      "type": "string"
+    },
+    "9kdJVdgKjhA4vMej": {
+      "id": "9kdJVdgKjhA4vMej",
+      "rank": "s",
+      "type": "string"
+    },
+    "HwQ8wiozTGs7kgkt": {
+      "id": "HwQ8wiozTGs7kgkt",
+      "rank": "w",
+      "type": "string"
+    },
+    "JPEsz6CJgZAphTTt": {
+      "id": "JPEsz6CJgZAphTTt",
+      "rank": "y",
+      "type": "string"
+    },
+    "MwZuaxmvBryXCZhq": {
+      "id": "MwZuaxmvBryXCZhq",
+      "rank": "z",
+      "type": "string"
+    },
+    "r51wY768EqDu1pCC": {
+      "id": "r51wY768EqDu1pCC",
+      "rank": "zV",
+      "type": "string"
+    },
+    "TecL6SbRxFU2GGz7": {
+      "id": "TecL6SbRxFU2GGz7",
+      "rank": "zk",
+      "type": "string"
+    },
+    "VhVNMZNQqufwVbGV": {
+      "id": "VhVNMZNQqufwVbGV",
+      "rank": "zs",
+      "type": "string"
+    },
+    "VQ7SifXzUJrCUbwV": {
+      "id": "VQ7SifXzUJrCUbwV",
+      "rank": "zw",
+      "type": "string"
+    },
+    "XozsQb1HgFrf1Ty6": {
+      "id": "XozsQb1HgFrf1Ty6",
+      "rank": "zy",
+      "type": "string"
+    }
+  },
+  "addToKnowledgeProjectVariables": [
+    {
+      "id": "5ZVc4Wadk2xBUB33",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "7o5d8J3zSA98Cqpx",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "9kdJVdgKjhA4vMej",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "HwQ8wiozTGs7kgkt",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "JPEsz6CJgZAphTTt",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "MwZuaxmvBryXCZhq",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "r51wY768EqDu1pCC",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "TecL6SbRxFU2GGz7",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "VhVNMZNQqufwVbGV",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "VQ7SifXzUJrCUbwV",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "XozsQb1HgFrf1Ty6",
+      "type": "agent-template-variable-input-type"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": "2",
+  "flowTitle": "Rintraccio Targhe Bilici Centinati",
+  "trigger": {
+    "valid": true,
+    "displayName": "Richiesta targa bilico",
+    "type": "MANUAL",
+    "settings": {
+      "inputUiInfo": {},
+      "paramsSchema": {
+        "type": "object",
+        "properties": {
+          "plate": {
+            "type": "string",
+            "description": "Input for plate"
+          },
+          "consent": {
+            "type": "string",
+            "description": "Input for consent"
+          },
+          "requestText": {
+            "type": "string",
+            "description": "Input for requestText"
+          },
+          "requesterEmail": {
+            "type": "string",
+            "description": "Input for requesterEmail"
+          },
+          "additionalRecipients": {
+            "type": "string",
+            "description": "Input for additionalRecipients"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "359d2e72-6a50-4f55-8f99-18b0b506dcbb",
+      "valid": true,
+      "displayName": "Invia richiesta targa",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "notify.email",
+        "input": {
+          "cc": "logistica@galtieri.it; {{ trigger[\"additionalRecipients\"] }}",
+          "body": "Richiesta di rintraccio per la targa {{ trigger[\"plate\"] }}.\n\n{{ trigger[\"requestText\"] }}\n\nAutorizzazione invio: {{ trigger[\"consent\"] }}\n\nRichiesta da App Galtieri - Gestionale Sardegna",
+          "replyTo": "{{ trigger[\"requesterEmail\"] }}",
+          "subject": "Richiesta rintraccio targa bilico",
+          "recipientEmail": "ordini@transisole.com"
+        }
+      }
+    }
+  ]
+}
